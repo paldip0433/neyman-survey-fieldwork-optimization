@@ -1,456 +1,545 @@
 # Optimal Survey Sampling and Fieldwork Allocation
 
-### Neyman Allocation with Minimum-Cost Network Flow Optimization
+## Neyman Allocation with Minimum-Cost Network Flow Optimization
 
-An optimization project that combines **stratified sampling**, **Neyman allocation**, and **minimum-cost network flow** to determine an efficient fieldwork plan for survey data collection.
+A statistical optimization project that combines **Neyman allocation** from stratified sampling with **minimum-cost fieldwork allocation** using linear/integer optimization.
 
-The project studies the trade-off between **statistical precision** and **fieldwork cost** when assigning survey interviews to field teams with limited capacities.
+The project asks a practical question:
 
----
+> Given statistically desirable sample sizes across survey strata, how should limited field teams be assigned to those strata so that fieldwork cost is minimized without sacrificing too much statistical precision?
 
-## 1. Project Overview
-
-In survey sampling, a population can be divided into different groups or **strata**. Neyman allocation determines how many observations should be sampled from each stratum to minimize the variance of the stratified estimator for a fixed total sample size.
-
-However, the statistically optimal allocation does not directly determine how the interviews should be collected in practice.
-
-Field teams may have:
-
-* Limited interview capacity
-* Different costs for different strata
-* Different travel or fieldwork difficulties
-* Different operational constraints
-
-This project therefore combines the statistical allocation obtained from **Neyman allocation** with an **optimization model** that assigns interviews to field teams at minimum cost.
-
-The overall framework is:
-
-**Survey Data → Neyman Allocation → Fieldwork Optimization → Sensitivity Analysis → Cost–Precision Trade-off**
+The model is demonstrated on a **synthetic survey dataset of 1,000 respondents**, divided into three strata: **Rural, Semi-Urban, and Urban**.
 
 ---
 
-## 2. Objectives
+## Project Highlights
 
-The main objectives of the project are:
-
-1. Calculate the statistically optimal sample allocation using Neyman allocation.
-2. Formulate fieldwork assignment as a minimum-cost flow / transportation problem.
-3. Assign interviews to field teams while respecting team capacity constraints.
-4. Minimize total fieldwork cost.
-5. Compare exact Neyman allocation with flexible allocations.
-6. Study the effect of team capacity on the optimal cost.
-7. Analyze the trade-off between fieldwork cost and statistical precision.
-8. Implement the optimization model using both **PuLP** and **Pyomo**.
+- Computes statistically efficient sample sizes using **Neyman allocation**.
+- Models field teams as supply/capacity nodes and survey strata as demand nodes.
+- Solves the fieldwork assignment problem as a **minimum-cost flow / integer linear program**.
+- Implements the optimization independently using **PuLP** and **Pyomo**.
+- Performs a **team-capacity sensitivity analysis**.
+- Introduces a flexible Neyman formulation controlled by a penalty parameter **λ**.
+- Quantifies the **cost–statistical-precision trade-off** using the variance of the stratified sample mean.
+- Produces tables and publication-ready figures for the main optimization and sensitivity experiments.
 
 ---
 
-## 3. Statistical Foundation
+## Problem Setup
 
-### Stratified Sampling
+The survey population is divided into:
 
-Suppose the population is divided into (L) strata.
+1. Rural
+2. Semi-Urban
+3. Urban
 
-Let:
+The study variable is **Monthly Income**.
 
-* (N_h) = population size of stratum (h)
-* (S_h) = within-stratum standard deviation
-* (n_h) = sample size allocated to stratum (h)
-* (n) = total sample size
+Neyman allocation gives the statistically preferred sample size for each stratum. The project then adds operational constraints:
 
-with
+- each field team has a limited interview capacity;
+- the cost of an interview depends on the team and stratum;
+- the final allocation must satisfy the required total sample size;
+- in the flexible model, deviations from the Neyman targets are allowed but penalized.
 
-[
-N = \sum_{h=1}^{L} N_h
-]
+This combines:
 
-and
+**Statistical efficiency → Operational feasibility → Optimization**
 
-[
-\sum_{h=1}^{L} n_h = n.
-]
+The project presentation describes the same framework as a network in which teams act as supply nodes, strata as demand nodes, and interviews as flow units.
 
-For the stratified mean estimator, the approximate variance is
+---
 
-[
-\operatorname{Var}(\bar{Y}*{st})
-\approx
-\sum*{h=1}^{L}
-\left(\frac{N_h}{N}\right)^2
-\frac{S_h^2}{n_h}.
-]
+## Mathematical Formulation
 
-### Neyman Allocation
+### 1. Neyman allocation
 
-Neyman allocation minimizes this variance subject to a fixed total sample size.
+For stratum $h$, let:
 
-The optimal allocation is
+- $N_h$ = population size,
+- $S_h$ = within-stratum standard deviation,
+- $n$ = total sample size.
 
-[
+The Neyman allocation used in the project is
+
+
+$$
 n_h^*
-=====
-
+=
 n
-\frac{N_h S_h}
-{\sum_{j=1}^{L} N_jS_j}.
-]
+\frac{N_hS_h}
+{\sum_{j=1}^{L}N_jS_j}.
+$$
 
-Thus, strata with larger populations and greater variability receive larger sample sizes.
+The presentation states that this allocation minimizes the variance of the stratified estimator subject to a fixed total sample size.
 
----
-
-## 4. Fieldwork Allocation Model
-
-After obtaining the Neyman targets (n_h^*), the next problem is to determine **which field team should collect those interviews**.
-
-Let:
-
-* (k = 1,\ldots,K) denote field teams
-* (h = 1,\ldots,L) denote strata
-* (x_{kh}) = number of interviews assigned to team (k) in stratum (h)
-* (C_k) = maximum interview capacity of team (k)
-* (c_{kh}) = cost per interview when team (k) works in stratum (h)
-
-The exact Neyman allocation model can be formulated as the minimum-cost transportation problem:
-
-[
-\min
-\sum_{k=1}^{K}
-\sum_{h=1}^{L}
-c_{kh}x_{kh}
-]
-
-subject to
-
-[
-\sum_{k=1}^{K}x_{kh}=n_h^*
-\qquad \forall h,
-]
-
-[
-\sum_{h=1}^{L}x_{kh}\leq C_k
-\qquad \forall k,
-]
-
-[
-x_{kh}\geq0.
-]
-
-This has a natural network-flow interpretation:
-
-**Source → Team Nodes → Stratum Nodes → Sink**
-
-where:
-
-* Team nodes represent available field teams.
-* Team capacities represent supply.
-* Stratum requirements represent demand.
-* Team–stratum costs represent transportation / fieldwork costs.
-
----
-
-## 5. Flexible Neyman Allocation
-
-Exact Neyman allocation may not always be the cheapest operational solution.
-
-To study the trade-off between fieldwork cost and statistical accuracy, the project allows deviations from the Neyman targets.
+### 2. Minimum-cost fieldwork allocation
 
 Let
 
-* (d_h^+) = positive deviation from the Neyman target
-* (d_h^-) = negative deviation from the Neyman target
 
-The allocation constraint becomes
+$$
+x_{kh}
+$$
 
-[
-\sum_{k=1}^{K}x_{kh}
-====================
+be the number of interviews assigned to team $k$ in stratum $h$, and let $c_{kh}$ be the corresponding unit fieldwork cost.
 
-n_h^* + d_h^+ - d_h^-
-\qquad \forall h.
-]
+The exact Neyman model minimizes
 
-The objective function is
 
-[
+$$
+\min
+\sum_k\sum_h c_{kh}x_{kh}
+$$
+
+subject to
+
+
+$$
+\sum_k x_{kh}=n_h^*
+\qquad \forall h,
+$$
+
+
+$$
+\sum_h x_{kh}\le C_k
+\qquad \forall k,
+$$
+
+
+$$
+x_{kh}\ge0.
+$$
+
+The project presentation identifies this as a transportation/minimum-cost-flow formulation.
+
+### 3. Flexible Neyman allocation
+
+The notebook additionally introduces positive and negative deviations $d_h^+$ and $d_h^-$:
+
+
+$$
+\sum_k x_{kh}
+=
+n_h^*+d_h^+-d_h^-.
+$$
+
+The objective becomes
+
+
+$$
 \min
 \left[
-\sum_{k=1}^{K}\sum_{h=1}^{L}c_{kh}x_{kh}
+\sum_k\sum_h c_{kh}x_{kh}
 +
-\lambda
-\sum_{h=1}^{L}
-(d_h^+ + d_h^-)
+\lambda\sum_h(d_h^++d_h^-)
 \right].
-]
+$$
 
-Here, (\lambda) controls how strongly deviations from the Neyman allocation are penalized.
+Here, $\lambda$ controls how strongly departures from Neyman allocation are penalized.
 
-* Smaller (\lambda): greater emphasis on reducing fieldwork cost.
-* Larger (\lambda): greater emphasis on staying close to Neyman allocation.
-
-This allows the model to explore a practical **cost–precision trade-off**.
+This formulation creates a direct operational trade-off between fieldwork cost and statistical precision.
 
 ---
 
-## 6. Dataset and Computational Experiment
+## Dataset
 
-A synthetic survey dataset containing **1,000 respondents** is used.
+The computational experiment uses a synthetic survey dataset containing **1,000 respondents**.
 
-The population is divided into three strata:
+The strata and observed population sizes in the notebook are:
 
-* Rural
-* Semi-Urban
-* Urban
+| Stratum | Population |
+|---|---:|
+| Rural | 350 |
+| Semi-Urban | 230 |
+| Urban | 420 |
+| **Total** | **1,000** |
 
-The study variable is **Monthly Income**, and the total desired sample size is **300**.
+The notebook uses the following variables:
 
-The resulting Neyman allocation is:
+- `Respondent_ID`
+- `Stratum`
+- `Monthly_Income`
+- `Interview_Cost`
+- `GPS_Distance_km`
+- `Survey_Time_Min`
+- `Travel_Difficulty`
 
-| Stratum    | Sample Size |
-| ---------- | ----------: |
-| Rural      |          59 |
-| Semi-Urban |          56 |
-| Urban      |         185 |
-| **Total**  |     **300** |
+### Data placement
 
-The dataset also contains fieldwork-related variables used to construct the optimization inputs, including interview cost, travel distance, survey time, and travel difficulty.
+Place the CSV at:
 
----
+```text
+data/synthetic_survey_dataset.csv
+```
 
-## 7. Optimization Results
+The uploaded notebook expects this path after the project is organized as a repository.
 
-The minimum-cost fieldwork model is solved using **PuLP** and independently implemented using **Pyomo** for comparison.
-
-The optimal allocation satisfies the Neyman sample requirements exactly:
-
-| Stratum    | Required Interviews |
-| ---------- | ------------------: |
-| Rural      |                  59 |
-| Semi-Urban |                  56 |
-| Urban      |                 185 |
-| **Total**  |             **300** |
-
-The minimum fieldwork cost obtained for the exact Neyman allocation is approximately:
-
-[
-\boxed{6053.83}
-]
-
-The independent PuLP and Pyomo implementations provide a useful validation of the optimization result.
+> The dataset itself is not embedded inside the notebook; it must be uploaded separately with the repository.
 
 ---
 
-## 8. Sensitivity Analysis
+## Main Results
 
-### Effect of Team Capacity
+For a total sample size of **300**, the notebook obtains the Neyman allocation:
 
-The project studies the effect of changing the available interview capacity of the field teams.
+| Stratum | Neyman sample |
+|---|---:|
+| Rural | 59 |
+| Semi-Urban | 56 |
+| Urban | 185 |
+| **Total** | **300** |
 
-The results show that increasing team capacity can reduce the minimum fieldwork cost because the optimization model has greater flexibility to assign interviews to lower-cost team–stratum combinations.
+The project presentation reports the same allocation.
+
+### Team capacities
+
+| Team | Capacity |
+|---|---:|
+| Team A | 85 |
+| Team B | 80 |
+| Team C | 75 |
+| Team D | 70 |
+
+Total capacity = **310 interviews**.
+
+### Optimal exact-Neyman fieldwork allocation
+
+The minimum-cost solution is:
+
+| Team | Rural | Semi-Urban | Urban |
+|---|---:|---:|---:|
+| Team A | 0 | 0 | 85 |
+| Team B | 0 | 0 | 80 |
+| Team C | 9 | 56 | 0 |
+| Team D | 50 | 0 | 20 |
+
+The required stratum totals are therefore exactly:
+
+- Rural = 59
+- Semi-Urban = 56
+- Urban = 185
+
+The minimum fieldwork cost is **6053.83**.
+
+The project presentation reports that the model was solved using PuLP and independently implemented in Pyomo, with the same optimal solution and objective value.
 
 ---
 
-### Effect of the Penalty Parameter
+## PuLP vs Pyomo
 
-The flexible Neyman model is evaluated for different values of (\lambda).
+The notebook solves the exact allocation problem using both:
 
-As (\lambda) increases, the optimized allocation gradually moves toward the exact Neyman allocation.
+- **PuLP + CBC**
+- **Pyomo + HiGHS (`appsi_highs`)**
 
-In the computational experiment, (\lambda = 0.90) was the smallest tested value that produced the exact Neyman allocation.
+Both implementations return the same objective:
+
+```text
+6053.83
+```
+
+This provides a useful cross-check of the optimization model.
 
 ---
 
-## 9. Statistical Precision
+## Capacity Sensitivity Analysis
 
-The variance of the stratified mean estimator is calculated for the different optimized allocations.
+The notebook changes total team capacity using multiplicative capacity factors.
 
-For the exact Neyman allocation:
+| Capacity factor | Total capacity | Minimum cost |
+|---:|---:|---:|
+| 1.00 | 310 | 6053.83 |
+| 1.05 | 324 | 6033.21 |
+| 1.10 | 340 | 6017.09 |
+| 1.15 | 355 | 6002.37 |
+| 1.20 | 372 | 5986.38 |
+| 1.30 | 402 | 5959.74 |
 
-[
-\operatorname{Var}(\bar{Y}_{st})
-================================
+The result shows that additional field-team capacity gives the optimizer more freedom to use lower-cost team–stratum assignments, reducing minimum fieldwork cost. This is also the conclusion presented in the project slides.
 
-752660.94.
-]
+---
 
-For the cheapest allocation:
+## Cost–Precision Trade-off
 
-[
+The flexible model allows the allocation to move away from exact Neyman allocation.
+
+The key benchmark is:
+
+
+$$
+\operatorname{Var}(\bar Y_{st})
+\approx 752660.94
+$$
+
+under the exact Neyman allocation.
+
+At the lowest-cost allocation tested:
+
+
+$$
 (44,70,186),
-]
+$$
 
-the variance is
+the fieldwork cost is
 
-[
-\operatorname{Var}(\bar{Y}_{st})
-================================
 
-783085.85.
-]
+$$
+6031.24
+$$
 
-This represents approximately a **4.04% increase in variance** relative to the Neyman benchmark.
+and the variance is
+
+
+$$
+783085.85,
+$$
+
+which is approximately **4.04% higher** than the Neyman benchmark.
 
 An intermediate allocation,
 
-[
+
+$$
 (50,65,185),
-]
+$$
 
-produces only about a **1.46% increase in variance**.
+has cost
 
-Therefore, a small increase in statistical variance can potentially produce a reduction in fieldwork cost.
 
----
+$$
+6038.35
+$$
 
-## 10. Cost–Precision Trade-off
+with only about a **1.46% increase in variance**.
 
-The main conclusion of the computational experiment is that there is a clear trade-off between operational cost and statistical precision.
+The exact Neyman allocation becomes optimal in the tested penalty grid at
 
-The project compares:
 
-| Allocation              | Fieldwork Cost | Relative Variance |
-| ----------------------- | -------------: | ----------------: |
-| Cheapest allocation     |        6031.24 |            +4.04% |
-| Intermediate allocation |        6038.35 |            +1.46% |
-| Exact Neyman allocation |        6053.83 |          Baseline |
+$$
+\lambda=0.90.
+$$
 
-The results demonstrate that the statistically optimal allocation is not necessarily the cheapest operational allocation.
+Thus the optimization exposes a practical decision frontier:
 
-Instead, the optimization framework allows a decision-maker to choose an allocation that provides an appropriate balance between:
+> a small reduction in fieldwork cost can be obtained by accepting a controlled increase in statistical variance.
 
-**Fieldwork Cost ↔ Statistical Precision**
+These numerical conclusions match the project presentation's cost–precision analysis.
 
 ---
 
-## 11. Methodology
+## Generated Outputs
 
-The complete computational workflow is:
+The notebook creates:
+
+### Results
 
 ```text
-Synthetic Survey Dataset
-          │
-          ▼
-   Stratified Analysis
-          │
-          ▼
-   Neyman Allocation
-          │
-          ▼
-  Target Sample Sizes
-          │
-          ▼
-Minimum-Cost Flow Model
-          │
-          ├── PuLP
-          │
-          └── Pyomo
-          │
-          ▼
-   Optimal Team Assignment
-          │
-          ▼
- Sensitivity Analysis
-          │
-          ▼
- Flexible Neyman Allocation
-          │
-          ▼
- Cost–Precision Analysis
+results/
+├── neyman_allocation.csv
+├── cost_matrix.csv
+├── team_capacity.csv
+├── optimal_allocation.csv
+├── pyomo_allocation.csv
+├── sensitivity_results.csv
+├── lambda_sensitivity.csv
+├── lambda_allocations.csv
+├── lambda_team_allocations.csv
+└── cost_precision_frontier.csv
 ```
 
+### Figures
+
+```text
+figures/
+├── neyman_allocation.png
+├── optimal_allocation.png
+├── network_flow.png
+├── sensitivity_analysis.png
+├── lambda_vs_cost.png
+├── lambda_vs_deviation.png
+├── lambda_vs_variance.png
+├── lambda_allocation.png
+└── cost_variance_frontier.png
+```
+
+The project presentation also emphasizes the network-flow interpretation and the cost–precision trade-off.
+
 ---
 
-## 12. Technologies Used
-
-* **Python**
-* **Jupyter Notebook**
-* **Pandas**
-* **NumPy**
-* **Matplotlib**
-* **Seaborn**
-* **PuLP**
-* **Pyomo**
-* **NetworkX**
-* **SciPy**
-
----
-
-## 13. Repository Structure
+## Repository Structure
 
 ```text
 neyman-survey-fieldwork-optimization/
 │
 ├── README.md
 ├── requirements.txt
+├── .gitignore
 ├── neyman_fieldwork_allocation.ipynb
 │
-└── data/
-    └── synthetic_survey_dataset.csv
+├── data/
+│   └── synthetic_survey_dataset.csv
+│
+├── results/
+│   ├── neyman_allocation.csv
+│   ├── cost_matrix.csv
+│   ├── team_capacity.csv
+│   ├── optimal_allocation.csv
+│   ├── pyomo_allocation.csv
+│   ├── sensitivity_results.csv
+│   ├── lambda_sensitivity.csv
+│   ├── lambda_allocations.csv
+│   ├── lambda_team_allocations.csv
+│   └── cost_precision_frontier.csv
+│
+└── figures/
+    ├── neyman_allocation.png
+    ├── optimal_allocation.png
+    ├── network_flow.png
+    ├── sensitivity_analysis.png
+    ├── lambda_vs_cost.png
+    ├── lambda_vs_deviation.png
+    ├── lambda_vs_variance.png
+    ├── lambda_allocation.png
+    └── cost_variance_frontier.png
 ```
+
+For the first GitHub upload, it is completely reasonable to start with only:
+
+```text
+README.md
+requirements.txt
+neyman_fieldwork_allocation.ipynb
+data/synthetic_survey_dataset.csv
+```
+
+The `results/` and `figures/` directories can be committed later.
 
 ---
 
-## 14. How to Run
+## Installation
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/<your-username>/neyman-survey-fieldwork-optimization.git
-cd neyman-survey-fieldwork-optimization
-```
-
-### 2. Install dependencies
+Python 3.10+ is recommended.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Launch Jupyter Notebook
+For Pyomo, the notebook uses the HiGHS interface:
+
+```python
+SolverFactory("appsi_highs")
+```
+
+The required Python package is therefore `highspy`.
+
+---
+
+## Running the Project
+
+Launch Jupyter:
 
 ```bash
 jupyter notebook
 ```
 
-Open:
+Then open:
 
 ```text
 neyman_fieldwork_allocation.ipynb
 ```
 
-and run the cells sequentially.
+Run the cells from top to bottom.
+
+The notebook:
+
+1. loads the survey data;
+2. computes Neyman allocation;
+3. constructs team–stratum costs;
+4. solves the minimum-cost fieldwork allocation with PuLP;
+5. verifies the solution with Pyomo;
+6. generates the network-flow visualization;
+7. performs capacity sensitivity analysis;
+8. performs λ-based flexible Neyman optimization;
+9. calculates stratified-estimator variance;
+10. generates the cost–precision frontier.
 
 ---
 
-## 15. Key Takeaways
+## Technologies
 
-This project demonstrates how **statistical sampling theory and mathematical optimization can be combined to solve a practical survey-planning problem**.
-
-The main findings are:
-
-* Neyman allocation provides the statistically efficient target sample sizes.
-* Minimum-cost flow determines how field teams can practically collect those samples.
-* Team capacity constraints significantly affect operational cost.
-* Allowing controlled deviations from Neyman allocation can reduce fieldwork cost.
-* These cost savings come with some loss of statistical precision.
-* The penalty parameter (\lambda) provides a mechanism for controlling the balance between cost and statistical accuracy.
-* Implementing the model using both PuLP and Pyomo provides an additional computational validation.
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- NetworkX
+- PuLP
+- Pyomo
+- HiGHS
 
 ---
 
-## 16. Future Improvements
+## What This Project Demonstrates
+
+This project connects two different decision layers:
+
+### Statistical layer
+
+**Neyman allocation**
+
+determines how many observations should ideally be collected from each stratum.
+
+### Operations-research layer
+
+**Minimum-cost network flow / integer linear programming**
+
+determines how field teams should be assigned to achieve those targets under operational constraints.
+
+The combined model therefore balances:
+
+
+$$
+\boxed{\text{Statistical Accuracy}}
+\quad\leftrightarrow\quad
+\boxed{\text{Fieldwork Cost}}
+$$
+
+rather than treating sampling design and field operations as separate problems.
+
+---
+
+## Limitations
+
+The current experiment is deliberately based on synthetic data and simplified operational assumptions.
+
+In particular:
+
+- team–stratum costs are constructed using a baseline cost and team-specific efficiency factors;
+- team capacities are fixed;
+- the current model does not explicitly include travel routes between individual respondents;
+- interviewer availability is represented through aggregate capacity;
+- the flexible model uses an absolute-deviation penalty from Neyman targets.
+
+These assumptions make the optimization problem transparent and reproducible while leaving room for future extensions.
+
+---
+
+## Future Extensions
 
 Possible extensions include:
 
-* Real-world survey datasets
-* Geographic travel-time constraints
-* Team availability by day
-* Multiple survey waves
-* Integer restrictions on assignments
-* Team-specific fixed costs
-* Maximum travel distance constraints
-* Multi-objective optimization
-* Robust optimization under uncertain costs
-* Larger network-flow instances
-* Interactive visualization of team–stratum assignments
+- integer and mixed-integer formulations with additional fieldwork constraints;
+- explicit travel-routing costs;
+- interviewer scheduling;
+- geographic clustering;
+- multi-period fieldwork planning;
+- uncertainty in travel cost and interviewer availability;
+- robust optimization;
+- stochastic programming;
+- multi-objective optimization;
+- Pareto-front analysis of cost versus variance;
+- real survey datasets;
+- interactive dashboards.
 
 ---
 
@@ -458,13 +547,11 @@ Possible extensions include:
 
 **Dipendu Pal**
 
-IE 501 — Optimization Models
+IE 501 — Optimization Models  
+Department of Industrial Engineering and Operations Research  
+IIT Bombay
 
-Department of Industrial Engineering and Operations Research
+Project title used in the accompanying presentation:
 
----
-
-## Project Status
-
-**Completed computational prototype — further visualization and extensions planned.**
+**Network Flow Models for Optimal Survey Sampling and Fieldwork Allocation**.
 
