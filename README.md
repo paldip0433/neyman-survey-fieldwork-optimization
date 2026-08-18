@@ -127,7 +127,7 @@ Let:
 The allocation constraint becomes
 
 $$
-\sum_{k=1}^{K}x_{kh}
+\sum_{k=1}^{K}x_{kh}=
 $$
 $$
 n_h^* + d_h^+ - d_h^-
