@@ -1,0 +1,1001 @@
+Respondent_ID,Household_ID,PSU_ID,Stratum,Zone,State,Urban_Rural,Household_Size,Monthly_Income,Age,Gender,Education,Employment,Response_Probability,Survey_Time_Min,Travel_Difficulty,GPS_Distance_km,Team_Assigned,Team_Experience_Years,Interview_Cost,Sampling_Weight,Response_Status
+R00001,HH0001,PSU113,Urban,East,Bihar,Urban,4,61578,32,Female,Higher Secondary,Student,0.91,30,1,5.3,Team_A,8,12.61,1.12,Completed
+R00002,HH0001,PSU110,Urban,North,Delhi,Urban,6,45121,36,Male,Secondary,Salaried,0.73,45,4,15.4,Team_D,2,25.72,2.45,Completed
+R00003,HH0001,PSU139,Urban,South,Tamil Nadu,Urban,5,81789,75,Male,Higher Secondary,Student,0.88,35,1,5.2,Team_A,4,13.83,1.98,Completed
+R00004,HH0002,PSU100,Urban,North,Delhi,Urban,2,53139,32,Male,Secondary,Unemployed,0.85,29,2,9.8,Team_B,3,17.43,1.71,Not Available
+R00005,HH0003,PSU105,Urban,North,Delhi,Urban,4,82629,58,Female,Secondary,Student,0.92,36,1,7.6,Team_A,7,16.54,1.64,Completed
+R00006,HH0003,PSU121,Urban,South,Tamil Nadu,Urban,4,99986,40,Female,Higher Secondary,Student,0.85,30,2,7.2,Team_D,9,14.95,1.75,Completed
+R00007,HH0003,PSU163,Urban,North,Delhi,Urban,6,35618,69,Female,Graduate,Salaried,0.72,38,4,15.7,Team_D,3,24.38,1.65,Completed
+R00008,HH0003,PSU112,Urban,West,Maharashtra,Urban,4,110500,35,Female,Postgraduate,Farmer,0.85,25,1,4.9,Team_A,4,12.54,1.58,Completed
+R00009,HH0003,PSU141,Urban,West,Gujarat,Urban,7,95883,34,Female,Higher Secondary,Student,0.74,46,3,9.5,Team_A,10,20.71,1.41,Completed
+R00010,HH0003,PSU110,Urban,South,Kerala,Urban,4,46142,51,Male,Graduate,Salaried,0.92,27,1,6.1,Team_B,7,12.86,1.31,Completed
+R00011,HH0003,PSU127,Urban,North,Delhi,Urban,5,100481,38,Female,Secondary,Farmer,0.89,29,1,7.3,Team_A,4,14.0,2.18,Completed
+R00012,HH0003,PSU196,Urban,South,Kerala,Urban,2,50169,41,Male,Postgraduate,Student,0.74,21,3,11.7,Team_D,3,18.61,2.12,Refused
+R00013,HH0004,PSU167,Urban,South,Tamil Nadu,Urban,3,88694,38,Female,Postgraduate,Salaried,0.74,29,4,13.8,Team_B,2,21.7,1.86,Completed
+R00014,HH0004,PSU190,Urban,South,Tamil Nadu,Urban,6,98347,25,Female,Postgraduate,Farmer,0.85,45,2,9.5,Team_D,4,18.85,1.08,Completed
+R00015,HH0004,PSU167,Urban,South,Kerala,Urban,3,109960,53,Male,Graduate,Student,0.9,31,1,6.7,Team_A,7,14.55,1.46,Completed
+R00016,HH0005,PSU186,Urban,East,Odisha,Urban,3,102194,35,Female,Secondary,Farmer,0.8,24,3,12.3,Team_C,1,19.08,1.65,Completed
+R00017,HH0006,PSU163,Urban,West,Maharashtra,Urban,5,55791,50,Female,Postgraduate,Salaried,0.85,34,1,6.5,Team_B,6,15.56,1.18,Completed
+R00018,HH0006,PSU157,Urban,South,Kerala,Urban,4,57735,32,Male,Graduate,Farmer,0.72,32,3,12.9,Team_D,7,20.19,1.3,Completed
+R00019,HH0006,PSU121,Urban,East,Odisha,Urban,8,84889,48,Female,Graduate,Farmer,0.79,49,2,9.7,Team_B,10,19.71,0.97,Completed
+R00020,HH0007,PSU159,Urban,North,Punjab,Urban,4,56605,49,Female,Higher Secondary,Self-employed,0.84,32,2,8.0,Team_C,8,16.14,1.4,Completed
+R00021,HH0008,PSU117,Urban,North,Punjab,Urban,2,31535,18,Male,Postgraduate,Farmer,0.79,22,2,7.7,Team_B,6,14.14,2.23,Completed
+R00022,HH0008,PSU138,Urban,North,Haryana,Urban,3,117151,35,Male,Higher Secondary,Self-employed,0.81,33,2,9.9,Team_A,6,19.06,1.02,Completed
+R00023,HH0009,PSU118,Urban,North,Punjab,Urban,4,108281,35,Female,Secondary,Unemployed,0.82,30,2,7.2,Team_C,1,15.9,1.94,Completed
+R00024,HH0009,PSU121,Urban,South,Karnataka,Urban,8,32124,18,Female,Graduate,Self-employed,0.89,41,1,6.6,Team_D,1,15.92,1.32,Completed
+R00025,HH0009,PSU140,Urban,South,Kerala,Urban,5,95095,38,Female,Higher Secondary,Farmer,0.85,35,2,8.3,Team_B,7,16.78,1.54,Completed
+R00026,HH0009,PSU153,Urban,West,Rajasthan,Urban,2,104702,36,Female,Graduate,Self-employed,0.89,27,1,7.0,Team_C,9,13.35,2.12,Not Available
+R00027,HH0010,PSU111,Urban,South,Kerala,Urban,4,68009,30,Male,Postgraduate,Student,0.7,33,4,12.5,Team_C,5,20.48,1.1,Completed
+R00028,HH0010,PSU116,Urban,West,Rajasthan,Urban,7,85860,44,Male,Graduate,Farmer,0.92,38,1,4.1,Team_A,6,12.98,1.68,Completed
+R00029,HH0010,PSU178,Urban,South,Kerala,Urban,6,67625,33,Female,Graduate,Salaried,0.88,33,1,6.3,Team_D,1,14.77,1.68,Not Available
+R00030,HH0010,PSU122,Urban,North,Punjab,Urban,3,68466,23,Female,Graduate,Student,0.7,28,4,14.1,Team_C,6,20.94,0.88,Completed
+R00031,HH0011,PSU172,Urban,West,Maharashtra,Urban,7,65041,38,Female,Higher Secondary,Farmer,0.74,34,4,13.9,Team_D,5,22.3,1.58,Completed
+R00032,HH0011,PSU187,Urban,East,West Bengal,Urban,7,49248,37,Female,Primary,Student,0.76,43,3,10.2,Team_A,6,20.49,1.51,Completed
+R00033,HH0011,PSU154,Urban,South,Karnataka,Urban,2,59664,32,Male,Primary,Unemployed,0.69,24,4,15.0,Team_C,4,21.65,1.55,Completed
+R00034,HH0011,PSU104,Urban,East,Bihar,Urban,4,48080,47,Male,Secondary,Unemployed,0.88,26,1,5.9,Team_B,9,12.88,1.61,Refused
+R00035,HH0012,PSU140,Urban,North,Delhi,Urban,7,38545,18,Male,Higher Secondary,Student,0.89,38,1,4.9,Team_D,5,14.32,1.21,Completed
+R00036,HH0013,PSU143,Urban,South,Karnataka,Urban,3,105368,41,Male,Higher Secondary,Farmer,0.87,28,1,6.1,Team_B,3,14.06,2.27,Completed
+R00037,HH0014,PSU189,Urban,West,Gujarat,Urban,4,40702,28,Male,Secondary,Unemployed,0.85,30,2,6.7,Team_B,10,15.2,1.93,Completed
+R00038,HH0015,PSU126,Urban,South,Kerala,Urban,7,32792,45,Male,Graduate,Self-employed,0.81,43,2,6.8,Team_B,4,17.11,1.04,Completed
+R00039,HH0015,PSU155,Urban,West,Rajasthan,Urban,5,84306,38,Male,Graduate,Farmer,0.84,31,2,9.8,Team_D,8,17.88,0.94,Completed
+R00040,HH0016,PSU114,Urban,East,West Bengal,Urban,6,86590,19,Female,Graduate,Farmer,0.9,28,1,7.2,Team_C,2,14.86,1.1,Completed
+R00041,HH0016,PSU120,Urban,West,Maharashtra,Urban,4,118199,28,Female,Graduate,Farmer,0.79,27,2,9.7,Team_D,7,17.28,1.76,Not Available
+R00042,HH0016,PSU116,Urban,North,Delhi,Urban,3,57665,25,Female,Graduate,Unemployed,0.86,31,1,5.1,Team_A,9,13.53,1.25,Completed
+R00043,HH0017,PSU139,Urban,West,Maharashtra,Urban,6,106305,26,Female,Higher Secondary,Salaried,0.84,31,2,9.9,Team_C,2,17.81,1.71,Completed
+R00044,HH0017,PSU130,Urban,West,Rajasthan,Urban,5,74569,30,Female,Higher Secondary,Unemployed,0.76,34,3,9.7,Team_C,3,18.44,1.24,Completed
+R00045,HH0017,PSU194,Urban,East,West Bengal,Urban,5,97837,51,Male,Secondary,Unemployed,0.74,43,4,12.7,Team_A,9,23.66,0.87,Completed
+R00046,HH0018,PSU118,Urban,North,Delhi,Urban,3,58061,19,Female,Postgraduate,Farmer,0.82,26,2,10.6,Team_C,9,17.6,1.35,Completed
+R00047,HH0019,PSU179,Urban,North,Haryana,Urban,8,82448,23,Female,Graduate,Student,0.67,46,4,15.7,Team_D,6,26.12,2.22,Completed
+R00048,HH0019,PSU176,Urban,North,Delhi,Urban,5,36142,39,Female,Secondary,Self-employed,0.76,39,3,10.2,Team_D,2,19.55,2.02,Completed
+R00049,HH0020,PSU111,Urban,North,Delhi,Urban,2,93963,24,Female,Postgraduate,Student,0.77,31,3,10.9,Team_C,9,19.22,1.32,Completed
+R00050,HH0020,PSU115,Urban,East,Bihar,Urban,2,114297,40,Male,Graduate,Self-employed,0.71,25,4,12.4,Team_B,9,19.93,1.35,Completed
+R00051,HH0020,PSU138,Urban,West,Gujarat,Urban,7,85380,55,Female,Secondary,Student,0.82,44,2,6.7,Team_B,6,16.6,2.21,Completed
+R00052,HH0021,PSU159,Urban,East,Odisha,Urban,3,48472,21,Male,Graduate,Student,0.69,31,4,13.7,Team_C,6,22.39,1.79,Completed
+R00053,HH0021,PSU198,Urban,North,Punjab,Urban,3,44644,58,Male,Graduate,Farmer,0.85,27,1,4.3,Team_A,2,11.7,1.22,Completed
+R00054,HH0021,PSU122,Urban,West,Maharashtra,Urban,4,116150,31,Female,Secondary,Self-employed,0.76,29,3,11.6,Team_A,9,18.57,1.47,Refused
+R00055,HH0021,PSU112,Urban,North,Punjab,Urban,7,42234,39,Female,Graduate,Salaried,0.76,39,3,13.4,Team_B,7,22.98,1.84,Completed
+R00056,HH0022,PSU190,Urban,West,Rajasthan,Urban,8,91308,29,Female,Higher Secondary,Student,0.83,47,2,8.0,Team_B,6,19.59,2.26,Completed
+R00057,HH0023,PSU106,Urban,South,Karnataka,Urban,2,68226,69,Male,Higher Secondary,Farmer,0.7,30,4,13.7,Team_D,9,21.75,1.6,Completed
+R00058,HH0023,PSU167,Urban,South,Tamil Nadu,Urban,7,114161,39,Male,Secondary,Salaried,0.85,37,2,7.1,Team_C,8,16.14,1.3,Completed
+R00059,HH0023,PSU195,Urban,East,Bihar,Urban,4,66058,44,Male,Higher Secondary,Unemployed,0.79,34,2,8.2,Team_D,3,17.08,1.65,Completed
+R00060,HH0023,PSU149,Urban,North,Haryana,Urban,4,79585,51,Female,Graduate,Self-employed,0.79,37,2,9.7,Team_B,2,17.62,1.34,Completed
+R00061,HH0023,PSU147,Urban,North,Haryana,Urban,8,37647,20,Female,Secondary,Salaried,0.88,39,1,7.2,Team_D,9,15.46,0.9,Completed
+R00062,HH0023,PSU132,Urban,West,Maharashtra,Urban,7,62835,48,Male,Higher Secondary,Salaried,0.77,35,3,10.3,Team_A,1,18.84,2.25,Completed
+R00063,HH0024,PSU163,Urban,South,Tamil Nadu,Urban,8,109564,32,Male,Higher Secondary,Salaried,0.79,50,2,8.4,Team_C,3,19.89,1.76,Completed
+R00064,HH0025,PSU188,Urban,North,Punjab,Urban,6,67970,38,Male,Higher Secondary,Unemployed,0.73,39,4,13.1,Team_A,5,21.86,0.83,Completed
+R00065,HH0025,PSU139,Urban,East,West Bengal,Urban,6,66610,23,Female,Graduate,Unemployed,0.86,35,2,8.4,Team_C,8,16.42,2.37,Completed
+R00066,HH0026,PSU137,Urban,West,Rajasthan,Urban,6,87342,28,Female,Secondary,Unemployed,0.88,37,1,6.3,Team_D,9,15.12,2.44,Completed
+R00067,HH0026,PSU147,Urban,North,Haryana,Urban,3,79829,29,Male,Primary,Unemployed,0.89,29,1,6.0,Team_D,6,14.69,2.48,Not Available
+R00068,HH0026,PSU187,Urban,East,West Bengal,Urban,7,97563,19,Male,Higher Secondary,Salaried,0.76,33,3,13.1,Team_B,10,20.49,1.59,Completed
+R00069,HH0026,PSU167,Urban,West,Gujarat,Urban,7,78552,32,Female,Higher Secondary,Self-employed,0.8,42,2,8.6,Team_D,4,18.78,1.38,Completed
+R00070,HH0026,PSU186,Urban,West,Gujarat,Urban,7,113562,32,Female,Secondary,Unemployed,0.74,35,3,10.2,Team_B,9,18.24,1.32,Completed
+R00071,HH0026,PSU177,Urban,East,Odisha,Urban,2,41581,38,Female,Graduate,Farmer,0.85,33,1,7.7,Team_B,5,15.06,1.08,Completed
+R00072,HH0027,PSU101,Urban,North,Punjab,Urban,7,90322,32,Male,Higher Secondary,Unemployed,0.82,46,2,10.3,Team_C,9,20.88,1.08,Completed
+R00073,HH0027,PSU117,Urban,West,Gujarat,Urban,8,38117,55,Male,Postgraduate,Student,0.86,35,1,5.4,Team_A,4,14.2,1.75,Completed
+R00074,HH0027,PSU141,Urban,West,Rajasthan,Urban,2,70630,51,Female,Secondary,Salaried,0.85,24,1,5.8,Team_C,4,12.12,1.14,Not Available
+R00075,HH0027,PSU132,Urban,South,Karnataka,Urban,2,39129,24,Male,Secondary,Student,0.84,27,1,4.2,Team_B,5,11.35,1.06,Refused
+R00076,HH0027,PSU159,Urban,East,West Bengal,Urban,2,56016,29,Female,Postgraduate,Unemployed,0.82,27,2,9.5,Team_B,9,17.13,1.87,Completed
+R00077,HH0028,PSU187,Urban,North,Delhi,Urban,3,106698,23,Male,Secondary,Self-employed,0.74,33,4,12.4,Team_C,4,21.15,2.31,Completed
+R00078,HH0028,PSU104,Urban,West,Gujarat,Urban,4,103649,35,Male,Primary,Unemployed,0.79,32,3,11.5,Team_A,10,20.29,0.85,Refused
+R00079,HH0028,PSU165,Urban,East,Odisha,Urban,7,49979,32,Male,Graduate,Self-employed,0.77,42,3,9.7,Team_B,6,20.85,2.21,Completed
+R00080,HH0028,PSU154,Urban,East,Odisha,Urban,7,39176,52,Male,Higher Secondary,Farmer,0.75,41,3,11.0,Team_A,8,20.12,2.42,Completed
+R00081,HH0029,PSU169,Urban,South,Karnataka,Urban,7,66483,53,Male,Secondary,Student,0.82,40,2,6.8,Team_C,1,16.13,1.68,Completed
+R00082,HH0029,PSU114,Urban,South,Kerala,Urban,3,61997,44,Female,Higher Secondary,Salaried,0.78,34,3,11.6,Team_B,9,20.33,1.69,Completed
+R00083,HH0030,PSU136,Urban,North,Punjab,Urban,3,53899,30,Male,Primary,Student,0.67,34,5,17.0,Team_A,10,25.27,1.64,Completed
+R00084,HH0030,PSU147,Urban,East,West Bengal,Urban,3,100469,42,Male,Graduate,Student,0.77,30,3,10.2,Team_A,3,18.37,2.24,Completed
+R00085,HH0030,PSU130,Urban,West,Gujarat,Urban,4,70769,34,Female,Secondary,Salaried,0.66,39,4,12.5,Team_C,9,21.66,1.58,Not Available
+R00086,HH0030,PSU116,Urban,West,Rajasthan,Urban,4,71985,39,Female,Graduate,Salaried,0.78,34,3,11.4,Team_A,1,19.29,1.84,Completed
+R00087,HH0030,PSU165,Urban,South,Tamil Nadu,Urban,7,80285,55,Female,Postgraduate,Salaried,0.86,45,1,6.2,Team_B,3,17.22,1.09,Completed
+R00088,HH0030,PSU134,Urban,South,Kerala,Urban,4,38567,43,Male,Secondary,Salaried,0.85,26,2,7.1,Team_B,6,15.63,1.75,Completed
+R00089,HH0031,PSU158,Urban,West,Gujarat,Urban,4,42136,31,Male,Higher Secondary,Farmer,0.81,33,2,9.9,Team_B,2,18.84,2.22,Completed
+R00090,HH0032,PSU171,Urban,South,Karnataka,Urban,4,74579,31,Male,Postgraduate,Unemployed,0.75,33,3,10.8,Team_C,6,18.84,1.08,Completed
+R00091,HH0033,PSU101,Urban,East,West Bengal,Urban,2,41801,42,Male,Higher Secondary,Student,0.86,25,1,4.6,Team_C,8,12.8,1.88,Refused
+R00092,HH0033,PSU118,Urban,South,Kerala,Urban,4,34203,33,Female,Higher Secondary,Unemployed,0.86,30,1,5.9,Team_B,7,14.81,1.12,Completed
+R00093,HH0034,PSU185,Urban,North,Punjab,Urban,7,113460,54,Female,Postgraduate,Self-employed,0.83,42,2,7.6,Team_D,4,17.07,2.32,Completed
+R00094,HH0034,PSU148,Urban,West,Rajasthan,Urban,3,47580,40,Male,Graduate,Self-employed,0.81,24,2,8.3,Team_C,6,16.29,1.2,Completed
+R00095,HH0035,PSU135,Urban,East,Odisha,Urban,6,66634,40,Male,Secondary,Unemployed,0.83,36,2,10.5,Team_D,9,18.8,1.86,Completed
+R00096,HH0036,PSU157,Urban,East,Odisha,Urban,3,54676,50,Male,Primary,Salaried,0.75,32,3,10.4,Team_B,9,18.78,2.48,Completed
+R00097,HH0037,PSU167,Urban,East,Bihar,Urban,6,34904,32,Male,Higher Secondary,Farmer,0.85,31,2,10.4,Team_B,6,18.13,2.02,Completed
+R00098,HH0038,PSU197,Urban,North,Punjab,Urban,7,101457,46,Male,Secondary,Farmer,0.67,47,4,13.8,Team_D,6,24.15,1.68,Completed
+R00099,HH0039,PSU176,Urban,South,Kerala,Urban,3,43350,27,Male,Higher Secondary,Student,0.84,27,2,8.7,Team_B,1,15.61,1.24,Completed
+R00100,HH0040,PSU195,Urban,East,Odisha,Urban,5,35712,49,Male,Graduate,Unemployed,0.72,31,3,9.8,Team_D,9,18.17,1.26,Completed
+R00101,HH0040,PSU162,Urban,North,Haryana,Urban,2,60586,18,Female,Higher Secondary,Salaried,0.77,22,3,11.0,Team_B,2,18.46,1.0,Completed
+R00102,HH0040,PSU128,Urban,North,Delhi,Urban,2,34314,38,Female,Higher Secondary,Self-employed,0.71,23,4,13.1,Team_C,10,20.63,1.47,Completed
+R00103,HH0040,PSU117,Urban,North,Haryana,Urban,5,82450,45,Female,Postgraduate,Salaried,0.71,38,4,14.2,Team_C,9,22.64,1.75,Completed
+R00104,HH0040,PSU152,Urban,East,Odisha,Urban,6,40239,18,Male,Postgraduate,Farmer,0.88,30,1,4.7,Team_B,6,12.64,2.0,Completed
+R00105,HH0040,PSU137,Urban,South,Karnataka,Urban,6,67074,48,Male,Secondary,Self-employed,0.84,36,2,9.0,Team_B,2,18.2,2.29,Completed
+R00106,HH0041,PSU160,Urban,East,West Bengal,Urban,6,108200,45,Female,Graduate,Student,0.88,33,1,5.5,Team_C,7,14.72,1.99,Completed
+R00107,HH0041,PSU133,Urban,West,Rajasthan,Urban,7,111352,42,Male,Higher Secondary,Student,0.73,49,3,12.6,Team_A,9,22.69,1.76,Completed
+R00108,HH0041,PSU130,Urban,South,Kerala,Urban,4,86494,29,Male,Graduate,Unemployed,0.61,29,5,16.9,Team_C,2,24.33,2.2,Completed
+R00109,HH0042,PSU188,Urban,East,Odisha,Urban,5,92749,19,Male,Higher Secondary,Farmer,0.9,24,1,4.7,Team_C,1,10.96,0.81,Completed
+R00110,HH0042,PSU187,Urban,South,Tamil Nadu,Urban,6,60246,75,Female,Graduate,Farmer,0.75,35,3,11.0,Team_B,6,18.95,2.32,Completed
+R00111,HH0042,PSU170,Urban,North,Haryana,Urban,6,33431,34,Male,Graduate,Farmer,0.85,42,1,7.4,Team_C,9,16.86,1.18,Completed
+R00112,HH0042,PSU121,Urban,East,West Bengal,Urban,6,43284,31,Female,Higher Secondary,Self-employed,0.79,42,2,6.6,Team_C,7,16.42,1.53,Completed
+R00113,HH0042,PSU177,Urban,North,Delhi,Urban,2,40279,31,Male,Postgraduate,Farmer,0.87,23,1,6.2,Team_A,10,13.42,1.83,Completed
+R00114,HH0042,PSU113,Urban,South,Tamil Nadu,Urban,7,90733,22,Male,Postgraduate,Student,0.9,39,1,6.4,Team_D,1,16.21,1.59,Completed
+R00115,HH0042,PSU148,Urban,South,Kerala,Urban,7,79586,37,Female,Secondary,Farmer,0.8,41,2,9.8,Team_D,10,18.39,1.78,Completed
+R00116,HH0043,PSU132,Urban,North,Haryana,Urban,5,110970,48,Male,Postgraduate,Self-employed,0.86,34,1,6.5,Team_B,5,14.55,2.44,Not Available
+R00117,HH0043,PSU182,Urban,East,West Bengal,Urban,5,45623,39,Female,Higher Secondary,Farmer,0.72,34,4,15.9,Team_B,1,24.82,1.67,Completed
+R00118,HH0043,PSU106,Urban,North,Haryana,Urban,5,45123,41,Female,Higher Secondary,Student,0.7,31,4,13.0,Team_B,6,22.02,1.47,Completed
+R00119,HH0043,PSU183,Urban,North,Haryana,Urban,7,80046,52,Female,Secondary,Self-employed,0.92,36,1,6.2,Team_A,9,15.06,2.14,Completed
+R00120,HH0044,PSU182,Urban,North,Haryana,Urban,6,81504,18,Female,Secondary,Student,0.73,41,4,14.0,Team_B,9,23.22,1.74,Completed
+R00121,HH0045,PSU116,Urban,South,Tamil Nadu,Urban,8,116514,18,Female,Secondary,Self-employed,0.82,40,2,6.9,Team_C,1,17.46,1.87,Completed
+R00122,HH0045,PSU110,Urban,East,West Bengal,Urban,6,97746,32,Male,Postgraduate,Salaried,0.85,38,2,7.0,Team_D,10,15.97,1.22,Completed
+R00123,HH0045,PSU195,Urban,North,Punjab,Urban,7,76304,45,Female,Higher Secondary,Student,0.86,47,2,7.5,Team_B,9,18.18,1.83,Completed
+R00124,HH0045,PSU136,Urban,South,Kerala,Urban,4,49033,51,Female,Graduate,Student,0.89,36,1,6.6,Team_C,6,15.69,2.31,Completed
+R00125,HH0045,PSU121,Urban,South,Kerala,Urban,7,45734,25,Female,Postgraduate,Unemployed,0.84,37,2,8.1,Team_C,1,16.99,1.18,Completed
+R00126,HH0046,PSU180,Urban,South,Karnataka,Urban,7,66279,43,Female,Postgraduate,Unemployed,0.67,43,4,13.7,Team_A,3,24.42,2.06,Completed
+R00127,HH0047,PSU110,Urban,North,Punjab,Urban,7,106085,32,Male,Postgraduate,Salaried,0.76,39,3,12.1,Team_B,4,22.15,2.45,Completed
+R00128,HH0047,PSU155,Urban,West,Rajasthan,Urban,7,87641,40,Female,Higher Secondary,Student,0.86,40,2,6.9,Team_B,2,17.67,0.8,Completed
+R00129,HH0047,PSU101,Urban,East,West Bengal,Urban,5,90693,49,Female,Higher Secondary,Farmer,0.79,37,3,10.5,Team_C,10,20.03,2.06,Completed
+R00130,HH0048,PSU122,Urban,South,Karnataka,Urban,4,97128,48,Female,Higher Secondary,Salaried,0.85,25,1,5.5,Team_A,5,13.67,2.29,Completed
+R00131,HH0049,PSU188,Urban,East,West Bengal,Urban,4,41289,25,Male,Secondary,Self-employed,0.68,33,4,14.3,Team_A,4,22.56,2.0,Completed
+R00132,HH0050,PSU103,Urban,South,Karnataka,Urban,7,118247,41,Female,Secondary,Self-employed,0.73,35,3,10.1,Team_B,6,19.68,1.07,Completed
+R00133,HH0051,PSU123,Urban,North,Haryana,Urban,4,53260,25,Female,Higher Secondary,Farmer,0.68,38,5,16.1,Team_C,4,24.78,1.94,Completed
+R00134,HH0051,PSU107,Urban,East,West Bengal,Urban,5,117021,59,Female,Postgraduate,Self-employed,0.7,41,4,13.2,Team_D,1,23.34,0.99,Not Available
+R00135,HH0052,PSU100,Urban,East,West Bengal,Urban,5,115371,28,Female,Higher Secondary,Farmer,0.74,34,3,9.6,Team_D,8,18.61,1.94,Completed
+R00136,HH0053,PSU123,Urban,West,Maharashtra,Urban,3,48929,37,Male,Postgraduate,Salaried,0.78,28,3,9.6,Team_A,5,17.33,1.72,Completed
+R00137,HH0053,PSU145,Urban,West,Gujarat,Urban,7,101768,29,Male,Higher Secondary,Student,0.85,38,1,7.6,Team_C,2,16.37,1.9,Not Available
+R00138,HH0053,PSU161,Urban,West,Gujarat,Urban,6,46282,44,Male,Graduate,Farmer,0.78,37,3,11.1,Team_C,6,19.49,1.69,Completed
+R00139,HH0054,PSU109,Urban,West,Maharashtra,Urban,3,43479,57,Male,Graduate,Self-employed,0.77,23,3,13.1,Team_C,4,19.46,1.13,Completed
+R00140,HH0055,PSU102,Urban,East,Odisha,Urban,4,56966,31,Male,Higher Secondary,Farmer,0.78,29,3,10.0,Team_D,4,17.62,2.13,Completed
+R00141,HH0055,PSU181,Urban,South,Kerala,Urban,7,119160,59,Female,Higher Secondary,Salaried,0.67,43,4,12.6,Team_D,1,23.55,1.85,Completed
+R00142,HH0055,PSU114,Urban,North,Punjab,Urban,6,35333,26,Male,Higher Secondary,Unemployed,0.88,37,1,4.9,Team_D,8,13.69,1.81,Completed
+R00143,HH0055,PSU107,Urban,South,Tamil Nadu,Urban,5,31119,36,Female,Secondary,Student,0.83,35,2,9.5,Team_A,2,18.18,0.92,Completed
+R00144,HH0056,PSU128,Urban,West,Maharashtra,Urban,6,95764,45,Male,Postgraduate,Salaried,0.81,38,2,10.4,Team_D,8,18.23,2.49,Completed
+R00145,HH0056,PSU116,Urban,East,Bihar,Urban,2,53307,39,Female,Higher Secondary,Farmer,0.8,26,2,7.2,Team_C,6,15.52,2.27,Completed
+R00146,HH0057,PSU175,Urban,West,Maharashtra,Urban,5,38916,66,Male,Secondary,Farmer,0.69,38,4,14.7,Team_D,7,24.79,1.57,Completed
+R00147,HH0057,PSU190,Urban,North,Haryana,Urban,7,50525,32,Male,Postgraduate,Student,0.91,44,1,6.0,Team_A,4,16.29,1.77,Completed
+R00148,HH0058,PSU154,Urban,South,Karnataka,Urban,7,73414,44,Female,Primary,Salaried,0.71,44,4,12.9,Team_C,9,22.37,1.66,Completed
+R00149,HH0059,PSU148,Urban,East,Odisha,Urban,5,86344,30,Female,Primary,Self-employed,0.79,37,3,12.9,Team_A,5,22.51,2.27,Not Available
+R00150,HH0060,PSU118,Urban,West,Maharashtra,Urban,2,62290,34,Female,Graduate,Farmer,0.78,22,2,7.9,Team_D,4,13.92,0.92,Completed
+R00151,HH0061,PSU193,Urban,North,Punjab,Urban,6,94781,40,Female,Primary,Farmer,0.7,46,4,14.6,Team_C,7,25.88,1.25,Completed
+R00152,HH0061,PSU172,Urban,South,Kerala,Urban,7,71022,22,Female,Postgraduate,Self-employed,0.86,40,1,5.3,Team_D,1,13.86,2.27,Completed
+R00153,HH0061,PSU101,Urban,North,Haryana,Urban,8,73187,40,Female,Secondary,Student,0.8,37,3,12.0,Team_C,2,20.22,1.66,Completed
+R00154,HH0062,PSU140,Urban,West,Gujarat,Urban,3,99458,51,Male,Postgraduate,Student,0.75,27,3,9.4,Team_D,3,17.13,1.24,Completed
+R00155,HH0062,PSU128,Urban,East,Odisha,Urban,8,67339,36,Male,Graduate,Student,0.9,43,1,7.2,Team_A,5,16.25,2.4,Completed
+R00156,HH0062,PSU102,Urban,North,Delhi,Urban,3,49108,55,Female,Graduate,Self-employed,0.89,31,1,7.6,Team_B,4,16.24,1.0,Completed
+R00157,HH0063,PSU180,Urban,North,Haryana,Urban,4,117386,43,Female,Postgraduate,Salaried,0.79,27,3,11.6,Team_C,3,19.38,1.72,Completed
+R00158,HH0064,PSU121,Urban,East,Bihar,Urban,2,52045,43,Female,Secondary,Unemployed,0.87,32,1,5.9,Team_B,3,14.79,1.79,Completed
+R00159,HH0065,PSU127,Urban,West,Gujarat,Urban,2,52900,18,Male,Higher Secondary,Student,0.66,29,4,13.8,Team_D,5,21.37,1.05,Completed
+R00160,HH0065,PSU161,Urban,North,Delhi,Urban,3,37833,60,Female,Primary,Salaried,0.86,24,1,6.1,Team_C,2,12.42,1.05,Completed
+R00161,HH0066,PSU162,Urban,South,Karnataka,Urban,2,37192,18,Male,Graduate,Self-employed,0.89,23,1,7.3,Team_B,5,14.62,2.31,Not Available
+R00162,HH0067,PSU113,Urban,South,Kerala,Urban,4,41346,42,Male,Graduate,Student,0.77,33,3,11.7,Team_A,5,20.51,0.96,Refused
+R00163,HH0067,PSU186,Urban,South,Kerala,Urban,2,69181,22,Female,Primary,Farmer,0.89,30,1,6.3,Team_B,9,13.63,2.19,Completed
+R00164,HH0067,PSU121,Urban,North,Punjab,Urban,7,107983,33,Male,Graduate,Unemployed,0.84,41,1,4.3,Team_A,8,14.7,2.02,Completed
+R00165,HH0067,PSU178,Urban,South,Kerala,Urban,7,97959,38,Female,Primary,Farmer,0.84,35,1,7.1,Team_B,9,16.19,1.54,Completed
+R00166,HH0067,PSU151,Urban,South,Tamil Nadu,Urban,2,66897,34,Male,Higher Secondary,Salaried,0.86,15,1,4.8,Team_A,1,10.66,1.54,Refused
+R00167,HH0067,PSU187,Urban,North,Haryana,Urban,7,88092,60,Female,Primary,Student,0.86,38,1,6.3,Team_D,3,14.75,0.98,Completed
+R00168,HH0067,PSU120,Urban,North,Delhi,Urban,5,37391,47,Male,Graduate,Self-employed,0.65,36,5,15.4,Team_C,7,24.71,0.82,Completed
+R00169,HH0068,PSU197,Urban,South,Karnataka,Urban,8,83791,54,Female,Graduate,Unemployed,0.72,51,3,13.0,Team_C,6,24.31,1.59,Completed
+R00170,HH0068,PSU125,Urban,East,West Bengal,Urban,2,119034,18,Male,Graduate,Self-employed,0.77,29,3,10.1,Team_B,10,18.17,2.39,Completed
+R00171,HH0068,PSU156,Urban,South,Kerala,Urban,3,115185,52,Female,Primary,Self-employed,0.86,24,1,4.1,Team_D,5,11.87,1.34,Completed
+R00172,HH0068,PSU101,Urban,North,Delhi,Urban,8,58231,26,Female,Higher Secondary,Student,0.8,44,3,9.4,Team_B,9,19.75,0.82,Not Available
+R00173,HH0068,PSU173,Urban,West,Maharashtra,Urban,7,104117,45,Male,Graduate,Salaried,0.87,41,1,6.7,Team_C,1,15.15,1.68,Completed
+R00174,HH0069,PSU175,Urban,North,Haryana,Urban,5,97882,22,Male,Graduate,Salaried,0.86,33,2,10.1,Team_B,8,17.74,2.46,Refused
+R00175,HH0069,PSU164,Urban,North,Haryana,Urban,5,106703,49,Female,Postgraduate,Salaried,0.85,35,2,8.3,Team_D,6,17.23,2.05,Completed
+R00176,HH0069,PSU143,Urban,South,Karnataka,Urban,5,109679,51,Male,Higher Secondary,Self-employed,0.85,33,1,5.6,Team_A,4,13.8,2.46,Completed
+R00177,HH0069,PSU195,Urban,South,Kerala,Urban,2,88515,57,Female,Graduate,Unemployed,0.89,23,1,6.6,Team_A,1,12.94,1.4,Not Available
+R00178,HH0069,PSU174,Urban,East,Bihar,Urban,3,30756,24,Female,Graduate,Self-employed,0.73,28,3,10.4,Team_A,1,18.51,2.42,Completed
+R00179,HH0070,PSU161,Urban,West,Maharashtra,Urban,2,97610,40,Female,Higher Secondary,Self-employed,0.91,28,1,4.3,Team_A,6,12.67,1.91,Completed
+R00180,HH0071,PSU177,Urban,East,West Bengal,Urban,6,38806,33,Male,Graduate,Student,0.74,42,3,11.4,Team_B,3,21.33,1.23,Completed
+R00181,HH0071,PSU196,Urban,North,Punjab,Urban,7,31026,45,Female,Graduate,Student,0.74,47,3,12.5,Team_A,8,23.52,1.74,Completed
+R00182,HH0071,PSU125,Urban,North,Delhi,Urban,5,61211,44,Female,Secondary,Farmer,0.86,38,1,5.9,Team_D,8,14.35,1.83,Completed
+R00183,HH0071,PSU157,Urban,South,Tamil Nadu,Urban,8,33145,24,Female,Postgraduate,Self-employed,0.79,43,3,9.9,Team_A,5,19.61,2.5,Refused
+R00184,HH0071,PSU104,Urban,West,Gujarat,Urban,2,105133,27,Male,Secondary,Self-employed,0.84,22,2,10.2,Team_C,9,16.67,1.18,Completed
+R00185,HH0072,PSU145,Urban,East,Odisha,Urban,6,85688,23,Male,Secondary,Unemployed,0.9,41,1,4.5,Team_B,4,13.72,2.01,Completed
+R00186,HH0072,PSU105,Urban,North,Delhi,Urban,2,86584,65,Male,Secondary,Self-employed,0.8,28,2,9.5,Team_B,8,16.44,0.93,Completed
+R00187,HH0072,PSU177,Urban,South,Karnataka,Urban,2,89937,36,Female,Higher Secondary,Self-employed,0.91,25,1,4.2,Team_C,4,11.58,1.22,Completed
+R00188,HH0072,PSU166,Urban,West,Gujarat,Urban,3,78357,28,Male,Higher Secondary,Farmer,0.79,23,2,8.7,Team_D,10,14.92,0.88,Not Available
+R00189,HH0072,PSU101,Urban,East,Bihar,Urban,2,32128,45,Female,Graduate,Unemployed,0.88,29,1,5.8,Team_D,2,13.32,1.44,Completed
+R00190,HH0072,PSU150,Urban,South,Kerala,Urban,6,43914,39,Male,Higher Secondary,Student,0.88,41,1,5.1,Team_C,6,15.59,2.11,Completed
+R00191,HH0072,PSU187,Urban,South,Tamil Nadu,Urban,5,57167,75,Female,Secondary,Unemployed,0.8,36,2,9.0,Team_B,2,17.02,1.54,Completed
+R00192,HH0073,PSU195,Urban,West,Maharashtra,Urban,4,44557,44,Male,Postgraduate,Unemployed,0.89,33,1,4.0,Team_C,10,12.37,1.92,Completed
+R00193,HH0073,PSU183,Urban,West,Rajasthan,Urban,8,78472,40,Female,Graduate,Unemployed,0.87,44,1,4.0,Team_A,10,14.5,1.29,Completed
+R00194,HH0074,PSU146,Urban,North,Haryana,Urban,7,95585,32,Male,Postgraduate,Student,0.9,37,1,4.6,Team_D,10,12.85,1.4,Completed
+R00195,HH0074,PSU115,Urban,North,Punjab,Urban,2,56224,18,Female,Secondary,Unemployed,0.73,22,3,13.2,Team_B,7,19.12,2.5,Completed
+R00196,HH0075,PSU141,Urban,East,Bihar,Urban,8,56640,47,Female,Primary,Unemployed,0.91,47,1,5.0,Team_A,8,15.97,1.06,Not Available
+R00197,HH0075,PSU191,Urban,North,Haryana,Urban,8,57833,36,Female,Postgraduate,Self-employed,0.87,30,1,4.8,Team_C,2,12.28,2.17,Completed
+R00198,HH0075,PSU125,Urban,North,Punjab,Urban,5,108652,18,Female,Graduate,Self-employed,0.65,36,5,18.7,Team_A,6,27.38,1.95,Completed
+R00199,HH0075,PSU124,Urban,East,West Bengal,Urban,2,43382,49,Male,Postgraduate,Salaried,0.89,27,1,6.2,Team_D,1,13.22,2.1,Completed
+R00200,HH0076,PSU111,Urban,East,Odisha,Urban,4,55791,36,Female,Higher Secondary,Salaried,0.78,35,3,13.2,Team_A,1,20.8,0.99,Completed
+R00201,HH0077,PSU120,Urban,West,Maharashtra,Urban,6,75068,53,Male,Higher Secondary,Self-employed,0.85,36,1,7.1,Team_A,4,16.31,2.23,Completed
+R00202,HH0077,PSU136,Urban,West,Rajasthan,Urban,4,118282,38,Male,Graduate,Farmer,0.84,33,1,4.6,Team_D,9,12.42,1.15,Completed
+R00203,HH0078,PSU156,Urban,North,Punjab,Urban,7,60599,26,Female,Postgraduate,Self-employed,0.62,45,5,15.8,Team_B,5,25.84,1.3,Completed
+R00204,HH0079,PSU182,Urban,West,Rajasthan,Urban,3,107871,60,Female,Secondary,Unemployed,0.78,32,3,13.0,Team_B,6,20.02,1.07,Refused
+R00205,HH0079,PSU169,Urban,North,Punjab,Urban,5,30273,46,Female,Higher Secondary,Student,0.85,31,2,7.3,Team_C,7,14.77,2.1,Refused
+R00206,HH0080,PSU120,Urban,East,Bihar,Urban,2,40110,33,Male,Higher Secondary,Salaried,0.89,26,1,5.8,Team_C,2,13.51,2.44,Completed
+R00207,HH0081,PSU172,Urban,South,Kerala,Urban,5,47212,35,Female,Higher Secondary,Farmer,0.92,37,1,4.1,Team_D,9,13.72,1.75,Completed
+R00208,HH0081,PSU141,Urban,North,Punjab,Urban,7,58981,43,Female,Secondary,Salaried,0.73,36,3,10.0,Team_A,4,20.19,0.83,Completed
+R00209,HH0082,PSU124,Urban,West,Gujarat,Urban,7,51850,37,Female,Higher Secondary,Student,0.86,41,2,7.4,Team_B,1,17.69,1.61,Completed
+R00210,HH0082,PSU169,Urban,North,Punjab,Urban,5,91383,53,Male,Secondary,Student,0.88,34,1,4.9,Team_C,8,14.2,2.1,Completed
+R00211,HH0083,PSU111,Urban,South,Tamil Nadu,Urban,2,47615,30,Female,Primary,Farmer,0.8,20,3,12.0,Team_A,6,18.94,0.83,Completed
+R00212,HH0084,PSU126,Urban,East,West Bengal,Urban,2,79302,43,Male,Postgraduate,Farmer,0.73,17,4,15.7,Team_C,1,22.42,2.1,Completed
+R00213,HH0084,PSU103,Urban,North,Haryana,Urban,4,108969,33,Male,Graduate,Student,0.91,32,1,6.7,Team_B,8,15.45,2.48,Completed
+R00214,HH0085,PSU102,Urban,West,Rajasthan,Urban,8,43839,50,Female,Secondary,Self-employed,0.75,46,3,9.5,Team_D,6,20.46,2.44,Completed
+R00215,HH0085,PSU179,Urban,East,West Bengal,Urban,7,86542,55,Male,Secondary,Self-employed,0.9,33,1,4.1,Team_A,9,12.58,2.3,Completed
+R00216,HH0085,PSU183,Urban,South,Karnataka,Urban,3,45233,75,Female,Postgraduate,Self-employed,0.89,22,1,6.9,Team_D,9,13.87,2.3,Completed
+R00217,HH0085,PSU192,Urban,West,Gujarat,Urban,5,64149,26,Female,Primary,Unemployed,0.86,38,1,4.4,Team_D,9,13.16,2.19,Completed
+R00218,HH0086,PSU131,Urban,West,Maharashtra,Urban,7,117787,49,Male,Graduate,Unemployed,0.78,38,2,8.2,Team_A,10,17.01,1.6,Completed
+R00219,HH0086,PSU172,Urban,West,Gujarat,Urban,6,44406,46,Female,Primary,Unemployed,0.92,35,1,7.0,Team_D,6,14.73,1.61,Completed
+R00220,HH0086,PSU114,Urban,West,Maharashtra,Urban,3,48939,31,Female,Higher Secondary,Unemployed,0.89,31,1,6.2,Team_B,3,13.98,1.63,Completed
+R00221,HH0086,PSU172,Urban,West,Maharashtra,Urban,3,31770,36,Male,Higher Secondary,Unemployed,0.84,27,2,10.2,Team_A,9,16.71,1.95,Completed
+R00222,HH0086,PSU164,Urban,North,Haryana,Urban,8,45896,33,Female,Graduate,Farmer,0.73,42,3,10.7,Team_B,7,19.75,1.5,Refused
+R00223,HH0086,PSU180,Urban,North,Punjab,Urban,3,42788,51,Male,Secondary,Farmer,0.85,25,1,4.3,Team_A,5,11.08,1.58,Refused
+R00224,HH0086,PSU102,Urban,North,Haryana,Urban,8,109912,36,Male,Secondary,Student,0.84,45,2,7.1,Team_B,10,17.78,1.15,Completed
+R00225,HH0086,PSU182,Urban,West,Maharashtra,Urban,7,58677,49,Female,Graduate,Salaried,0.73,42,3,11.8,Team_C,4,20.76,1.54,Refused
+R00226,HH0087,PSU161,Urban,South,Kerala,Urban,6,118402,37,Female,Postgraduate,Self-employed,0.82,43,2,8.5,Team_B,6,17.45,2.02,Completed
+R00227,HH0087,PSU161,Urban,North,Punjab,Urban,7,75907,52,Female,Graduate,Unemployed,0.78,45,3,9.9,Team_D,5,21.14,2.11,Completed
+R00228,HH0088,PSU188,Urban,North,Haryana,Urban,8,45875,48,Female,Secondary,Farmer,0.8,48,2,10.6,Team_C,9,21.09,1.38,Completed
+R00229,HH0088,PSU179,Urban,West,Rajasthan,Urban,5,90087,46,Female,Graduate,Farmer,0.67,37,4,16.2,Team_A,2,24.22,1.4,Refused
+R00230,HH0088,PSU135,Urban,North,Haryana,Urban,8,37168,29,Female,Graduate,Self-employed,0.87,42,1,4.1,Team_C,7,13.77,1.51,Completed
+R00231,HH0088,PSU190,Urban,West,Rajasthan,Urban,4,87849,33,Female,Primary,Unemployed,0.8,36,2,9.2,Team_B,4,17.22,0.98,Not Available
+R00232,HH0088,PSU105,Urban,North,Haryana,Urban,3,52458,25,Male,Secondary,Self-employed,0.73,34,4,14.7,Team_B,5,22.39,1.69,Completed
+R00233,HH0089,PSU189,Urban,South,Karnataka,Urban,2,95379,21,Male,Primary,Self-employed,0.84,24,1,4.7,Team_A,6,12.46,1.77,Completed
+R00234,HH0089,PSU110,Urban,South,Tamil Nadu,Urban,7,96156,30,Male,Graduate,Unemployed,0.91,45,1,7.5,Team_D,9,16.63,1.5,Completed
+R00235,HH0090,PSU175,Urban,South,Kerala,Urban,4,39561,18,Female,Primary,Self-employed,0.8,37,2,8.3,Team_C,2,17.94,1.21,Refused
+R00236,HH0090,PSU113,Urban,South,Karnataka,Urban,4,83445,28,Male,Graduate,Self-employed,0.83,32,2,6.8,Team_D,5,16.07,2.02,Refused
+R00237,HH0090,PSU105,Urban,East,Bihar,Urban,4,41064,21,Male,Graduate,Student,0.83,36,2,7.3,Team_C,9,15.86,0.83,Completed
+R00238,HH0091,PSU140,Urban,South,Karnataka,Urban,6,73902,39,Male,Secondary,Salaried,0.86,40,1,7.2,Team_D,9,16.19,1.71,Not Available
+R00239,HH0091,PSU129,Urban,South,Karnataka,Urban,8,91903,24,Female,Higher Secondary,Salaried,0.9,45,1,5.5,Team_D,4,15.54,1.24,Completed
+R00240,HH0091,PSU162,Urban,North,Haryana,Urban,2,96732,38,Female,Higher Secondary,Unemployed,0.85,26,2,8.1,Team_D,7,16.35,2.0,Completed
+R00241,HH0091,PSU198,Urban,South,Tamil Nadu,Urban,4,92678,21,Female,Primary,Student,0.84,29,2,8.2,Team_B,3,16.38,0.94,Completed
+R00242,HH0091,PSU194,Urban,North,Haryana,Urban,2,58646,18,Male,Postgraduate,Unemployed,0.73,23,3,13.1,Team_B,8,20.72,1.02,Completed
+R00243,HH0091,PSU142,Urban,West,Gujarat,Urban,8,39347,35,Female,Postgraduate,Student,0.83,47,2,8.7,Team_C,6,19.6,1.5,Completed
+R00244,HH0091,PSU185,Urban,North,Delhi,Urban,2,112513,43,Female,Primary,Salaried,0.83,32,2,9.1,Team_A,10,16.67,1.75,Completed
+R00245,HH0091,PSU120,Urban,North,Haryana,Urban,2,102608,28,Female,Postgraduate,Student,0.87,25,1,7.7,Team_A,9,14.17,1.0,Completed
+R00246,HH0091,PSU164,Urban,North,Punjab,Urban,4,60664,19,Male,Graduate,Farmer,0.82,33,2,7.4,Team_B,9,16.76,1.05,Completed
+R00247,HH0091,PSU117,Urban,West,Gujarat,Urban,7,102149,56,Female,Graduate,Farmer,0.85,39,2,10.4,Team_B,5,19.24,1.08,Completed
+R00248,HH0092,PSU140,Urban,East,Odisha,Urban,7,60314,24,Male,Graduate,Student,0.89,46,1,4.4,Team_C,7,15.99,0.97,Completed
+R00249,HH0093,PSU119,Urban,East,West Bengal,Urban,7,60110,18,Female,Secondary,Student,0.91,39,1,4.2,Team_C,1,13.4,1.75,Completed
+R00250,HH0094,PSU159,Urban,East,Odisha,Urban,8,68683,34,Male,Primary,Farmer,0.84,41,2,7.5,Team_C,1,17.89,2.3,Completed
+R00251,HH0094,PSU185,Urban,South,Kerala,Urban,6,57568,31,Female,Higher Secondary,Self-employed,0.9,39,1,6.9,Team_A,8,15.59,1.21,Completed
+R00252,HH0094,PSU112,Urban,West,Gujarat,Urban,2,56170,18,Male,Postgraduate,Self-employed,0.68,29,4,12.5,Team_C,8,21.75,1.53,Not Available
+R00253,HH0094,PSU178,Urban,East,West Bengal,Urban,2,111818,37,Male,Higher Secondary,Self-employed,0.9,32,1,6.9,Team_A,8,15.79,2.23,Completed
+R00254,HH0094,PSU167,Urban,West,Maharashtra,Urban,4,91124,20,Male,Graduate,Salaried,0.89,27,1,5.3,Team_B,10,12.63,1.2,Completed
+R00255,HH0095,PSU165,Urban,East,Bihar,Urban,3,35723,58,Female,Postgraduate,Salaried,0.86,24,2,9.1,Team_C,10,16.41,1.22,Completed
+R00256,HH0095,PSU163,Urban,East,West Bengal,Urban,6,116432,25,Male,Graduate,Student,0.87,26,1,6.6,Team_B,9,13.43,1.17,Completed
+R00257,HH0096,PSU167,Urban,West,Maharashtra,Urban,4,106591,21,Male,Postgraduate,Self-employed,0.86,34,1,4.7,Team_B,9,13.93,1.33,Completed
+R00258,HH0096,PSU145,Urban,South,Tamil Nadu,Urban,5,103463,60,Male,Secondary,Unemployed,0.86,31,1,7.3,Team_A,9,15.13,1.42,Not Available
+R00259,HH0096,PSU169,Urban,North,Delhi,Urban,7,94217,50,Male,Postgraduate,Salaried,0.88,32,1,7.2,Team_C,9,15.81,1.87,Completed
+R00260,HH0097,PSU144,Urban,East,Odisha,Urban,7,99626,41,Female,Higher Secondary,Farmer,0.89,44,1,5.1,Team_D,2,15.11,2.46,Completed
+R00261,HH0098,PSU139,Urban,East,Odisha,Urban,7,116477,54,Female,Secondary,Salaried,0.67,43,4,13.4,Team_B,5,23.94,1.85,Completed
+R00262,HH0098,PSU126,Urban,East,Odisha,Urban,4,101334,34,Male,Graduate,Student,0.86,31,1,5.2,Team_A,7,14.08,0.8,Completed
+R00263,HH0099,PSU119,Urban,East,Odisha,Urban,3,71222,37,Female,Graduate,Salaried,0.86,23,1,3.8,Team_C,4,10.28,1.38,Refused
+R00264,HH0099,PSU155,Urban,East,Bihar,Urban,7,49043,37,Male,Secondary,Self-employed,0.88,39,1,6.3,Team_D,3,14.98,1.97,Completed
+R00265,HH0100,PSU199,Urban,North,Punjab,Urban,4,99610,42,Male,Graduate,Salaried,0.81,33,2,8.0,Team_C,1,16.0,1.36,Completed
+R00266,HH0100,PSU182,Urban,West,Gujarat,Urban,5,86144,64,Male,Primary,Self-employed,0.66,32,4,15.0,Team_A,2,23.33,0.83,Completed
+R00267,HH0100,PSU136,Urban,South,Tamil Nadu,Urban,6,45433,31,Male,Secondary,Salaried,0.92,36,1,5.3,Team_B,5,13.63,1.95,Completed
+R00268,HH0100,PSU119,Urban,East,Odisha,Urban,6,37140,56,Female,Secondary,Student,0.86,43,1,4.7,Team_D,2,14.9,1.1,Completed
+R00269,HH0100,PSU116,Urban,East,Bihar,Urban,6,92814,33,Male,Graduate,Student,0.84,45,1,6.5,Team_A,3,16.34,2.29,Completed
+R00270,HH0101,PSU184,Urban,North,Punjab,Urban,8,110448,18,Female,Higher Secondary,Salaried,0.92,41,1,5.9,Team_D,3,15.47,2.08,Completed
+R00271,HH0101,PSU166,Urban,East,Odisha,Urban,6,41906,45,Female,Secondary,Self-employed,0.72,46,4,13.2,Team_D,6,23.94,2.21,Completed
+R00272,HH0102,PSU184,Urban,East,Bihar,Urban,4,112653,35,Male,Higher Secondary,Self-employed,0.84,31,1,5.3,Team_B,9,13.8,2.47,Completed
+R00273,HH0102,PSU146,Urban,South,Karnataka,Urban,8,88677,39,Female,Graduate,Farmer,0.84,46,2,8.3,Team_D,3,18.79,1.63,Completed
+R00274,HH0102,PSU112,Urban,South,Tamil Nadu,Urban,3,49916,57,Male,Higher Secondary,Self-employed,0.7,36,4,14.6,Team_C,3,23.42,0.9,Refused
+R00275,HH0102,PSU115,Urban,West,Maharashtra,Urban,5,38894,36,Male,Higher Secondary,Salaried,0.75,43,3,10.8,Team_B,2,20.17,1.94,Completed
+R00276,HH0102,PSU107,Urban,South,Karnataka,Urban,5,104326,37,Male,Graduate,Student,0.84,35,2,6.8,Team_A,8,15.04,1.18,Completed
+R00277,HH0103,PSU128,Urban,South,Kerala,Urban,5,66604,50,Female,Graduate,Self-employed,0.67,34,5,16.9,Team_A,7,25.34,1.29,Completed
+R00278,HH0103,PSU163,Urban,East,Odisha,Urban,8,83877,46,Female,Secondary,Self-employed,0.79,50,3,10.6,Team_C,10,22.44,1.59,Completed
+R00279,HH0103,PSU149,Urban,South,Kerala,Urban,7,34613,43,Female,Higher Secondary,Farmer,0.92,36,1,4.0,Team_C,3,13.14,0.83,Completed
+R00280,HH0104,PSU107,Urban,East,Odisha,Urban,6,100238,51,Male,Postgraduate,Salaried,0.83,35,2,10.4,Team_B,5,19.0,1.0,Completed
+R00281,HH0105,PSU124,Urban,East,Odisha,Urban,7,55479,53,Male,Postgraduate,Salaried,0.76,42,3,12.5,Team_A,7,22.36,0.8,Completed
+R00282,HH0105,PSU129,Urban,South,Karnataka,Urban,5,100187,60,Female,Higher Secondary,Salaried,0.71,40,4,13.7,Team_A,9,23.48,2.46,Refused
+R00283,HH0105,PSU141,Urban,West,Gujarat,Urban,5,60649,45,Female,Primary,Self-employed,0.83,30,2,7.7,Team_B,6,15.26,1.43,Completed
+R00284,HH0106,PSU104,Urban,West,Maharashtra,Urban,4,32603,40,Female,Postgraduate,Salaried,0.87,36,1,6.8,Team_D,10,14.61,1.64,Completed
+R00285,HH0106,PSU142,Urban,East,Bihar,Urban,5,96112,25,Female,Postgraduate,Farmer,0.82,29,2,8.7,Team_D,10,16.17,1.14,Refused
+R00286,HH0106,PSU188,Urban,North,Haryana,Urban,8,46806,18,Female,Secondary,Unemployed,0.88,40,1,6.2,Team_C,7,14.57,2.33,Completed
+R00287,HH0106,PSU139,Urban,West,Rajasthan,Urban,2,35994,18,Male,Higher Secondary,Salaried,0.78,24,3,11.6,Team_A,2,18.77,1.25,Completed
+R00288,HH0106,PSU186,Urban,South,Tamil Nadu,Urban,3,93101,35,Female,Graduate,Self-employed,0.72,28,3,10.8,Team_D,5,18.81,0.94,Completed
+R00289,HH0106,PSU126,Urban,North,Punjab,Urban,5,74413,37,Male,Primary,Self-employed,0.91,27,1,3.9,Team_B,9,11.27,2.28,Completed
+R00290,HH0106,PSU132,Urban,West,Gujarat,Urban,6,30327,37,Female,Graduate,Salaried,0.74,37,3,9.8,Team_D,4,18.31,1.58,Completed
+R00291,HH0107,PSU100,Urban,North,Punjab,Urban,3,93539,39,Male,Higher Secondary,Self-employed,0.84,32,2,6.9,Team_A,1,15.24,0.95,Completed
+R00292,HH0108,PSU181,Urban,South,Kerala,Urban,5,119798,35,Female,Secondary,Farmer,0.91,24,1,4.0,Team_A,1,11.9,1.04,Completed
+R00293,HH0108,PSU199,Urban,West,Rajasthan,Urban,8,119618,46,Female,Graduate,Student,0.76,43,3,11.6,Team_C,7,21.16,1.39,Completed
+R00294,HH0108,PSU179,Urban,East,Odisha,Urban,6,94896,48,Male,Higher Secondary,Student,0.81,42,2,10.6,Team_D,5,20.36,1.17,Completed
+R00295,HH0108,PSU157,Urban,East,Odisha,Urban,7,100001,53,Male,Postgraduate,Farmer,0.77,39,3,13.1,Team_B,8,21.95,1.84,Completed
+R00296,HH0109,PSU154,Urban,East,Bihar,Urban,2,103010,41,Male,Higher Secondary,Unemployed,0.89,22,1,7.1,Team_B,4,13.42,1.04,Completed
+R00297,HH0110,PSU187,Urban,West,Gujarat,Urban,7,79667,28,Female,Postgraduate,Salaried,0.79,43,3,10.9,Team_C,4,21.46,1.83,Completed
+R00298,HH0110,PSU147,Urban,North,Haryana,Urban,3,39697,35,Female,Higher Secondary,Student,0.84,34,2,8.5,Team_C,8,16.35,0.9,Completed
+R00299,HH0111,PSU103,Urban,South,Kerala,Urban,3,58656,48,Female,Graduate,Self-employed,0.77,32,3,10.4,Team_B,8,18.32,1.04,Completed
+R00300,HH0111,PSU133,Urban,East,Odisha,Urban,8,101974,18,Male,Postgraduate,Salaried,0.88,43,1,5.7,Team_A,3,16.24,0.9,Completed
+R00301,HH0112,PSU118,Urban,East,Odisha,Urban,4,61445,27,Female,Graduate,Salaried,0.86,31,1,5.3,Team_A,5,13.0,1.1,Completed
+R00302,HH0112,PSU181,Urban,South,Kerala,Urban,7,104533,36,Female,Higher Secondary,Self-employed,0.91,38,1,6.4,Team_C,8,16.41,2.14,Completed
+R00303,HH0112,PSU196,Urban,North,Punjab,Urban,7,65122,43,Female,Primary,Student,0.83,43,2,10.4,Team_C,6,19.21,1.69,Completed
+R00304,HH0112,PSU136,Urban,South,Karnataka,Urban,2,73571,18,Male,Graduate,Unemployed,0.8,36,3,9.7,Team_C,3,18.38,1.63,Completed
+R00305,HH0112,PSU100,Urban,West,Maharashtra,Urban,2,101439,61,Male,Postgraduate,Salaried,0.8,26,3,9.6,Team_A,9,17.34,2.03,Completed
+R00306,HH0113,PSU134,Urban,East,Odisha,Urban,4,91604,43,Female,Graduate,Student,0.83,28,2,9.6,Team_D,2,16.69,2.24,Completed
+R00307,HH0114,PSU108,Urban,South,Kerala,Urban,7,39514,40,Female,Postgraduate,Salaried,0.92,45,1,5.8,Team_C,10,15.12,1.01,Refused
+R00308,HH0114,PSU106,Urban,North,Punjab,Urban,5,75481,75,Male,Graduate,Student,0.75,32,3,11.9,Team_C,8,19.68,2.33,Completed
+R00309,HH0114,PSU198,Urban,West,Rajasthan,Urban,4,40156,39,Male,Graduate,Self-employed,0.75,34,3,11.4,Team_C,6,20.69,1.17,Completed
+R00310,HH0114,PSU128,Urban,South,Kerala,Urban,8,54417,32,Female,Graduate,Student,0.73,45,3,12.9,Team_D,5,23.33,1.01,Completed
+R00311,HH0115,PSU169,Urban,North,Punjab,Urban,6,104057,30,Female,Graduate,Self-employed,0.85,43,2,7.7,Team_B,2,17.5,0.96,Refused
+R00312,HH0115,PSU190,Urban,South,Tamil Nadu,Urban,6,77745,18,Male,Primary,Unemployed,0.87,38,1,4.3,Team_C,7,13.47,1.91,Completed
+R00313,HH0116,PSU175,Urban,North,Delhi,Urban,2,114887,31,Male,Secondary,Unemployed,0.67,35,5,18.1,Team_C,6,26.47,1.73,Completed
+R00314,HH0117,PSU118,Urban,South,Karnataka,Urban,7,110924,30,Male,Secondary,Student,0.89,36,1,6.0,Team_D,10,15.32,2.07,Completed
+R00315,HH0118,PSU198,Urban,South,Karnataka,Urban,2,104709,43,Male,Secondary,Salaried,0.9,17,1,4.4,Team_A,1,11.1,1.81,Completed
+R00316,HH0119,PSU108,Urban,North,Delhi,Urban,4,33889,30,Male,Primary,Unemployed,0.73,30,3,12.8,Team_C,7,21.43,1.65,Completed
+R00317,HH0119,PSU178,Urban,North,Delhi,Urban,6,91367,46,Female,Secondary,Salaried,0.76,39,3,11.5,Team_A,10,21.26,1.87,Completed
+R00318,HH0119,PSU153,Urban,North,Punjab,Urban,3,98000,46,Female,Higher Secondary,Student,0.66,25,4,15.9,Team_B,3,22.08,1.42,Completed
+R00319,HH0119,PSU171,Urban,West,Rajasthan,Urban,8,34102,50,Male,Postgraduate,Student,0.83,47,2,7.2,Team_B,3,17.84,2.19,Refused
+R00320,HH0119,PSU196,Urban,North,Punjab,Urban,6,117997,39,Male,Graduate,Self-employed,0.84,40,2,9.9,Team_B,4,19.36,1.82,Completed
+R00321,HH0120,PSU136,Urban,East,Bihar,Urban,8,50847,43,Female,Secondary,Salaried,0.73,42,3,9.5,Team_C,5,19.44,1.73,Completed
+R00322,HH0120,PSU116,Urban,West,Maharashtra,Urban,6,94855,42,Female,Graduate,Unemployed,0.9,36,1,4.3,Team_C,10,12.68,0.9,Not Available
+R00323,HH0120,PSU102,Urban,West,Maharashtra,Urban,6,95083,24,Male,Graduate,Farmer,0.85,38,1,6.7,Team_D,5,14.91,1.23,Completed
+R00324,HH0121,PSU154,Urban,East,West Bengal,Urban,6,57419,23,Male,Postgraduate,Self-employed,0.74,43,4,15.7,Team_C,8,24.52,2.29,Completed
+R00325,HH0122,PSU144,Urban,East,West Bengal,Urban,8,52597,37,Male,Secondary,Self-employed,0.89,36,1,4.8,Team_D,6,13.15,1.04,Completed
+R00326,HH0122,PSU128,Urban,North,Punjab,Urban,4,34840,53,Male,Higher Secondary,Unemployed,0.72,36,4,13.8,Team_A,3,23.21,2.04,Completed
+R00327,HH0122,PSU188,Urban,North,Punjab,Urban,4,46584,41,Female,Graduate,Farmer,0.76,36,3,13.2,Team_C,3,21.57,2.04,Completed
+R00328,HH0123,PSU198,Urban,West,Gujarat,Urban,4,95614,40,Male,Graduate,Student,0.85,33,2,10.2,Team_A,1,18.04,1.05,Refused
+R00329,HH0123,PSU118,Urban,West,Maharashtra,Urban,6,117834,45,Male,Higher Secondary,Student,0.84,41,1,6.8,Team_A,5,15.9,1.63,Completed
+R00330,HH0123,PSU132,Urban,North,Delhi,Urban,3,54532,58,Male,Postgraduate,Self-employed,0.87,34,1,6.5,Team_A,5,15.31,2.14,Completed
+R00331,HH0124,PSU135,Urban,East,West Bengal,Urban,4,83520,35,Male,Postgraduate,Salaried,0.85,35,2,6.8,Team_A,10,16.39,1.35,Completed
+R00332,HH0124,PSU144,Urban,North,Delhi,Urban,7,111456,34,Female,Graduate,Self-employed,0.87,38,1,5.7,Team_C,10,15.3,1.75,Completed
+R00333,HH0125,PSU124,Urban,South,Tamil Nadu,Urban,4,79109,54,Male,Higher Secondary,Salaried,0.63,30,5,17.6,Team_A,5,24.82,1.0,Refused
+R00334,HH0126,PSU110,Urban,West,Gujarat,Urban,3,65329,56,Female,Higher Secondary,Farmer,0.85,27,2,10.2,Team_A,9,17.7,2.33,Completed
+R00335,HH0127,PSU185,Urban,South,Kerala,Urban,6,76096,42,Male,Secondary,Student,0.73,43,4,13.2,Team_D,6,22.94,1.41,Completed
+R00336,HH0127,PSU162,Urban,North,Haryana,Urban,8,81701,51,Male,Secondary,Self-employed,0.79,43,3,11.6,Team_A,10,21.59,2.03,Completed
+R00337,HH0127,PSU139,Urban,North,Punjab,Urban,4,48448,45,Male,Secondary,Unemployed,0.75,33,3,12.1,Team_B,6,19.6,1.16,Completed
+R00338,HH0127,PSU106,Urban,North,Delhi,Urban,4,86334,18,Male,Postgraduate,Student,0.84,35,2,7.1,Team_C,10,15.75,2.32,Completed
+R00339,HH0128,PSU145,Urban,South,Kerala,Urban,5,38774,42,Female,Graduate,Unemployed,0.85,38,2,7.6,Team_B,8,16.62,2.45,Completed
+R00340,HH0128,PSU131,Urban,East,Odisha,Urban,3,34432,50,Male,Graduate,Salaried,0.78,32,2,7.2,Team_C,8,15.44,1.21,Completed
+R00341,HH0129,PSU101,Urban,East,Odisha,Urban,6,54574,50,Male,Secondary,Farmer,0.74,37,3,9.4,Team_B,2,18.93,1.93,Completed
+R00342,HH0130,PSU116,Urban,West,Maharashtra,Urban,7,108820,27,Female,Higher Secondary,Student,0.92,43,1,4.3,Team_D,8,14.5,2.24,Completed
+R00343,HH0130,PSU174,Urban,East,Odisha,Urban,4,37372,42,Male,Secondary,Self-employed,0.81,36,2,6.9,Team_C,3,15.39,2.15,Completed
+R00344,HH0131,PSU123,Urban,West,Gujarat,Urban,6,118177,69,Female,Graduate,Self-employed,0.83,38,2,7.0,Team_D,8,15.65,1.1,Completed
+R00345,HH0131,PSU189,Urban,East,Bihar,Urban,8,118723,54,Male,Graduate,Unemployed,0.89,44,1,7.7,Team_B,7,18.33,2.14,Completed
+R00346,HH0132,PSU170,Urban,South,Tamil Nadu,Urban,8,102056,54,Male,Higher Secondary,Self-employed,0.82,39,2,6.7,Team_C,8,16.86,2.48,Completed
+R00347,HH0132,PSU138,Urban,South,Tamil Nadu,Urban,8,53676,51,Female,Higher Secondary,Student,0.86,41,1,6.7,Team_D,8,16.47,1.44,Completed
+R00348,HH0132,PSU138,Urban,East,West Bengal,Urban,8,38340,38,Female,Higher Secondary,Self-employed,0.76,53,3,10.1,Team_A,3,22.51,1.34,Completed
+R00349,HH0132,PSU150,Urban,South,Karnataka,Urban,6,106748,35,Female,Graduate,Self-employed,0.85,36,1,4.1,Team_A,9,13.44,0.88,Completed
+R00350,HH0133,PSU161,Urban,West,Rajasthan,Urban,3,72306,31,Female,Higher Secondary,Farmer,0.77,25,3,13.1,Team_A,5,19.8,1.7,Completed
+R00351,HH0133,PSU137,Urban,East,Odisha,Urban,8,34945,39,Female,Higher Secondary,Salaried,0.87,40,1,6.2,Team_D,2,16.53,1.4,Completed
+R00352,HH0133,PSU116,Urban,West,Gujarat,Urban,2,89361,46,Female,Postgraduate,Salaried,0.8,21,2,6.9,Team_A,9,13.71,1.71,Refused
+R00353,HH0133,PSU119,Urban,West,Maharashtra,Urban,2,47558,48,Male,Higher Secondary,Farmer,0.82,26,2,7.7,Team_B,5,15.71,2.34,Completed
+R00354,HH0133,PSU198,Urban,North,Haryana,Urban,5,76703,49,Male,Graduate,Student,0.9,41,1,4.1,Team_C,2,14.94,1.88,Completed
+R00355,HH0133,PSU107,Urban,North,Haryana,Urban,4,32494,34,Male,Secondary,Student,0.73,41,4,13.8,Team_B,1,23.03,1.63,Completed
+R00356,HH0133,PSU137,Urban,North,Haryana,Urban,3,35053,22,Female,Higher Secondary,Salaried,0.73,29,3,11.4,Team_B,8,19.86,1.24,Completed
+R00357,HH0133,PSU136,Urban,East,Bihar,Urban,3,77724,29,Male,Primary,Farmer,0.85,27,1,7.8,Team_B,9,15.78,1.08,Completed
+R00358,HH0133,PSU122,Urban,South,Karnataka,Urban,6,113345,26,Male,Graduate,Self-employed,0.75,36,3,10.4,Team_C,10,20.49,1.35,Completed
+R00359,HH0134,PSU131,Urban,North,Haryana,Urban,5,100494,29,Female,Secondary,Salaried,0.67,36,4,14.6,Team_A,3,23.16,2.25,Completed
+R00360,HH0135,PSU118,Urban,North,Delhi,Urban,8,116851,56,Male,Graduate,Salaried,0.81,49,2,7.0,Team_C,9,18.67,2.02,Refused
+R00361,HH0136,PSU194,Urban,North,Punjab,Urban,4,115422,67,Female,Higher Secondary,Unemployed,0.81,23,2,9.8,Team_A,4,16.2,1.24,Completed
+R00362,HH0137,PSU176,Urban,North,Delhi,Urban,4,51995,39,Male,Higher Secondary,Student,0.86,25,1,7.1,Team_A,5,14.04,2.47,Completed
+R00363,HH0137,PSU159,Urban,South,Kerala,Urban,8,101706,48,Female,Postgraduate,Farmer,0.69,41,4,13.8,Team_D,10,23.31,0.88,Completed
+R00364,HH0138,PSU111,Urban,South,Karnataka,Urban,7,65394,35,Male,Primary,Salaried,0.9,43,1,5.6,Team_A,5,15.13,1.63,Completed
+R00365,HH0138,PSU186,Urban,South,Tamil Nadu,Urban,4,112900,33,Male,Secondary,Self-employed,0.86,29,1,5.5,Team_A,9,13.4,0.92,Completed
+R00366,HH0138,PSU106,Urban,East,Odisha,Urban,4,67472,39,Female,Secondary,Farmer,0.79,34,2,6.7,Team_D,7,16.12,1.01,Completed
+R00367,HH0139,PSU148,Urban,East,West Bengal,Urban,4,100356,33,Male,Graduate,Self-employed,0.81,27,2,9.8,Team_B,2,17.57,1.35,Completed
+R00368,HH0139,PSU145,Urban,East,Odisha,Urban,5,59379,40,Male,Graduate,Student,0.83,31,2,7.8,Team_A,2,15.96,2.22,Completed
+R00369,HH0139,PSU175,Urban,North,Punjab,Urban,8,72040,36,Female,Primary,Student,0.89,38,1,4.5,Team_A,4,13.96,1.0,Completed
+R00370,HH0139,PSU137,Urban,East,Odisha,Urban,7,116961,41,Female,Primary,Self-employed,0.88,36,1,5.5,Team_A,3,13.8,1.98,Completed
+R00371,HH0140,PSU113,Urban,North,Haryana,Urban,7,59641,27,Female,Postgraduate,Salaried,0.72,40,3,11.0,Team_A,10,20.6,1.05,Completed
+R00372,HH0140,PSU159,Urban,West,Maharashtra,Urban,8,116092,50,Male,Secondary,Self-employed,0.87,41,1,4.7,Team_D,1,14.38,1.26,Completed
+R00373,HH0140,PSU152,Urban,West,Gujarat,Urban,3,41933,55,Female,Primary,Self-employed,0.8,26,2,9.3,Team_C,6,17.28,1.26,Completed
+R00374,HH0141,PSU167,Urban,North,Punjab,Urban,4,70266,28,Male,Secondary,Salaried,0.61,41,5,17.4,Team_C,2,27.07,1.63,Completed
+R00375,HH0141,PSU166,Urban,South,Tamil Nadu,Urban,5,69811,40,Female,Graduate,Farmer,0.85,27,2,7.6,Team_C,10,16.04,1.82,Completed
+R00376,HH0142,PSU174,Urban,North,Delhi,Urban,6,97089,40,Female,Higher Secondary,Self-employed,0.73,41,3,11.3,Team_B,8,20.94,1.5,Completed
+R00377,HH0142,PSU100,Urban,North,Punjab,Urban,5,60755,38,Male,Higher Secondary,Farmer,0.74,36,3,10.7,Team_A,4,19.5,0.83,Completed
+R00378,HH0142,PSU104,Urban,South,Karnataka,Urban,2,100977,34,Male,Postgraduate,Salaried,0.72,22,4,12.5,Team_A,5,20.15,1.88,Completed
+R00379,HH0143,PSU103,Urban,North,Haryana,Urban,5,60925,38,Female,Graduate,Student,0.83,33,2,6.8,Team_D,8,15.74,1.61,Completed
+R00380,HH0143,PSU180,Urban,East,Bihar,Urban,3,99403,18,Female,Postgraduate,Student,0.81,27,2,7.6,Team_D,9,15.7,2.29,Not Available
+R00381,HH0143,PSU147,Urban,South,Kerala,Urban,8,110109,61,Female,Primary,Unemployed,0.85,48,1,5.4,Team_B,5,17.11,1.91,Completed
+R00382,HH0143,PSU115,Urban,North,Delhi,Urban,8,119364,41,Male,Secondary,Salaried,0.82,41,2,10.5,Team_B,5,20.04,1.05,Completed
+R00383,HH0144,PSU165,Urban,South,Tamil Nadu,Urban,3,72310,26,Male,Graduate,Student,0.83,32,2,8.0,Team_D,7,16.87,1.92,Completed
+R00384,HH0145,PSU168,Urban,East,Odisha,Urban,7,82407,31,Female,Graduate,Farmer,0.67,46,5,17.0,Team_D,8,28.43,1.73,Completed
+R00385,HH0145,PSU164,Urban,North,Haryana,Urban,2,35116,47,Male,Higher Secondary,Unemployed,0.89,22,1,7.6,Team_B,1,14.66,1.74,Completed
+R00386,HH0146,PSU124,Urban,North,Punjab,Urban,4,42172,25,Male,Graduate,Unemployed,0.8,38,2,6.9,Team_A,1,16.55,1.65,Completed
+R00387,HH0146,PSU112,Urban,North,Haryana,Urban,5,116609,30,Female,Higher Secondary,Salaried,0.89,24,1,7.5,Team_D,10,14.73,1.73,Completed
+R00388,HH0146,PSU149,Urban,South,Kerala,Urban,2,74015,33,Male,Secondary,Student,0.74,23,3,9.6,Team_C,7,16.31,1.89,Completed
+R00389,HH0146,PSU160,Urban,South,Kerala,Urban,4,84121,59,Female,Higher Secondary,Farmer,0.82,38,2,10.5,Team_C,5,19.2,1.33,Completed
+R00390,HH0146,PSU101,Urban,East,Bihar,Urban,3,32724,53,Female,Higher Secondary,Salaried,0.79,26,2,7.0,Team_C,4,14.46,1.69,Completed
+R00391,HH0146,PSU164,Urban,East,Bihar,Urban,6,48007,45,Male,Primary,Farmer,0.92,37,1,5.1,Team_B,10,15.03,2.27,Completed
+R00392,HH0146,PSU141,Urban,West,Gujarat,Urban,5,62004,31,Female,Graduate,Farmer,0.85,34,2,8.5,Team_A,4,17.59,2.48,Completed
+R00393,HH0146,PSU196,Urban,East,Odisha,Urban,6,96179,24,Female,Secondary,Farmer,0.81,34,2,9.5,Team_C,7,18.77,1.37,Completed
+R00394,HH0147,PSU188,Urban,East,Bihar,Urban,4,118629,60,Male,Graduate,Farmer,0.73,26,3,12.6,Team_C,2,18.89,2.13,Completed
+R00395,HH0147,PSU119,Urban,North,Punjab,Urban,4,69655,31,Male,Postgraduate,Student,0.88,29,1,5.1,Team_A,10,13.92,1.37,Completed
+R00396,HH0147,PSU194,Urban,East,West Bengal,Urban,4,30230,56,Female,Graduate,Self-employed,0.82,27,2,7.7,Team_B,5,16.36,1.42,Completed
+R00397,HH0148,PSU125,Urban,North,Punjab,Urban,3,93936,23,Male,Secondary,Farmer,0.9,25,1,6.4,Team_B,9,14.15,2.34,Completed
+R00398,HH0149,PSU120,Urban,West,Rajasthan,Urban,3,62704,33,Male,Higher Secondary,Unemployed,0.74,26,3,13.2,Team_A,8,21.13,0.94,Completed
+R00399,HH0150,PSU132,Urban,North,Punjab,Urban,3,97663,42,Female,Postgraduate,Salaried,0.75,30,3,10.9,Team_B,7,18.96,2.26,Completed
+R00400,HH0150,PSU196,Urban,West,Maharashtra,Urban,4,39722,57,Female,Secondary,Student,0.84,29,1,7.4,Team_D,1,13.98,1.13,Completed
+R00401,HH0150,PSU135,Urban,East,West Bengal,Urban,7,106675,46,Male,Secondary,Salaried,0.82,47,2,10.2,Team_B,5,21.34,1.07,Completed
+R00402,HH0150,PSU139,Urban,South,Kerala,Urban,7,34913,37,Male,Graduate,Unemployed,0.82,40,2,6.7,Team_C,2,16.17,2.02,Completed
+R00403,HH0150,PSU158,Urban,South,Karnataka,Urban,2,105610,30,Female,Postgraduate,Unemployed,0.81,26,2,8.0,Team_A,1,16.37,0.82,Completed
+R00404,HH0150,PSU179,Urban,North,Haryana,Urban,7,48010,19,Male,Higher Secondary,Farmer,0.75,35,3,12.6,Team_D,1,21.98,1.46,Completed
+R00405,HH0151,PSU146,Urban,East,Bihar,Urban,7,37598,38,Female,Graduate,Student,0.85,42,1,6.6,Team_A,4,15.8,1.03,Completed
+R00406,HH0152,PSU129,Urban,West,Rajasthan,Urban,8,34302,40,Female,Higher Secondary,Student,0.76,45,3,10.5,Team_D,9,20.23,1.62,Completed
+R00407,HH0152,PSU190,Urban,North,Delhi,Urban,5,66410,47,Female,Primary,Student,0.86,31,2,7.7,Team_D,10,15.14,2.45,Completed
+R00408,HH0152,PSU154,Urban,West,Maharashtra,Urban,5,75492,45,Male,Higher Secondary,Unemployed,0.92,39,1,7.6,Team_B,7,15.7,1.31,Completed
+R00409,HH0153,PSU188,Urban,South,Karnataka,Urban,4,34747,64,Female,Graduate,Self-employed,0.7,36,4,13.2,Team_C,1,21.66,2.41,Completed
+R00410,HH0154,PSU112,Urban,East,Bihar,Urban,3,74408,54,Female,Graduate,Farmer,0.7,35,4,13.4,Team_A,7,21.93,0.86,Completed
+R00411,HH0154,PSU171,Urban,East,Bihar,Urban,7,96121,40,Female,Higher Secondary,Unemployed,0.81,42,2,6.6,Team_C,3,15.88,1.46,Completed
+R00412,HH0154,PSU171,Urban,West,Rajasthan,Urban,4,84731,28,Male,Secondary,Unemployed,0.89,33,1,3.9,Team_B,8,12.89,2.12,Completed
+R00413,HH0154,PSU163,Urban,East,Bihar,Urban,5,84296,24,Male,Higher Secondary,Unemployed,0.84,28,1,4.5,Team_C,8,12.12,0.87,Completed
+R00414,HH0154,PSU131,Urban,West,Rajasthan,Urban,7,34939,33,Female,Higher Secondary,Salaried,0.82,40,2,7.4,Team_D,6,18.02,1.8,Completed
+R00415,HH0154,PSU121,Urban,South,Tamil Nadu,Urban,5,113986,27,Male,Graduate,Salaried,0.88,36,1,6.0,Team_A,8,14.76,1.32,Completed
+R00416,HH0154,PSU130,Urban,South,Tamil Nadu,Urban,6,117748,29,Female,Higher Secondary,Student,0.83,43,2,8.6,Team_B,10,18.04,0.93,Completed
+R00417,HH0154,PSU122,Urban,West,Maharashtra,Urban,5,41696,53,Female,Higher Secondary,Unemployed,0.79,36,3,11.7,Team_B,3,21.39,1.21,Completed
+R00418,HH0154,PSU110,Urban,North,Delhi,Urban,2,66336,27,Female,Secondary,Student,0.74,31,3,13.1,Team_B,7,20.08,1.03,Completed
+R00419,HH0154,PSU195,Urban,East,Odisha,Urban,7,32831,23,Female,Higher Secondary,Farmer,0.68,40,4,15.6,Team_D,1,25.74,2.46,Completed
+R00420,HH0154,PSU170,Urban,West,Maharashtra,Urban,4,73577,43,Male,Postgraduate,Self-employed,0.77,25,3,10.3,Team_B,3,16.82,1.28,Completed
+R00421,HH0154,PSU184,Rural,East,Odisha,Rural,5,33699,33,Male,Higher Secondary,Unemployed,0.85,40,2,7.7,Team_A,8,17.65,1.44,Completed
+R00422,HH0154,PSU181,Rural,South,Tamil Nadu,Rural,2,16757,64,Male,Graduate,Self-employed,0.76,25,3,11.2,Team_B,1,17.71,0.95,Completed
+R00423,HH0154,PSU100,Rural,North,Delhi,Rural,3,43255,33,Male,Postgraduate,Student,0.73,34,3,10.6,Team_A,6,19.82,0.85,Completed
+R00424,HH0154,PSU181,Rural,North,Delhi,Rural,6,8848,33,Male,Secondary,Student,0.73,39,3,10.6,Team_A,3,20.43,1.3,Completed
+R00425,HH0154,PSU135,Rural,North,Haryana,Rural,8,11500,52,Female,Secondary,Self-employed,0.74,50,3,9.7,Team_A,2,20.98,1.23,Completed
+R00426,HH0155,PSU144,Rural,East,West Bengal,Rural,6,28594,35,Male,Primary,Salaried,0.76,36,3,10.8,Team_A,3,20.28,1.56,Completed
+R00427,HH0155,PSU144,Rural,South,Tamil Nadu,Rural,8,44697,69,Female,Higher Secondary,Student,0.7,39,4,14.2,Team_D,10,22.79,1.55,Completed
+R00428,HH0155,PSU197,Rural,East,West Bengal,Rural,8,19597,31,Male,Graduate,Farmer,0.78,44,3,11.0,Team_A,6,21.17,2.11,Completed
+R00429,HH0155,PSU179,Rural,East,West Bengal,Rural,7,22488,45,Male,Graduate,Unemployed,0.71,39,4,15.4,Team_D,4,25.09,0.98,Completed
+R00430,HH0155,PSU182,Rural,East,Odisha,Rural,4,16290,26,Male,Higher Secondary,Unemployed,0.73,35,4,14.9,Team_D,8,23.45,1.87,Completed
+R00431,HH0155,PSU105,Rural,North,Delhi,Rural,4,33286,49,Female,Secondary,Student,0.67,33,4,16.2,Team_B,7,25.15,0.84,Completed
+R00432,HH0155,PSU102,Rural,West,Gujarat,Rural,3,38965,34,Female,Secondary,Self-employed,0.73,27,3,10.8,Team_C,8,18.5,0.88,Completed
+R00433,HH0155,PSU162,Rural,West,Rajasthan,Rural,2,33547,41,Male,Postgraduate,Salaried,0.87,30,1,4.2,Team_A,8,12.55,1.37,Completed
+R00434,HH0155,PSU110,Rural,West,Rajasthan,Rural,7,24990,33,Male,Postgraduate,Student,0.74,42,3,13.1,Team_A,4,23.05,2.14,Completed
+R00435,HH0155,PSU198,Rural,North,Delhi,Rural,6,26816,30,Male,Graduate,Salaried,0.62,29,5,17.0,Team_A,1,25.09,2.34,Completed
+R00436,HH0155,PSU129,Rural,West,Gujarat,Rural,8,36249,55,Female,Graduate,Farmer,0.66,39,5,17.2,Team_B,4,27.12,1.25,Refused
+R00437,HH0156,PSU143,Rural,North,Delhi,Rural,2,28484,21,Female,Secondary,Student,0.73,26,4,14.0,Team_D,7,20.55,2.31,Completed
+R00438,HH0157,PSU170,Rural,East,Odisha,Rural,5,31869,32,Female,Graduate,Self-employed,0.77,36,3,12.8,Team_D,8,21.63,0.85,Completed
+R00439,HH0157,PSU121,Rural,North,Delhi,Rural,7,42401,28,Female,Postgraduate,Unemployed,0.65,43,5,18.8,Team_C,4,29.22,1.45,Completed
+R00440,HH0157,PSU124,Rural,West,Gujarat,Rural,8,16523,34,Male,Graduate,Farmer,0.78,45,3,10.1,Team_B,1,19.7,2.25,Completed
+R00441,HH0157,PSU120,Rural,South,Tamil Nadu,Rural,6,27107,56,Male,Primary,Student,0.73,38,4,16.0,Team_C,2,25.33,1.8,Completed
+R00442,HH0157,PSU156,Rural,West,Maharashtra,Rural,3,27129,30,Female,Graduate,Unemployed,0.65,35,5,18.3,Team_B,6,27.29,2.19,Completed
+R00443,HH0158,PSU176,Rural,West,Maharashtra,Rural,3,29044,19,Female,Primary,Farmer,0.79,29,3,9.8,Team_A,2,17.35,0.9,Completed
+R00444,HH0158,PSU136,Rural,West,Rajasthan,Rural,3,22760,27,Male,Secondary,Salaried,0.72,31,3,10.5,Team_C,7,18.16,2.0,Completed
+R00445,HH0158,PSU157,Rural,South,Karnataka,Rural,7,15261,24,Female,Higher Secondary,Unemployed,0.8,44,2,8.1,Team_A,2,17.57,2.33,Completed
+R00446,HH0158,PSU180,Rural,East,Bihar,Rural,4,11047,35,Male,Graduate,Student,0.69,32,4,13.9,Team_A,4,21.38,1.01,Completed
+R00447,HH0158,PSU132,Rural,North,Haryana,Rural,7,23590,41,Female,Graduate,Unemployed,0.79,37,2,10.5,Team_D,2,18.21,1.17,Completed
+R00448,HH0159,PSU116,Rural,East,Bihar,Rural,8,44968,18,Female,Secondary,Salaried,0.69,39,4,12.7,Team_A,10,22.97,0.88,Completed
+R00449,HH0159,PSU107,Rural,South,Tamil Nadu,Rural,2,27373,29,Female,Secondary,Self-employed,0.79,28,3,13.2,Team_B,4,20.31,2.32,Completed
+R00450,HH0159,PSU154,Rural,North,Delhi,Rural,4,17008,37,Male,Higher Secondary,Unemployed,0.74,30,3,11.1,Team_B,9,19.82,1.72,Completed
+R00451,HH0160,PSU154,Rural,East,West Bengal,Rural,5,37860,57,Male,Secondary,Unemployed,0.76,48,3,13.2,Team_D,9,23.16,1.07,Refused
+R00452,HH0160,PSU187,Rural,North,Haryana,Rural,7,27649,47,Male,Higher Secondary,Farmer,0.84,36,2,6.7,Team_A,2,15.79,1.69,Completed
+R00453,HH0161,PSU129,Rural,North,Punjab,Rural,2,29254,23,Female,Higher Secondary,Unemployed,0.73,26,3,11.1,Team_D,6,17.9,2.29,Completed
+R00454,HH0161,PSU153,Rural,North,Delhi,Rural,2,11137,19,Female,Graduate,Student,0.8,26,2,8.3,Team_B,5,15.14,2.4,Completed
+R00455,HH0161,PSU117,Rural,West,Gujarat,Rural,2,18859,43,Female,Graduate,Salaried,0.68,30,4,12.5,Team_A,3,19.9,2.04,Completed
+R00456,HH0161,PSU161,Rural,North,Haryana,Rural,6,42597,38,Female,Postgraduate,Farmer,0.62,39,5,17.0,Team_C,1,26.74,1.81,Completed
+R00457,HH0161,PSU153,Rural,West,Maharashtra,Rural,6,15898,59,Female,Postgraduate,Salaried,0.73,36,4,12.8,Team_A,4,22.24,0.85,Completed
+R00458,HH0161,PSU178,Rural,East,Odisha,Rural,4,31714,24,Female,Graduate,Student,0.91,29,1,6.5,Team_D,1,13.16,0.99,Refused
+R00459,HH0161,PSU107,Rural,East,Bihar,Rural,7,32010,27,Female,Graduate,Student,0.79,37,2,7.8,Team_C,3,16.51,1.41,Refused
+R00460,HH0161,PSU163,Rural,West,Rajasthan,Rural,2,20451,58,Male,Higher Secondary,Self-employed,0.72,32,3,10.0,Team_A,4,18.46,1.32,Completed
+R00461,HH0162,PSU165,Rural,East,West Bengal,Rural,4,33528,57,Female,Graduate,Salaried,0.67,32,5,16.8,Team_C,5,25.15,1.05,Completed
+R00462,HH0162,PSU163,Rural,East,West Bengal,Rural,6,15627,48,Male,Secondary,Farmer,0.7,35,4,12.5,Team_C,4,22.14,0.82,Completed
+R00463,HH0162,PSU101,Rural,West,Rajasthan,Rural,5,28218,57,Female,Postgraduate,Salaried,0.61,31,5,18.9,Team_C,6,26.65,1.48,Not Available
+R00464,HH0163,PSU146,Rural,South,Tamil Nadu,Rural,6,36515,58,Female,Higher Secondary,Self-employed,0.78,38,3,11.2,Team_C,4,21.04,1.08,Completed
+R00465,HH0163,PSU110,Rural,North,Haryana,Rural,4,13866,63,Male,Secondary,Salaried,0.73,36,3,10.2,Team_D,10,18.85,1.27,Completed
+R00466,HH0163,PSU172,Rural,West,Gujarat,Rural,5,43550,51,Male,Higher Secondary,Self-employed,0.74,34,3,13.3,Team_A,2,21.56,1.8,Completed
+R00467,HH0164,PSU135,Rural,South,Tamil Nadu,Rural,7,9166,47,Male,Higher Secondary,Student,0.73,43,4,14.2,Team_A,10,24.61,1.72,Completed
+R00468,HH0164,PSU152,Rural,North,Haryana,Rural,8,22856,36,Male,Secondary,Salaried,0.66,42,4,15.4,Team_D,2,25.48,2.18,Completed
+R00469,HH0164,PSU137,Rural,West,Maharashtra,Rural,5,24559,28,Male,Graduate,Unemployed,0.78,34,3,9.8,Team_D,4,18.62,1.11,Completed
+R00470,HH0165,PSU109,Rural,East,Odisha,Rural,4,22720,25,Female,Secondary,Self-employed,0.64,36,5,16.5,Team_B,5,24.87,2.07,Completed
+R00471,HH0166,PSU193,Rural,West,Maharashtra,Rural,3,23244,30,Male,Graduate,Unemployed,0.66,25,4,15.4,Team_A,10,23.07,0.97,Completed
+R00472,HH0166,PSU192,Rural,North,Delhi,Rural,7,26044,49,Female,Postgraduate,Self-employed,0.83,45,2,6.8,Team_A,3,17.94,2.13,Not Available
+R00473,HH0166,PSU129,Rural,East,Odisha,Rural,8,9095,31,Female,Secondary,Student,0.66,43,4,12.4,Team_B,8,22.77,1.14,Completed
+R00474,HH0166,PSU121,Rural,East,Bihar,Rural,6,22141,49,Female,Secondary,Farmer,0.66,38,5,16.5,Team_A,9,26.64,2.25,Refused
+R00475,HH0167,PSU153,Rural,West,Rajasthan,Rural,5,32926,60,Female,Higher Secondary,Self-employed,0.66,34,5,17.5,Team_C,1,25.64,1.62,Completed
+R00476,HH0167,PSU174,Rural,South,Kerala,Rural,6,25307,18,Male,Secondary,Unemployed,0.72,32,3,12.9,Team_B,3,20.63,2.31,Completed
+R00477,HH0167,PSU187,Rural,North,Punjab,Rural,2,37925,33,Male,Secondary,Farmer,0.75,26,3,13.4,Team_A,8,19.66,2.05,Completed
+R00478,HH0168,PSU108,Rural,South,Kerala,Rural,8,10022,52,Female,Graduate,Unemployed,0.67,32,4,14.1,Team_B,1,22.21,1.65,Completed
+R00479,HH0169,PSU148,Rural,West,Maharashtra,Rural,4,17143,37,Female,Higher Secondary,Unemployed,0.79,43,3,11.8,Team_C,2,21.24,1.19,Completed
+R00480,HH0170,PSU179,Rural,East,West Bengal,Rural,7,16281,19,Female,Graduate,Self-employed,0.61,40,5,15.3,Team_C,3,25.1,1.44,Completed
+R00481,HH0170,PSU111,Rural,West,Maharashtra,Rural,8,12931,36,Male,Secondary,Unemployed,0.8,38,2,7.5,Team_D,3,16.43,1.15,Completed
+R00482,HH0170,PSU190,Rural,North,Delhi,Rural,4,18915,57,Female,Postgraduate,Self-employed,0.73,32,3,11.9,Team_C,3,19.34,2.14,Refused
+R00483,HH0171,PSU115,Rural,South,Tamil Nadu,Rural,8,39830,58,Male,Primary,Self-employed,0.69,50,4,13.5,Team_C,4,25.09,1.9,Completed
+R00484,HH0171,PSU104,Rural,South,Tamil Nadu,Rural,8,8245,29,Male,Graduate,Unemployed,0.88,43,1,5.8,Team_C,2,16.12,1.99,Refused
+R00485,HH0172,PSU151,Rural,East,Bihar,Rural,3,10858,31,Male,Secondary,Student,0.73,30,4,15.5,Team_C,7,23.35,1.61,Completed
+R00486,HH0173,PSU102,Rural,South,Kerala,Rural,2,36317,31,Male,Graduate,Farmer,0.68,32,4,13.5,Team_D,9,22.59,1.43,Completed
+R00487,HH0174,PSU157,Rural,East,Odisha,Rural,2,13085,33,Male,Postgraduate,Self-employed,0.65,23,5,18.2,Team_C,4,25.09,1.51,Not Available
+R00488,HH0174,PSU142,Rural,South,Tamil Nadu,Rural,6,41044,44,Male,Primary,Self-employed,0.7,41,4,15.3,Team_A,7,23.98,1.12,Completed
+R00489,HH0175,PSU153,Rural,East,Bihar,Rural,4,13255,34,Female,Higher Secondary,Unemployed,0.67,35,4,15.9,Team_D,6,24.87,1.62,Completed
+R00490,HH0176,PSU145,Rural,North,Delhi,Rural,3,30844,27,Male,Primary,Self-employed,0.72,32,4,12.4,Team_B,1,21.11,1.84,Completed
+R00491,HH0176,PSU197,Rural,West,Rajasthan,Rural,4,12359,50,Male,Postgraduate,Salaried,0.85,28,1,7.1,Team_D,9,13.87,1.06,Completed
+R00492,HH0177,PSU179,Rural,East,West Bengal,Rural,8,20644,28,Male,Postgraduate,Salaried,0.64,48,5,18.1,Team_B,4,28.14,1.77,Completed
+R00493,HH0177,PSU131,Rural,North,Haryana,Rural,8,39741,20,Male,Higher Secondary,Farmer,0.79,47,2,8.3,Team_A,1,18.82,2.34,Completed
+R00494,HH0177,PSU150,Rural,West,Gujarat,Rural,2,29392,18,Female,Graduate,Self-employed,0.66,34,5,16.1,Team_B,10,24.41,2.39,Completed
+R00495,HH0177,PSU189,Rural,North,Haryana,Rural,8,28815,48,Male,Graduate,Self-employed,0.66,44,5,17.3,Team_A,2,27.93,1.68,Completed
+R00496,HH0177,PSU159,Rural,East,Odisha,Rural,3,19112,50,Male,Postgraduate,Self-employed,0.83,26,2,8.8,Team_B,8,15.69,2.29,Completed
+R00497,HH0177,PSU192,Rural,North,Delhi,Rural,7,20906,52,Female,Graduate,Farmer,0.73,47,3,11.4,Team_D,8,21.45,1.68,Completed
+R00498,HH0177,PSU148,Rural,North,Punjab,Rural,5,28196,38,Female,Secondary,Student,0.79,37,3,10.2,Team_D,8,20.14,2.04,Refused
+R00499,HH0177,PSU173,Rural,North,Haryana,Rural,8,26644,18,Female,Postgraduate,Salaried,0.61,48,5,16.6,Team_D,2,28.16,2.13,Completed
+R00500,HH0177,PSU114,Rural,North,Punjab,Rural,2,36213,48,Male,Higher Secondary,Student,0.8,27,3,12.7,Team_D,9,19.32,2.18,Completed
+R00501,HH0178,PSU133,Rural,South,Tamil Nadu,Rural,4,14912,39,Male,Secondary,Unemployed,0.74,26,4,14.6,Team_A,4,22.64,2.21,Completed
+R00502,HH0179,PSU159,Rural,South,Kerala,Rural,5,11681,41,Male,Graduate,Unemployed,0.78,31,3,12.2,Team_D,1,19.51,2.35,Completed
+R00503,HH0180,PSU120,Rural,South,Karnataka,Rural,3,32456,25,Female,Postgraduate,Self-employed,0.75,22,3,11.5,Team_B,6,18.12,2.09,Completed
+R00504,HH0181,PSU180,Rural,North,Haryana,Rural,7,33770,36,Male,Primary,Farmer,0.67,49,5,15.7,Team_D,9,27.9,1.96,Completed
+R00505,HH0181,PSU196,Rural,West,Rajasthan,Rural,8,33088,68,Female,Higher Secondary,Salaried,0.74,43,3,13.0,Team_C,10,22.88,2.22,Completed
+R00506,HH0182,PSU172,Rural,South,Tamil Nadu,Rural,8,39281,42,Female,Secondary,Student,0.85,43,2,8.8,Team_A,2,18.33,1.1,Completed
+R00507,HH0183,PSU116,Rural,South,Karnataka,Rural,8,13818,52,Female,Primary,Salaried,0.69,45,4,16.0,Team_B,4,25.35,1.29,Completed
+R00508,HH0184,PSU133,Rural,North,Haryana,Rural,8,22299,42,Male,Postgraduate,Unemployed,0.74,40,4,14.8,Team_C,1,24.58,2.27,Completed
+R00509,HH0184,PSU144,Rural,West,Gujarat,Rural,6,24891,37,Male,Higher Secondary,Unemployed,0.74,41,3,13.3,Team_C,6,22.1,2.4,Completed
+R00510,HH0184,PSU107,Rural,South,Karnataka,Rural,7,17090,61,Female,Higher Secondary,Student,0.68,50,4,15.6,Team_D,9,25.51,1.52,Completed
+R00511,HH0184,PSU120,Rural,North,Punjab,Rural,6,31793,23,Female,Postgraduate,Self-employed,0.66,41,5,16.4,Team_D,10,26.05,1.44,Completed
+R00512,HH0184,PSU188,Rural,West,Maharashtra,Rural,3,27825,55,Female,Higher Secondary,Self-employed,0.79,33,2,7.0,Team_A,7,15.21,2.18,Completed
+R00513,HH0184,PSU166,Rural,West,Rajasthan,Rural,3,35729,38,Male,Secondary,Student,0.63,34,5,16.4,Team_A,4,25.96,0.82,Completed
+R00514,HH0184,PSU193,Rural,North,Haryana,Rural,2,28864,37,Female,Secondary,Farmer,0.71,34,4,15.5,Team_D,9,23.32,0.93,Completed
+R00515,HH0185,PSU199,Rural,East,Odisha,Rural,3,21646,40,Female,Primary,Self-employed,0.63,30,5,17.1,Team_A,9,25.09,1.87,Not Available
+R00516,HH0185,PSU131,Rural,North,Delhi,Rural,3,38652,48,Male,Graduate,Student,0.81,29,2,9.8,Team_D,6,16.63,1.99,Completed
+R00517,HH0185,PSU119,Rural,South,Tamil Nadu,Rural,2,19819,28,Male,Postgraduate,Salaried,0.73,29,3,13.3,Team_B,6,21.35,1.71,Not Available
+R00518,HH0185,PSU178,Rural,West,Rajasthan,Rural,7,25615,30,Female,Graduate,Unemployed,0.75,37,3,11.5,Team_D,2,20.53,1.9,Completed
+R00519,HH0185,PSU133,Rural,East,Odisha,Rural,7,22608,50,Male,Graduate,Self-employed,0.72,47,4,14.9,Team_B,9,24.75,2.14,Completed
+R00520,HH0186,PSU166,Rural,South,Kerala,Rural,5,38128,25,Female,Graduate,Self-employed,0.76,31,3,10.0,Team_A,4,17.81,2.03,Completed
+R00521,HH0186,PSU118,Rural,West,Maharashtra,Rural,3,26529,26,Male,Higher Secondary,Student,0.67,34,5,17.8,Team_B,5,25.61,0.97,Completed
+R00522,HH0186,PSU150,Rural,South,Kerala,Rural,2,43771,40,Female,Postgraduate,Salaried,0.71,26,4,13.8,Team_A,3,22.29,1.87,Not Available
+R00523,HH0186,PSU169,Rural,East,Bihar,Rural,4,14772,18,Male,Primary,Student,0.76,37,3,10.7,Team_C,8,20.35,2.24,Completed
+R00524,HH0186,PSU179,Rural,South,Karnataka,Rural,3,35895,42,Male,Higher Secondary,Student,0.8,31,2,8.8,Team_D,5,16.89,1.53,Completed
+R00525,HH0186,PSU185,Rural,South,Kerala,Rural,2,35569,49,Male,Secondary,Farmer,0.63,24,5,17.2,Team_D,10,24.72,1.51,Completed
+R00526,HH0187,PSU147,Rural,North,Haryana,Rural,2,26241,35,Female,Higher Secondary,Salaried,0.68,28,5,16.8,Team_C,8,24.44,1.78,Completed
+R00527,HH0188,PSU101,Rural,South,Tamil Nadu,Rural,6,8917,26,Female,Graduate,Unemployed,0.68,33,4,12.5,Team_C,8,20.64,1.94,Completed
+R00528,HH0188,PSU183,Rural,South,Karnataka,Rural,5,41918,56,Female,Graduate,Salaried,0.67,28,5,17.4,Team_C,9,24.99,0.81,Completed
+R00529,HH0188,PSU160,Rural,West,Gujarat,Rural,4,34850,31,Male,Higher Secondary,Student,0.68,35,4,13.9,Team_C,6,23.18,2.2,Completed
+R00530,HH0189,PSU125,Rural,South,Karnataka,Rural,7,27081,19,Female,Higher Secondary,Student,0.7,42,4,13.7,Team_D,8,23.02,1.31,Completed
+R00531,HH0190,PSU187,Rural,West,Rajasthan,Rural,6,32240,18,Male,Higher Secondary,Unemployed,0.61,45,5,16.5,Team_D,9,26.06,1.3,Completed
+R00532,HH0190,PSU178,Rural,East,Odisha,Rural,7,21756,36,Female,Higher Secondary,Farmer,0.75,43,3,10.4,Team_C,10,20.77,2.01,Completed
+R00533,HH0191,PSU129,Rural,South,Kerala,Rural,6,34201,25,Female,Graduate,Student,0.68,38,4,15.2,Team_C,5,24.77,1.2,Completed
+R00534,HH0191,PSU130,Rural,North,Haryana,Rural,8,23955,47,Female,Higher Secondary,Salaried,0.7,50,4,15.6,Team_B,1,26.32,1.87,Completed
+R00535,HH0191,PSU153,Rural,South,Kerala,Rural,7,44321,59,Male,Postgraduate,Self-employed,0.65,43,5,15.7,Team_D,9,25.73,0.95,Completed
+R00536,HH0191,PSU193,Rural,West,Rajasthan,Rural,2,9721,55,Male,Secondary,Self-employed,0.71,27,4,15.0,Team_B,7,22.95,2.47,Completed
+R00537,HH0192,PSU102,Rural,North,Haryana,Rural,8,42661,40,Female,Postgraduate,Farmer,0.68,39,4,16.1,Team_B,4,24.89,0.82,Completed
+R00538,HH0193,PSU193,Rural,East,Bihar,Rural,5,27578,30,Male,Graduate,Unemployed,0.9,32,1,7.1,Team_C,7,15.14,2.18,Completed
+R00539,HH0194,PSU185,Rural,West,Maharashtra,Rural,8,23759,41,Male,Higher Secondary,Farmer,0.64,48,5,15.7,Team_A,3,26.38,1.9,Completed
+R00540,HH0194,PSU164,Rural,North,Haryana,Rural,3,33917,18,Female,Secondary,Self-employed,0.7,31,4,12.6,Team_B,5,22.04,2.15,Completed
+R00541,HH0194,PSU199,Rural,North,Punjab,Rural,2,18594,64,Female,Graduate,Unemployed,0.63,23,5,15.4,Team_A,7,22.76,2.42,Completed
+R00542,HH0194,PSU115,Rural,East,Bihar,Rural,2,13159,35,Female,Higher Secondary,Self-employed,0.62,30,5,16.7,Team_C,8,25.82,1.19,Not Available
+R00543,HH0194,PSU155,Rural,East,West Bengal,Rural,4,42954,33,Male,Postgraduate,Farmer,0.75,26,3,11.9,Team_A,6,19.41,1.03,Completed
+R00544,HH0194,PSU100,Rural,East,Bihar,Rural,7,13514,50,Female,Primary,Unemployed,0.83,33,2,10.4,Team_B,8,19.11,1.14,Completed
+R00545,HH0194,PSU100,Rural,West,Rajasthan,Rural,6,37733,32,Male,Primary,Self-employed,0.77,39,3,13.1,Team_A,10,21.17,0.96,Completed
+R00546,HH0195,PSU104,Rural,East,Bihar,Rural,2,26077,40,Male,Graduate,Self-employed,0.81,27,2,9.7,Team_D,7,17.35,2.01,Completed
+R00547,HH0196,PSU179,Rural,East,Odisha,Rural,3,15837,54,Male,Graduate,Student,0.88,21,1,4.7,Team_A,4,10.56,2.04,Completed
+R00548,HH0196,PSU121,Rural,South,Tamil Nadu,Rural,4,13316,44,Female,Higher Secondary,Unemployed,0.75,34,3,10.1,Team_A,7,18.12,1.11,Completed
+R00549,HH0196,PSU107,Rural,North,Punjab,Rural,3,15961,51,Male,Primary,Self-employed,0.78,30,3,9.8,Team_B,4,17.7,0.86,Completed
+R00550,HH0196,PSU179,Rural,East,Bihar,Rural,5,9525,38,Female,Graduate,Unemployed,0.85,32,1,7.0,Team_A,5,14.23,2.06,Completed
+R00551,HH0196,PSU172,Rural,South,Karnataka,Rural,4,25987,23,Female,Higher Secondary,Unemployed,0.67,31,4,14.3,Team_A,5,23.26,0.95,Completed
+R00552,HH0196,PSU110,Rural,South,Karnataka,Rural,5,17714,31,Male,Graduate,Self-employed,0.63,42,5,18.2,Team_A,6,27.95,0.92,Completed
+R00553,HH0196,PSU107,Rural,South,Tamil Nadu,Rural,7,43389,42,Male,Graduate,Self-employed,0.6,42,5,18.6,Team_D,7,27.45,1.87,Completed
+R00554,HH0197,PSU137,Rural,East,Odisha,Rural,5,18222,42,Female,Postgraduate,Unemployed,0.85,44,2,9.1,Team_B,3,19.68,1.44,Completed
+R00555,HH0198,PSU157,Rural,East,West Bengal,Rural,7,36017,59,Female,Higher Secondary,Farmer,0.7,43,4,15.3,Team_C,8,25.09,2.21,Completed
+R00556,HH0198,PSU147,Rural,East,Odisha,Rural,3,10897,32,Female,Postgraduate,Student,0.64,24,5,17.6,Team_A,1,25.32,2.48,Completed
+R00557,HH0198,PSU170,Rural,North,Haryana,Rural,6,23530,39,Female,Secondary,Unemployed,0.61,33,5,16.9,Team_B,1,26.02,1.59,Completed
+R00558,HH0198,PSU161,Rural,North,Haryana,Rural,3,20985,47,Female,Primary,Unemployed,0.76,29,3,10.7,Team_D,10,18.17,1.24,Not Available
+R00559,HH0198,PSU184,Rural,South,Tamil Nadu,Rural,8,15740,48,Male,Primary,Farmer,0.91,43,1,5.3,Team_A,4,15.19,0.89,Completed
+R00560,HH0198,PSU165,Rural,East,West Bengal,Rural,4,26862,37,Female,Higher Secondary,Self-employed,0.78,23,3,13.3,Team_A,5,19.73,1.8,Not Available
+R00561,HH0198,PSU128,Rural,South,Karnataka,Rural,4,32655,62,Female,Graduate,Unemployed,0.79,32,2,10.0,Team_D,4,18.77,2.22,Completed
+R00562,HH0198,PSU108,Rural,East,Bihar,Rural,6,26186,44,Female,Postgraduate,Self-employed,0.69,43,4,14.9,Team_D,10,24.27,0.9,Completed
+R00563,HH0198,PSU194,Rural,South,Tamil Nadu,Rural,7,31309,32,Female,Higher Secondary,Unemployed,0.72,43,4,15.6,Team_A,3,26.33,1.98,Completed
+R00564,HH0199,PSU198,Rural,East,Bihar,Rural,6,24862,49,Female,Higher Secondary,Unemployed,0.7,43,4,16.0,Team_A,5,25.06,1.04,Completed
+R00565,HH0200,PSU150,Rural,East,Odisha,Rural,2,9800,46,Male,Graduate,Farmer,0.63,26,5,17.4,Team_A,3,24.06,1.01,Completed
+R00566,HH0201,PSU157,Rural,West,Gujarat,Rural,2,30362,27,Female,Secondary,Salaried,0.7,28,4,15.5,Team_C,3,23.76,1.03,Completed
+R00567,HH0201,PSU117,Rural,West,Rajasthan,Rural,5,37462,18,Male,Primary,Self-employed,0.69,35,4,12.4,Team_B,9,21.96,0.84,Completed
+R00568,HH0202,PSU189,Rural,East,Bihar,Rural,8,30791,37,Male,Secondary,Salaried,0.66,55,4,13.5,Team_D,9,25.99,1.2,Completed
+R00569,HH0203,PSU194,Rural,West,Rajasthan,Rural,7,13487,42,Male,Graduate,Student,0.68,47,5,16.5,Team_A,6,26.89,2.13,Completed
+R00570,HH0203,PSU185,Rural,South,Tamil Nadu,Rural,6,18398,57,Male,Graduate,Salaried,0.68,41,4,12.7,Team_A,6,22.03,0.84,Completed
+R00571,HH0203,PSU137,Rural,North,Punjab,Rural,5,35584,57,Male,Postgraduate,Student,0.79,35,3,11.6,Team_D,8,19.48,1.69,Completed
+R00572,HH0203,PSU152,Rural,South,Karnataka,Rural,6,29877,21,Male,Secondary,Unemployed,0.68,36,5,16.2,Team_C,2,26.28,1.81,Completed
+R00573,HH0203,PSU175,Rural,North,Delhi,Rural,2,40110,62,Male,Primary,Student,0.91,22,1,7.5,Team_D,3,13.02,2.14,Completed
+R00574,HH0204,PSU191,Rural,North,Delhi,Rural,8,20590,30,Male,Graduate,Unemployed,0.77,53,3,10.6,Team_D,4,22.12,2.13,Completed
+R00575,HH0204,PSU179,Rural,West,Maharashtra,Rural,7,22221,53,Female,Postgraduate,Student,0.68,42,5,16.9,Team_B,4,26.98,1.24,Completed
+R00576,HH0205,PSU171,Rural,South,Tamil Nadu,Rural,6,21772,40,Female,Higher Secondary,Student,0.73,40,4,13.8,Team_B,2,23.65,1.27,Completed
+R00577,HH0205,PSU131,Rural,West,Maharashtra,Rural,8,28975,50,Male,Higher Secondary,Self-employed,0.62,44,5,18.2,Team_D,5,27.64,1.03,Completed
+R00578,HH0206,PSU112,Rural,South,Tamil Nadu,Rural,6,30702,27,Female,Postgraduate,Unemployed,0.83,37,2,6.7,Team_B,10,16.31,2.13,Completed
+R00579,HH0206,PSU140,Rural,West,Rajasthan,Rural,8,42928,40,Male,Graduate,Student,0.79,40,2,9.4,Team_D,9,19.25,1.87,Not Available
+R00580,HH0206,PSU100,Rural,East,Bihar,Rural,4,23198,25,Male,Postgraduate,Farmer,0.77,35,3,10.2,Team_C,2,20.16,2.12,Completed
+R00581,HH0206,PSU112,Rural,East,Bihar,Rural,5,31852,52,Male,Secondary,Farmer,0.68,36,5,18.8,Team_D,2,26.52,0.88,Completed
+R00582,HH0207,PSU106,Rural,South,Kerala,Rural,6,11248,68,Male,Postgraduate,Farmer,0.78,40,3,12.7,Team_D,1,21.47,1.41,Completed
+R00583,HH0207,PSU108,Rural,East,Odisha,Rural,2,21048,53,Female,Postgraduate,Salaried,0.65,31,5,17.4,Team_B,7,25.52,2.11,Completed
+R00584,HH0208,PSU188,Rural,East,Odisha,Rural,8,28931,39,Female,Postgraduate,Unemployed,0.8,39,2,7.4,Team_D,1,17.6,1.8,Completed
+R00585,HH0208,PSU120,Rural,South,Karnataka,Rural,8,37750,46,Male,Graduate,Student,0.68,45,5,17.2,Team_A,10,26.85,2.06,Completed
+R00586,HH0209,PSU146,Rural,South,Karnataka,Rural,7,39395,30,Male,Graduate,Student,0.72,44,4,14.6,Team_A,8,24.01,1.42,Completed
+R00587,HH0210,PSU177,Rural,North,Delhi,Rural,7,41670,55,Female,Secondary,Self-employed,0.65,39,5,15.8,Team_C,5,24.81,1.02,Completed
+R00588,HH0210,PSU175,Rural,East,West Bengal,Rural,2,43887,50,Male,Graduate,Self-employed,0.64,25,5,17.0,Team_A,9,25.34,2.22,Completed
+R00589,HH0211,PSU171,Rural,South,Kerala,Rural,2,34053,54,Male,Primary,Self-employed,0.78,19,2,9.8,Team_A,9,16.76,2.07,Completed
+R00590,HH0211,PSU117,Rural,North,Delhi,Rural,7,24177,33,Male,Graduate,Farmer,0.78,46,3,11.7,Team_A,6,21.44,2.03,Completed
+R00591,HH0211,PSU165,Rural,West,Maharashtra,Rural,5,29405,50,Female,Higher Secondary,Unemployed,0.74,34,3,11.3,Team_A,10,20.67,2.38,Not Available
+R00592,HH0211,PSU103,Rural,North,Delhi,Rural,4,29214,47,Male,Graduate,Student,0.74,33,4,12.6,Team_A,10,21.24,2.01,Completed
+R00593,HH0212,PSU187,Rural,South,Karnataka,Rural,8,34655,49,Female,Higher Secondary,Unemployed,0.62,40,5,17.3,Team_B,1,26.04,1.23,Completed
+R00594,HH0212,PSU188,Rural,South,Kerala,Rural,4,14234,44,Male,Graduate,Unemployed,0.74,34,3,10.8,Team_C,2,20.32,2.11,Completed
+R00595,HH0213,PSU199,Rural,West,Maharashtra,Rural,4,33728,30,Female,Primary,Farmer,0.73,33,4,15.9,Team_C,10,23.5,0.92,Completed
+R00596,HH0214,PSU168,Rural,East,West Bengal,Rural,8,38129,34,Male,Graduate,Farmer,0.77,43,3,10.7,Team_B,6,19.85,1.0,Completed
+R00597,HH0214,PSU192,Rural,North,Delhi,Rural,2,20335,55,Female,Higher Secondary,Salaried,0.76,27,3,12.0,Team_A,5,19.83,2.28,Completed
+R00598,HH0214,PSU110,Rural,East,West Bengal,Rural,6,14500,29,Female,Secondary,Unemployed,0.88,36,1,4.1,Team_C,2,14.01,0.96,Completed
+R00599,HH0215,PSU180,Rural,South,Kerala,Rural,6,37615,51,Female,Graduate,Salaried,0.7,40,4,13.6,Team_C,10,22.86,1.91,Not Available
+R00600,HH0215,PSU129,Rural,East,Odisha,Rural,2,11665,46,Male,Postgraduate,Salaried,0.73,24,4,14.3,Team_B,2,21.31,1.52,Completed
+R00601,HH0215,PSU140,Rural,South,Kerala,Rural,3,40043,36,Female,Higher Secondary,Student,0.68,25,4,13.0,Team_B,1,20.0,1.16,Completed
+R00602,HH0215,PSU103,Rural,West,Gujarat,Rural,8,16222,44,Female,Postgraduate,Farmer,0.73,41,4,14.4,Team_C,6,23.58,2.04,Completed
+R00603,HH0216,PSU163,Rural,East,Odisha,Rural,6,26671,48,Male,Secondary,Farmer,0.75,30,3,11.6,Team_B,3,19.07,2.07,Not Available
+R00604,HH0216,PSU114,Rural,South,Tamil Nadu,Rural,2,24055,24,Male,Primary,Farmer,0.68,33,4,13.7,Team_C,10,21.64,2.33,Completed
+R00605,HH0217,PSU184,Rural,South,Kerala,Rural,2,11303,44,Female,Higher Secondary,Unemployed,0.82,23,2,10.3,Team_B,9,17.83,1.25,Completed
+R00606,HH0217,PSU160,Rural,North,Delhi,Rural,6,26124,18,Male,Graduate,Farmer,0.83,42,2,9.6,Team_D,8,19.91,2.15,Refused
+R00607,HH0217,PSU174,Rural,East,Odisha,Rural,3,15237,45,Female,Graduate,Unemployed,0.71,36,4,16.1,Team_C,4,23.99,1.21,Completed
+R00608,HH0217,PSU147,Rural,South,Kerala,Rural,4,44126,61,Female,Primary,Farmer,0.7,29,4,15.9,Team_A,10,23.35,2.03,Completed
+R00609,HH0218,PSU109,Rural,North,Haryana,Rural,5,25998,41,Female,Higher Secondary,Student,0.6,36,5,18.2,Team_D,3,26.53,0.81,Completed
+R00610,HH0218,PSU177,Rural,South,Karnataka,Rural,6,23920,30,Female,Graduate,Unemployed,0.74,47,4,15.1,Team_B,4,26.25,2.45,Completed
+R00611,HH0218,PSU155,Rural,South,Kerala,Rural,8,41809,41,Female,Graduate,Student,0.74,39,4,15.7,Team_B,8,25.13,1.73,Completed
+R00612,HH0218,PSU175,Rural,West,Rajasthan,Rural,6,33525,28,Male,Graduate,Student,0.78,36,3,11.8,Team_A,3,20.31,1.63,Completed
+R00613,HH0218,PSU102,Rural,East,West Bengal,Rural,2,26895,40,Female,Postgraduate,Unemployed,0.72,26,4,12.4,Team_C,5,19.94,2.22,Completed
+R00614,HH0218,PSU159,Rural,West,Rajasthan,Rural,8,23839,46,Male,Higher Secondary,Farmer,0.68,41,4,15.3,Team_A,2,24.84,2.28,Completed
+R00615,HH0218,PSU160,Rural,East,Bihar,Rural,8,35730,39,Male,Postgraduate,Self-employed,0.63,40,5,18.4,Team_C,1,26.79,2.16,Completed
+R00616,HH0218,PSU186,Rural,West,Gujarat,Rural,6,34551,24,Male,Graduate,Farmer,0.79,46,3,11.3,Team_C,6,21.49,1.62,Completed
+R00617,HH0219,PSU142,Rural,North,Delhi,Rural,8,22416,18,Male,Graduate,Student,0.67,54,5,18.2,Team_C,1,30.27,1.76,Refused
+R00618,HH0219,PSU173,Rural,West,Rajasthan,Rural,7,27283,54,Male,Graduate,Self-employed,0.72,47,4,13.8,Team_D,3,24.74,1.85,Completed
+R00619,HH0219,PSU152,Rural,North,Haryana,Rural,8,14523,63,Male,Secondary,Student,0.78,43,3,11.1,Team_A,10,20.93,1.07,Not Available
+R00620,HH0220,PSU102,Rural,East,West Bengal,Rural,2,35201,28,Female,Secondary,Farmer,0.64,29,5,16.8,Team_B,6,25.29,0.93,Completed
+R00621,HH0220,PSU135,Rural,North,Punjab,Rural,8,33973,48,Male,Graduate,Self-employed,0.74,46,4,12.8,Team_B,5,22.68,2.47,Completed
+R00622,HH0221,PSU174,Rural,North,Haryana,Rural,8,24094,59,Male,Secondary,Self-employed,0.89,50,1,6.1,Team_D,9,17.54,2.28,Completed
+R00623,HH0222,PSU189,Rural,West,Rajasthan,Rural,8,39687,18,Female,Graduate,Farmer,0.66,45,5,17.5,Team_D,8,28.37,1.85,Completed
+R00624,HH0223,PSU173,Rural,South,Kerala,Rural,2,33888,45,Male,Primary,Farmer,0.7,32,4,12.8,Team_C,5,21.31,1.89,Completed
+R00625,HH0223,PSU179,Rural,West,Maharashtra,Rural,2,12173,47,Male,Postgraduate,Salaried,0.71,31,4,15.3,Team_C,6,23.09,1.21,Completed
+R00626,HH0224,PSU116,Rural,West,Gujarat,Rural,4,35992,48,Female,Higher Secondary,Student,0.64,40,5,16.4,Team_D,9,25.92,2.07,Completed
+R00627,HH0224,PSU157,Rural,South,Karnataka,Rural,8,13283,58,Male,Postgraduate,Salaried,0.7,43,4,13.0,Team_D,2,22.71,1.62,Completed
+R00628,HH0225,PSU128,Rural,North,Delhi,Rural,6,14176,18,Male,Postgraduate,Farmer,0.82,38,2,7.1,Team_C,8,15.81,1.75,Completed
+R00629,HH0225,PSU140,Rural,West,Maharashtra,Rural,4,17981,32,Male,Postgraduate,Student,0.78,32,3,11.8,Team_D,3,19.79,1.76,Completed
+R00630,HH0226,PSU127,Rural,East,West Bengal,Rural,5,8189,31,Male,Higher Secondary,Student,0.72,34,4,15.0,Team_D,8,23.91,1.71,Completed
+R00631,HH0227,PSU159,Rural,North,Delhi,Rural,3,38325,31,Male,Graduate,Farmer,0.69,31,4,12.9,Team_D,10,21.58,0.87,Completed
+R00632,HH0227,PSU127,Rural,North,Punjab,Rural,4,12999,68,Male,Postgraduate,Self-employed,0.71,28,4,15.9,Team_D,7,23.9,2.19,Completed
+R00633,HH0228,PSU184,Rural,North,Delhi,Rural,2,20661,49,Male,Higher Secondary,Unemployed,0.88,28,1,4.5,Team_C,6,11.42,2.44,Completed
+R00634,HH0228,PSU177,Rural,South,Kerala,Rural,3,37984,31,Female,Graduate,Self-employed,0.74,29,3,11.3,Team_C,3,20.05,1.38,Completed
+R00635,HH0228,PSU183,Rural,South,Karnataka,Rural,7,30701,43,Female,Secondary,Student,0.75,49,3,11.8,Team_C,9,23.56,1.27,Completed
+R00636,HH0228,PSU153,Rural,West,Maharashtra,Rural,5,26280,28,Male,Graduate,Farmer,0.62,43,5,17.0,Team_D,9,27.71,2.14,Not Available
+R00637,HH0229,PSU103,Rural,West,Maharashtra,Rural,2,13260,61,Female,Primary,Student,0.74,29,3,12.0,Team_B,6,19.04,1.87,Completed
+R00638,HH0229,PSU107,Rural,North,Haryana,Rural,6,18480,51,Male,Primary,Student,0.82,31,2,9.4,Team_A,2,16.43,1.83,Completed
+R00639,HH0229,PSU131,Rural,East,Odisha,Rural,5,10209,18,Female,Higher Secondary,Student,0.68,36,4,14.4,Team_B,7,23.22,1.95,Not Available
+R00640,HH0229,PSU169,Rural,South,Karnataka,Rural,6,44779,36,Female,Primary,Student,0.71,33,4,14.5,Team_A,7,23.14,1.35,Completed
+R00641,HH0229,PSU105,Rural,South,Kerala,Rural,2,18621,35,Male,Primary,Salaried,0.73,32,4,13.2,Team_B,1,22.76,2.1,Completed
+R00642,HH0229,PSU100,Rural,North,Haryana,Rural,3,21074,45,Female,Higher Secondary,Farmer,0.78,27,3,10.1,Team_B,1,17.55,1.41,Completed
+R00643,HH0230,PSU101,Rural,South,Kerala,Rural,5,14750,35,Male,Postgraduate,Student,0.73,30,4,15.1,Team_C,4,22.28,1.1,Completed
+R00644,HH0230,PSU145,Rural,East,Bihar,Rural,2,18574,57,Male,Postgraduate,Student,0.63,24,5,16.7,Team_B,5,23.76,1.7,Completed
+R00645,HH0230,PSU142,Rural,West,Rajasthan,Rural,6,25877,58,Male,Primary,Self-employed,0.73,34,3,10.8,Team_C,7,20.15,1.78,Completed
+R00646,HH0230,PSU168,Rural,East,Bihar,Rural,2,27346,46,Male,Postgraduate,Farmer,0.69,24,4,12.8,Team_D,4,19.89,1.58,Completed
+R00647,HH0230,PSU134,Rural,East,Bihar,Rural,7,16433,43,Male,Secondary,Unemployed,0.72,42,4,14.4,Team_C,6,24.43,2.35,Completed
+R00648,HH0231,PSU179,Rural,West,Maharashtra,Rural,7,38590,41,Female,Secondary,Farmer,0.6,43,5,16.2,Team_C,4,25.44,1.58,Completed
+R00649,HH0231,PSU177,Rural,North,Punjab,Rural,4,21667,32,Male,Higher Secondary,Self-employed,0.67,28,5,18.0,Team_A,4,26.59,1.65,Completed
+R00650,HH0231,PSU180,Rural,West,Rajasthan,Rural,3,41957,28,Female,Postgraduate,Unemployed,0.63,33,5,18.2,Team_C,10,26.04,1.77,Refused
+R00651,HH0231,PSU105,Rural,West,Maharashtra,Rural,3,16034,36,Female,Secondary,Farmer,0.75,24,3,10.4,Team_B,10,17.63,0.84,Completed
+R00652,HH0231,PSU114,Rural,West,Gujarat,Rural,4,38131,47,Female,Secondary,Student,0.78,22,3,11.7,Team_C,10,18.87,1.74,Completed
+R00653,HH0232,PSU169,Rural,West,Rajasthan,Rural,3,23279,49,Male,Secondary,Farmer,0.6,31,5,16.4,Team_B,4,25.14,0.82,Completed
+R00654,HH0232,PSU125,Rural,South,Kerala,Rural,8,22512,25,Male,Graduate,Salaried,0.77,48,3,13.1,Team_C,5,24.37,2.35,Completed
+R00655,HH0233,PSU199,Rural,North,Delhi,Rural,8,29982,25,Male,Graduate,Unemployed,0.66,45,5,17.2,Team_A,10,28.1,2.34,Completed
+R00656,HH0234,PSU153,Rural,East,Bihar,Rural,7,29276,50,Male,Graduate,Self-employed,0.7,39,4,13.5,Team_D,2,23.66,1.67,Completed
+R00657,HH0235,PSU181,Rural,West,Gujarat,Rural,2,17274,19,Female,Higher Secondary,Self-employed,0.67,23,5,16.1,Team_A,5,22.76,2.14,Completed
+R00658,HH0235,PSU150,Rural,West,Rajasthan,Rural,7,20744,39,Female,Higher Secondary,Student,0.7,40,4,15.5,Team_B,3,24.28,1.68,Completed
+R00659,HH0235,PSU117,Rural,South,Karnataka,Rural,2,41886,18,Male,Higher Secondary,Salaried,0.68,22,5,18.2,Team_A,2,25.21,1.77,Completed
+R00660,HH0235,PSU130,Rural,West,Gujarat,Rural,7,28702,29,Male,Graduate,Salaried,0.68,41,4,13.2,Team_B,9,23.9,2.29,Completed
+R00661,HH0235,PSU160,Rural,South,Tamil Nadu,Rural,2,25088,55,Male,Higher Secondary,Farmer,0.9,22,1,7.4,Team_A,10,14.3,1.92,Completed
+R00662,HH0236,PSU183,Rural,West,Maharashtra,Rural,8,29684,32,Female,Secondary,Farmer,0.72,45,3,13.4,Team_B,2,22.97,1.4,Completed
+R00663,HH0236,PSU116,Rural,North,Haryana,Rural,3,21898,30,Female,Higher Secondary,Farmer,0.67,31,4,14.8,Team_A,8,23.05,0.8,Completed
+R00664,HH0237,PSU134,Rural,North,Haryana,Rural,3,42571,39,Male,Postgraduate,Farmer,0.8,28,3,11.6,Team_C,4,18.6,1.46,Completed
+R00665,HH0237,PSU130,Rural,South,Karnataka,Rural,2,38639,26,Female,Primary,Salaried,0.64,29,5,15.5,Team_B,9,23.45,1.42,Completed
+R00666,HH0238,PSU183,Rural,South,Tamil Nadu,Rural,2,34687,40,Male,Graduate,Student,0.74,28,3,13.3,Team_B,4,19.69,1.97,Completed
+R00667,HH0238,PSU122,Rural,North,Delhi,Rural,2,38379,31,Female,Postgraduate,Salaried,0.7,25,4,13.8,Team_A,8,21.82,1.06,Completed
+R00668,HH0238,PSU191,Rural,East,West Bengal,Rural,3,40430,44,Female,Graduate,Student,0.67,29,4,15.1,Team_B,4,22.85,1.49,Completed
+R00669,HH0239,PSU109,Rural,North,Punjab,Rural,3,14985,22,Female,Graduate,Salaried,0.66,33,5,18.7,Team_B,9,26.29,1.78,Completed
+R00670,HH0239,PSU149,Rural,South,Karnataka,Rural,8,17397,50,Male,Postgraduate,Farmer,0.66,49,5,17.1,Team_B,9,28.7,1.78,Completed
+R00671,HH0240,PSU156,Rural,South,Kerala,Rural,6,31005,35,Male,Higher Secondary,Student,0.74,41,4,16.1,Team_C,7,25.52,1.83,Completed
+R00672,HH0240,PSU189,Rural,North,Delhi,Rural,4,24990,37,Male,Secondary,Unemployed,0.62,42,5,17.4,Team_A,10,27.41,1.68,Completed
+R00673,HH0240,PSU190,Rural,North,Delhi,Rural,4,11116,33,Female,Primary,Student,0.63,35,5,16.7,Team_D,1,25.44,1.7,Refused
+R00674,HH0240,PSU155,Rural,East,Bihar,Rural,4,34429,40,Male,Graduate,Unemployed,0.66,37,5,18.2,Team_D,5,26.23,1.44,Completed
+R00675,HH0240,PSU156,Rural,South,Karnataka,Rural,4,44113,37,Male,Graduate,Farmer,0.74,34,3,9.8,Team_B,10,19.66,1.89,Completed
+R00676,HH0241,PSU187,Rural,South,Karnataka,Rural,2,12439,56,Female,Postgraduate,Unemployed,0.72,25,4,14.2,Team_A,3,21.38,2.2,Completed
+R00677,HH0242,PSU195,Rural,South,Tamil Nadu,Rural,7,9572,28,Male,Secondary,Self-employed,0.8,42,2,9.6,Team_B,2,18.21,0.89,Completed
+R00678,HH0242,PSU189,Rural,North,Haryana,Rural,7,9480,29,Female,Primary,Salaried,0.8,41,3,11.2,Team_A,5,21.66,2.32,Completed
+R00679,HH0242,PSU155,Rural,South,Karnataka,Rural,5,14797,47,Female,Higher Secondary,Self-employed,0.7,36,4,16.1,Team_A,8,23.71,2.28,Completed
+R00680,HH0242,PSU154,Rural,West,Maharashtra,Rural,8,9825,66,Male,Higher Secondary,Salaried,0.8,55,3,12.0,Team_C,5,24.09,1.1,Completed
+R00681,HH0243,PSU186,Rural,East,West Bengal,Rural,7,10129,46,Male,Secondary,Unemployed,0.61,42,5,17.7,Team_D,7,28.32,1.69,Completed
+R00682,HH0244,PSU166,Rural,East,West Bengal,Rural,8,43107,18,Female,Secondary,Unemployed,0.73,48,4,13.6,Team_A,10,25.24,2.3,Completed
+R00683,HH0244,PSU173,Rural,West,Rajasthan,Rural,8,33931,51,Male,Primary,Student,0.73,46,4,13.7,Team_B,8,25.24,1.76,Completed
+R00684,HH0244,PSU136,Rural,East,West Bengal,Rural,8,14257,44,Female,Graduate,Farmer,0.76,48,3,12.8,Team_A,10,23.19,2.38,Completed
+R00685,HH0244,PSU180,Rural,East,West Bengal,Rural,6,9150,45,Male,Postgraduate,Salaried,0.74,38,3,10.3,Team_B,5,19.02,0.9,Completed
+R00686,HH0244,PSU199,Rural,East,Bihar,Rural,6,38136,43,Male,Postgraduate,Salaried,0.68,46,5,17.2,Team_D,1,28.08,1.47,Completed
+R00687,HH0245,PSU198,Rural,South,Tamil Nadu,Rural,7,32235,55,Male,Graduate,Unemployed,0.83,39,2,9.3,Team_D,3,19.42,1.93,Completed
+R00688,HH0246,PSU108,Rural,East,West Bengal,Rural,5,9225,26,Male,Secondary,Salaried,0.89,30,1,4.3,Team_B,10,13.09,2.03,Not Available
+R00689,HH0246,PSU122,Rural,West,Gujarat,Rural,5,27311,36,Female,Postgraduate,Salaried,0.61,35,5,15.5,Team_B,6,24.9,1.7,Refused
+R00690,HH0247,PSU117,Rural,North,Delhi,Rural,3,24253,54,Female,Postgraduate,Self-employed,0.78,34,2,9.4,Team_A,3,17.38,1.77,Completed
+R00691,HH0248,PSU137,Rural,North,Haryana,Rural,5,27977,41,Male,Secondary,Unemployed,0.6,36,5,17.7,Team_B,6,26.99,1.38,Completed
+R00692,HH0249,PSU190,Rural,North,Punjab,Rural,8,19159,70,Female,Higher Secondary,Unemployed,0.7,44,4,13.1,Team_C,3,22.76,1.28,Completed
+R00693,HH0250,PSU182,Rural,East,Bihar,Rural,2,44566,40,Female,Graduate,Unemployed,0.67,25,4,12.4,Team_A,4,19.41,2.24,Completed
+R00694,HH0251,PSU188,Rural,North,Haryana,Rural,5,37993,20,Female,Graduate,Unemployed,0.85,41,2,8.3,Team_D,10,18.56,1.88,Completed
+R00695,HH0251,PSU179,Rural,East,West Bengal,Rural,3,26686,53,Female,Primary,Farmer,0.67,30,5,18.1,Team_C,1,25.58,0.85,Completed
+R00696,HH0251,PSU129,Rural,East,Bihar,Rural,3,30746,28,Male,Secondary,Student,0.83,33,2,6.9,Team_C,9,14.82,2.46,Completed
+R00697,HH0252,PSU108,Rural,East,Odisha,Rural,5,22279,48,Male,Graduate,Self-employed,0.72,35,4,14.5,Team_A,7,23.84,1.85,Completed
+R00698,HH0253,PSU166,Rural,South,Tamil Nadu,Rural,3,30404,31,Female,Higher Secondary,Farmer,0.79,23,2,9.5,Team_C,6,16.63,0.85,Not Available
+R00699,HH0254,PSU164,Rural,East,West Bengal,Rural,7,39900,39,Female,Graduate,Student,0.83,47,2,7.0,Team_C,3,18.22,0.98,Completed
+R00700,HH0254,PSU170,Rural,North,Punjab,Rural,5,44083,47,Female,Postgraduate,Farmer,0.8,38,2,7.0,Team_D,6,17.04,1.67,Completed
+R00701,HH0254,PSU196,Rural,East,Odisha,Rural,5,24355,32,Male,Primary,Farmer,0.79,37,2,8.8,Team_B,9,17.68,0.93,Refused
+R00702,HH0254,PSU119,Rural,South,Karnataka,Rural,6,13486,47,Female,Secondary,Student,0.61,34,5,17.9,Team_D,1,25.45,0.94,Completed
+R00703,HH0254,PSU180,Rural,North,Haryana,Rural,2,15604,34,Male,Graduate,Farmer,0.66,26,4,14.5,Team_D,5,21.3,1.26,Completed
+R00704,HH0254,PSU199,Rural,North,Delhi,Rural,8,22821,26,Female,Postgraduate,Self-employed,0.7,48,4,16.0,Team_D,10,27.19,2.43,Completed
+R00705,HH0254,PSU148,Rural,West,Rajasthan,Rural,3,34607,53,Male,Higher Secondary,Self-employed,0.71,25,4,13.6,Team_C,3,21.43,0.85,Completed
+R00706,HH0254,PSU145,Rural,North,Punjab,Rural,2,11102,28,Male,Primary,Farmer,0.61,28,5,16.9,Team_A,4,24.57,2.27,Completed
+R00707,HH0254,PSU156,Rural,South,Karnataka,Rural,6,13791,50,Female,Postgraduate,Farmer,0.85,39,2,9.5,Team_D,3,18.3,1.49,Completed
+R00708,HH0254,PSU192,Rural,North,Punjab,Rural,7,29639,38,Male,Graduate,Unemployed,0.74,39,3,10.8,Team_A,1,19.79,1.43,Completed
+R00709,HH0255,PSU159,Rural,South,Kerala,Rural,5,38963,56,Male,Secondary,Salaried,0.78,32,2,8.3,Team_A,1,15.72,1.53,Completed
+R00710,HH0255,PSU171,Rural,East,West Bengal,Rural,6,29985,46,Female,Secondary,Salaried,0.72,45,4,15.8,Team_C,4,25.1,0.93,Completed
+R00711,HH0255,PSU173,Rural,South,Tamil Nadu,Rural,5,17851,25,Female,Postgraduate,Farmer,0.61,42,5,15.6,Team_A,8,25.65,1.27,Completed
+R00712,HH0255,PSU155,Rural,East,Odisha,Rural,7,14573,29,Female,Primary,Farmer,0.8,37,3,12.0,Team_B,8,20.41,1.56,Not Available
+R00713,HH0255,PSU116,Rural,West,Maharashtra,Rural,2,27502,40,Male,Secondary,Student,0.74,26,3,10.4,Team_A,5,17.61,1.47,Completed
+R00714,HH0256,PSU143,Rural,West,Rajasthan,Rural,4,14420,50,Female,Graduate,Unemployed,0.8,29,2,7.1,Team_D,3,15.42,1.52,Completed
+R00715,HH0256,PSU148,Rural,West,Gujarat,Rural,4,8862,18,Female,Graduate,Student,0.78,35,3,9.4,Team_C,6,19.51,1.49,Not Available
+R00716,HH0257,PSU155,Rural,West,Rajasthan,Rural,3,12700,59,Female,Higher Secondary,Farmer,0.65,26,5,16.7,Team_C,5,25.2,1.5,Completed
+R00717,HH0257,PSU118,Rural,East,Odisha,Rural,6,38046,42,Male,Secondary,Unemployed,0.64,42,5,18.5,Team_C,8,28.6,2.42,Completed
+R00718,HH0257,PSU178,Rural,North,Delhi,Rural,4,36779,41,Male,Higher Secondary,Farmer,0.73,30,3,9.5,Team_B,5,18.76,1.22,Refused
+R00719,HH0258,PSU154,Rural,North,Punjab,Rural,7,9491,56,Male,Postgraduate,Self-employed,0.78,43,3,10.2,Team_B,7,21.23,2.42,Completed
+R00720,HH0258,PSU144,Rural,West,Gujarat,Rural,8,15028,51,Male,Secondary,Student,0.87,39,1,6.6,Team_B,2,15.69,1.28,Completed
+R00721,HH0258,PSU150,Rural,North,Delhi,Rural,2,13432,42,Male,Higher Secondary,Farmer,0.89,30,1,4.6,Team_A,3,13.01,1.1,Completed
+R00722,HH0258,PSU107,Rural,East,Bihar,Rural,8,24709,23,Male,Graduate,Unemployed,0.65,42,5,15.6,Team_D,10,25.69,1.54,Completed
+R00723,HH0258,PSU101,Rural,West,Gujarat,Rural,6,41826,49,Female,Secondary,Salaried,0.66,39,4,15.4,Team_A,10,23.89,1.49,Completed
+R00724,HH0258,PSU146,Rural,North,Punjab,Rural,2,23753,18,Male,Higher Secondary,Unemployed,0.8,19,3,9.7,Team_A,2,17.12,1.36,Completed
+R00725,HH0259,PSU188,Rural,East,Odisha,Rural,3,38318,44,Male,Graduate,Unemployed,0.67,32,5,16.8,Team_A,1,24.9,2.16,Completed
+R00726,HH0260,PSU123,Rural,East,West Bengal,Rural,5,33645,45,Female,Postgraduate,Unemployed,0.68,32,4,13.6,Team_D,5,22.18,1.71,Not Available
+R00727,HH0261,PSU115,Rural,South,Karnataka,Rural,8,39816,49,Female,Graduate,Salaried,0.66,46,4,13.6,Team_A,9,24.94,1.81,Completed
+R00728,HH0261,PSU131,Rural,East,Bihar,Rural,2,31358,48,Male,Graduate,Salaried,0.66,30,5,15.9,Team_A,2,23.66,2.0,Completed
+R00729,HH0261,PSU103,Rural,South,Tamil Nadu,Rural,3,25788,46,Female,Secondary,Salaried,0.64,28,5,17.6,Team_D,9,25.18,2.44,Refused
+R00730,HH0261,PSU155,Rural,East,Bihar,Rural,8,13940,49,Male,Graduate,Student,0.66,46,5,15.8,Team_B,4,26.32,0.82,Completed
+R00731,HH0261,PSU169,Rural,South,Karnataka,Rural,7,39658,21,Female,Secondary,Unemployed,0.85,37,1,4.6,Team_C,5,14.38,2.05,Completed
+R00732,HH0261,PSU195,Rural,East,West Bengal,Rural,5,39704,45,Female,Higher Secondary,Student,0.67,37,4,14.6,Team_A,7,23.96,1.97,Completed
+R00733,HH0261,PSU121,Rural,North,Haryana,Rural,6,16846,27,Male,Graduate,Unemployed,0.84,39,2,7.7,Team_A,8,17.14,0.91,Completed
+R00734,HH0262,PSU122,Rural,East,Odisha,Rural,2,34703,44,Female,Secondary,Farmer,0.76,34,3,11.4,Team_D,10,19.03,1.43,Completed
+R00735,HH0262,PSU130,Rural,South,Tamil Nadu,Rural,6,13720,38,Male,Higher Secondary,Farmer,0.82,38,2,9.8,Team_A,3,18.86,1.23,Not Available
+R00736,HH0262,PSU165,Rural,North,Punjab,Rural,2,25709,47,Female,Graduate,Student,0.76,28,3,9.9,Team_A,2,17.32,1.82,Completed
+R00737,HH0262,PSU117,Rural,East,Bihar,Rural,2,44485,33,Female,Graduate,Student,0.78,26,2,7.0,Team_B,7,14.91,1.76,Completed
+R00738,HH0262,PSU133,Rural,West,Gujarat,Rural,6,22157,42,Male,Secondary,Student,0.77,40,3,12.1,Team_A,2,22.01,1.25,Completed
+R00739,HH0262,PSU175,Rural,East,Bihar,Rural,2,20158,36,Male,Higher Secondary,Salaried,0.9,23,1,4.8,Team_D,2,11.19,1.83,Not Available
+R00740,HH0263,PSU119,Rural,South,Karnataka,Rural,5,17686,51,Female,Graduate,Salaried,0.72,35,3,12.3,Team_D,10,20.22,1.31,Completed
+R00741,HH0264,PSU120,Rural,South,Tamil Nadu,Rural,7,41916,50,Male,Secondary,Unemployed,0.9,43,1,5.1,Team_A,9,16.12,2.33,Completed
+R00742,HH0265,PSU198,Rural,East,West Bengal,Rural,4,9312,18,Male,Graduate,Farmer,0.75,29,3,9.4,Team_B,8,18.45,2.25,Completed
+R00743,HH0265,PSU181,Rural,East,Odisha,Rural,7,35423,35,Female,Higher Secondary,Self-employed,0.71,48,4,12.7,Team_D,2,24.53,2.07,Completed
+R00744,HH0266,PSU116,Rural,East,West Bengal,Rural,4,33857,40,Female,Secondary,Self-employed,0.68,42,5,17.2,Team_D,10,26.44,2.12,Completed
+R00745,HH0266,PSU153,Rural,South,Tamil Nadu,Rural,7,10959,18,Male,Graduate,Self-employed,0.76,44,3,9.8,Team_A,10,19.32,2.07,Completed
+R00746,HH0266,PSU149,Rural,West,Rajasthan,Rural,2,44293,37,Female,Secondary,Unemployed,0.62,31,5,17.8,Team_A,1,26.23,1.49,Not Available
+R00747,HH0266,PSU109,Rural,South,Kerala,Rural,6,26777,33,Female,Graduate,Unemployed,0.72,38,3,12.0,Team_C,1,21.99,2.48,Completed
+R00748,HH0266,PSU128,Rural,West,Rajasthan,Rural,2,39517,48,Male,Higher Secondary,Student,0.77,25,3,11.8,Team_D,2,19.34,0.98,Completed
+R00749,HH0266,PSU122,Rural,South,Tamil Nadu,Rural,7,44256,34,Female,Secondary,Unemployed,0.69,48,4,14.9,Team_D,7,25.22,1.44,Completed
+R00750,HH0266,PSU183,Rural,North,Haryana,Rural,6,9292,41,Male,Secondary,Farmer,0.73,41,4,14.9,Team_B,10,23.98,2.45,Completed
+R00751,HH0266,PSU177,Rural,East,West Bengal,Rural,7,9466,34,Male,Higher Secondary,Student,0.73,42,4,13.8,Team_B,1,23.23,2.01,Completed
+R00752,HH0266,PSU113,Rural,South,Tamil Nadu,Rural,6,8817,60,Male,Graduate,Salaried,0.74,46,3,13.2,Team_B,9,24.22,1.15,Not Available
+R00753,HH0266,PSU189,Rural,South,Kerala,Rural,6,16624,45,Male,Postgraduate,Self-employed,0.79,32,3,13.0,Team_C,8,20.13,1.1,Completed
+R00754,HH0266,PSU152,Rural,West,Gujarat,Rural,8,33664,37,Female,Postgraduate,Salaried,0.73,52,3,12.4,Team_D,1,24.0,1.67,Completed
+R00755,HH0266,PSU140,Rural,North,Delhi,Rural,2,10322,32,Female,Postgraduate,Student,0.77,21,3,12.3,Team_A,7,18.76,1.31,Completed
+R00756,HH0266,PSU102,Rural,South,Tamil Nadu,Rural,4,36461,42,Male,Higher Secondary,Salaried,0.7,37,4,14.9,Team_A,7,24.16,2.47,Completed
+R00757,HH0266,PSU110,Rural,South,Kerala,Rural,2,9053,54,Female,Graduate,Farmer,0.72,29,3,9.6,Team_A,3,17.47,1.81,Completed
+R00758,HH0266,PSU112,Rural,North,Delhi,Rural,6,19997,47,Male,Secondary,Salaried,0.73,34,4,14.5,Team_B,9,22.13,1.67,Completed
+R00759,HH0267,PSU146,Rural,West,Maharashtra,Rural,7,35192,55,Male,Graduate,Salaried,0.78,47,3,11.9,Team_A,9,22.69,2.05,Completed
+R00760,HH0268,PSU105,Rural,North,Haryana,Rural,8,40122,73,Male,Graduate,Self-employed,0.85,48,2,10.3,Team_A,5,19.98,2.22,Completed
+R00761,HH0269,PSU180,Rural,South,Tamil Nadu,Rural,3,14172,58,Male,Postgraduate,Farmer,0.66,29,5,15.4,Team_C,5,24.11,1.92,Completed
+R00762,HH0269,PSU130,Rural,West,Maharashtra,Rural,5,44810,18,Female,Secondary,Self-employed,0.69,33,4,15.8,Team_A,9,23.74,1.58,Completed
+R00763,HH0269,PSU114,Rural,East,Odisha,Rural,2,27018,25,Female,Secondary,Student,0.67,31,5,16.6,Team_A,3,25.85,2.26,Completed
+R00764,HH0269,PSU174,Rural,North,Haryana,Rural,6,31915,42,Male,Higher Secondary,Salaried,0.73,41,4,15.0,Team_B,9,25.26,2.06,Completed
+R00765,HH0270,PSU189,Rural,East,Bihar,Rural,8,14896,41,Male,Graduate,Farmer,0.78,38,3,11.6,Team_B,1,19.94,1.38,Refused
+R00766,HH0270,PSU165,Rural,East,West Bengal,Rural,5,17581,32,Male,Postgraduate,Salaried,0.9,38,1,5.3,Team_A,7,13.81,2.35,Completed
+R00767,HH0270,PSU154,Rural,East,West Bengal,Rural,6,22850,52,Female,Higher Secondary,Self-employed,0.78,43,3,11.7,Team_B,9,22.61,2.21,Completed
+R00768,HH0270,PSU175,Rural,West,Gujarat,Rural,3,26525,36,Male,Graduate,Student,0.65,39,5,16.8,Team_B,9,25.61,1.82,Not Available
+R00769,HH0270,PSU141,Rural,West,Maharashtra,Rural,7,23845,56,Male,Graduate,Salaried,0.62,44,5,16.3,Team_D,8,26.75,1.32,Completed
+R00770,HH0270,PSU144,Rural,North,Haryana,Rural,5,42677,46,Female,Higher Secondary,Student,0.85,35,1,5.6,Team_A,7,14.27,1.38,Completed
+R00771,HH0270,PSU164,Semi-Urban,North,Haryana,Urban,3,35489,60,Female,Higher Secondary,Unemployed,0.84,26,2,8.4,Team_C,2,15.42,1.8,Completed
+R00772,HH0270,PSU161,Semi-Urban,North,Punjab,Rural,8,52268,25,Male,Secondary,Student,0.61,47,5,18.5,Team_A,8,28.39,1.97,Completed
+R00773,HH0270,PSU117,Semi-Urban,West,Maharashtra,Rural,4,40109,54,Male,Secondary,Student,0.71,34,4,14.3,Team_A,2,21.99,0.88,Completed
+R00774,HH0270,PSU182,Semi-Urban,West,Gujarat,Urban,2,27312,62,Male,Higher Secondary,Student,0.76,28,3,11.7,Team_A,9,19.61,2.35,Completed
+R00775,HH0270,PSU173,Semi-Urban,East,West Bengal,Rural,6,42319,44,Male,Graduate,Self-employed,0.77,44,3,13.3,Team_B,8,23.5,1.43,Completed
+R00776,HH0270,PSU191,Semi-Urban,East,Bihar,Rural,4,65152,31,Female,Postgraduate,Student,0.87,30,1,7.6,Team_C,6,15.42,2.16,Not Available
+R00777,HH0271,PSU116,Semi-Urban,North,Delhi,Urban,2,49449,26,Female,Graduate,Self-employed,0.87,24,1,6.3,Team_A,2,12.65,1.75,Completed
+R00778,HH0271,PSU194,Semi-Urban,North,Delhi,Urban,5,34332,27,Male,Postgraduate,Student,0.79,35,2,9.9,Team_A,6,17.82,1.96,Completed
+R00779,HH0272,PSU105,Semi-Urban,South,Kerala,Urban,3,67003,37,Male,Primary,Unemployed,0.88,28,1,7.5,Team_C,6,14.49,2.32,Completed
+R00780,HH0273,PSU109,Semi-Urban,South,Karnataka,Urban,2,34254,42,Male,Postgraduate,Farmer,0.8,31,3,9.7,Team_C,1,17.55,1.85,Completed
+R00781,HH0273,PSU126,Semi-Urban,North,Punjab,Urban,4,44137,56,Male,Primary,Farmer,0.84,35,1,5.8,Team_C,1,13.74,1.98,Completed
+R00782,HH0273,PSU192,Semi-Urban,East,Odisha,Rural,6,30271,38,Male,Higher Secondary,Unemployed,0.83,38,2,7.9,Team_B,6,16.93,1.56,Completed
+R00783,HH0273,PSU104,Semi-Urban,West,Maharashtra,Rural,4,65463,30,Female,Postgraduate,Unemployed,0.75,29,3,9.4,Team_B,4,17.53,1.93,Completed
+R00784,HH0274,PSU171,Semi-Urban,West,Rajasthan,Rural,3,28122,53,Female,Primary,Unemployed,0.79,36,3,12.5,Team_A,1,21.88,1.88,Completed
+R00785,HH0275,PSU176,Semi-Urban,South,Karnataka,Urban,7,35240,48,Female,Secondary,Salaried,0.89,35,1,6.6,Team_C,2,15.42,1.94,Completed
+R00786,HH0275,PSU181,Semi-Urban,North,Haryana,Urban,8,58977,55,Male,Secondary,Salaried,0.76,38,3,10.4,Team_C,2,19.78,1.99,Completed
+R00787,HH0275,PSU186,Semi-Urban,East,West Bengal,Urban,5,67480,52,Female,Postgraduate,Salaried,0.8,34,3,10.2,Team_D,3,18.93,1.23,Completed
+R00788,HH0275,PSU105,Semi-Urban,North,Delhi,Rural,3,67212,57,Female,Secondary,Farmer,0.83,23,2,10.0,Team_D,9,16.39,1.78,Completed
+R00789,HH0275,PSU162,Semi-Urban,East,Odisha,Rural,2,20207,47,Male,Primary,Student,0.75,19,3,12.9,Team_A,5,18.64,2.39,Completed
+R00790,HH0276,PSU165,Semi-Urban,South,Karnataka,Urban,8,60981,30,Male,Postgraduate,Salaried,0.71,47,4,12.9,Team_B,10,23.57,1.93,Refused
+R00791,HH0276,PSU102,Semi-Urban,West,Gujarat,Urban,4,34334,52,Female,Higher Secondary,Self-employed,0.82,29,2,9.0,Team_C,1,16.41,1.83,Completed
+R00792,HH0276,PSU184,Semi-Urban,North,Delhi,Urban,8,31258,43,Female,Graduate,Student,0.79,45,2,8.0,Team_D,4,17.89,2.07,Completed
+R00793,HH0276,PSU187,Semi-Urban,North,Delhi,Rural,5,50791,33,Male,Higher Secondary,Farmer,0.64,34,5,19.0,Team_B,5,27.52,1.04,Completed
+R00794,HH0276,PSU169,Semi-Urban,North,Haryana,Urban,5,56973,43,Male,Higher Secondary,Student,0.92,40,1,3.9,Team_A,3,13.71,2.35,Completed
+R00795,HH0277,PSU170,Semi-Urban,East,Odisha,Rural,7,52312,35,Male,Secondary,Farmer,0.83,39,2,9.5,Team_B,9,18.38,2.25,Completed
+R00796,HH0277,PSU153,Semi-Urban,West,Maharashtra,Rural,7,22785,47,Male,Primary,Student,0.86,44,2,7.7,Team_A,3,18.91,1.91,Refused
+R00797,HH0278,PSU171,Semi-Urban,West,Gujarat,Urban,8,23846,39,Female,Higher Secondary,Student,0.84,35,2,9.1,Team_D,10,17.47,2.36,Completed
+R00798,HH0278,PSU136,Semi-Urban,North,Punjab,Rural,2,18305,49,Male,Higher Secondary,Salaried,0.66,29,5,15.3,Team_C,1,24.53,1.24,Completed
+R00799,HH0278,PSU138,Semi-Urban,East,West Bengal,Urban,7,28259,32,Male,Postgraduate,Salaried,0.79,45,3,10.9,Team_B,7,21.93,1.2,Completed
+R00800,HH0278,PSU187,Semi-Urban,West,Maharashtra,Rural,8,39173,34,Female,Graduate,Student,0.63,42,5,17.9,Team_B,8,27.17,2.31,Refused
+R00801,HH0278,PSU154,Semi-Urban,East,Bihar,Urban,5,44125,38,Male,Higher Secondary,Unemployed,0.61,42,5,15.1,Team_C,4,26.2,0.81,Completed
+R00802,HH0279,PSU179,Semi-Urban,East,Odisha,Urban,2,67141,37,Male,Primary,Unemployed,0.84,35,2,9.6,Team_A,6,17.84,1.69,Completed
+R00803,HH0279,PSU173,Semi-Urban,West,Maharashtra,Urban,8,46900,27,Male,Secondary,Farmer,0.78,48,2,8.9,Team_C,9,18.54,0.86,Completed
+R00804,HH0279,PSU141,Semi-Urban,North,Punjab,Urban,6,58725,31,Male,Postgraduate,Farmer,0.81,31,2,9.3,Team_D,6,17.28,2.05,Completed
+R00805,HH0280,PSU170,Semi-Urban,North,Delhi,Rural,2,23488,46,Female,Graduate,Self-employed,0.84,25,2,10.5,Team_B,10,17.03,1.8,Completed
+R00806,HH0281,PSU100,Semi-Urban,South,Karnataka,Rural,4,66740,29,Female,Higher Secondary,Farmer,0.9,30,1,5.4,Team_A,6,14.35,1.04,Completed
+R00807,HH0282,PSU139,Semi-Urban,South,Kerala,Rural,7,55722,39,Female,Higher Secondary,Self-employed,0.86,50,2,8.5,Team_B,6,19.75,0.96,Completed
+R00808,HH0283,PSU135,Semi-Urban,North,Delhi,Rural,4,64922,36,Female,Graduate,Unemployed,0.8,20,3,12.7,Team_D,7,19.35,2.01,Completed
+R00809,HH0283,PSU174,Semi-Urban,South,Kerala,Rural,8,20287,34,Male,Secondary,Unemployed,0.88,44,1,7.0,Team_D,7,15.96,2.15,Completed
+R00810,HH0284,PSU184,Semi-Urban,South,Karnataka,Rural,4,66415,48,Female,Secondary,Student,0.79,33,2,10.2,Team_B,8,18.98,1.74,Completed
+R00811,HH0284,PSU156,Semi-Urban,South,Karnataka,Urban,4,19754,26,Female,Postgraduate,Farmer,0.81,37,2,7.4,Team_A,1,16.41,1.66,Completed
+R00812,HH0285,PSU157,Semi-Urban,South,Kerala,Urban,8,24383,37,Female,Secondary,Student,0.83,46,2,10.2,Team_B,3,20.85,2.13,Completed
+R00813,HH0286,PSU161,Semi-Urban,East,West Bengal,Urban,8,21777,18,Female,Graduate,Unemployed,0.74,41,4,15.1,Team_A,4,23.98,2.3,Completed
+R00814,HH0286,PSU107,Semi-Urban,South,Kerala,Urban,6,20532,26,Female,Graduate,Salaried,0.67,39,5,17.4,Team_A,4,25.86,0.97,Completed
+R00815,HH0286,PSU170,Semi-Urban,North,Delhi,Rural,7,57431,39,Male,Postgraduate,Farmer,0.75,38,3,10.0,Team_C,9,19.31,1.2,Completed
+R00816,HH0286,PSU146,Semi-Urban,South,Kerala,Rural,3,27415,60,Female,Higher Secondary,Self-employed,0.7,29,4,13.2,Team_B,8,21.56,1.85,Not Available
+R00817,HH0286,PSU199,Semi-Urban,West,Gujarat,Rural,7,21184,27,Male,Secondary,Unemployed,0.83,51,2,7.0,Team_D,3,19.08,2.07,Refused
+R00818,HH0286,PSU108,Semi-Urban,East,Bihar,Urban,3,24872,47,Female,Postgraduate,Self-employed,0.85,27,1,4.0,Team_B,8,11.63,1.52,Completed
+R00819,HH0287,PSU190,Semi-Urban,West,Maharashtra,Rural,7,53389,50,Male,Primary,Student,0.81,43,2,9.6,Team_C,10,19.8,1.56,Completed
+R00820,HH0287,PSU198,Semi-Urban,East,Odisha,Rural,5,57127,33,Male,Higher Secondary,Salaried,0.76,32,3,12.4,Team_B,4,20.56,1.8,Refused
+R00821,HH0287,PSU111,Semi-Urban,West,Gujarat,Rural,4,34005,54,Female,Secondary,Farmer,0.76,27,3,11.3,Team_C,6,17.91,1.06,Completed
+R00822,HH0287,PSU124,Semi-Urban,North,Delhi,Urban,5,66765,35,Female,Higher Secondary,Farmer,0.69,38,4,14.4,Team_B,10,22.85,2.26,Completed
+R00823,HH0287,PSU102,Semi-Urban,North,Punjab,Rural,6,31935,52,Female,Higher Secondary,Student,0.77,43,3,12.2,Team_B,4,22.99,1.95,Completed
+R00824,HH0287,PSU184,Semi-Urban,South,Karnataka,Rural,7,60821,49,Male,Graduate,Student,0.6,48,5,16.6,Team_D,8,27.37,1.21,Completed
+R00825,HH0288,PSU170,Semi-Urban,West,Rajasthan,Urban,4,57924,54,Male,Primary,Salaried,0.75,28,3,9.5,Team_D,4,17.89,1.64,Completed
+R00826,HH0289,PSU113,Semi-Urban,West,Gujarat,Urban,2,52918,37,Male,Secondary,Salaried,0.68,30,4,12.8,Team_A,9,21.24,2.33,Completed
+R00827,HH0290,PSU182,Semi-Urban,South,Tamil Nadu,Urban,7,56663,39,Male,Postgraduate,Student,0.62,38,5,18.5,Team_C,1,27.97,1.66,Refused
+R00828,HH0291,PSU152,Semi-Urban,North,Punjab,Rural,7,44190,42,Male,Primary,Unemployed,0.68,41,4,15.7,Team_A,5,25.81,2.13,Completed
+R00829,HH0291,PSU179,Semi-Urban,West,Rajasthan,Rural,7,56536,54,Female,Graduate,Student,0.84,37,1,5.0,Team_C,8,14.62,1.9,Completed
+R00830,HH0291,PSU151,Semi-Urban,East,Bihar,Rural,3,34705,18,Male,Postgraduate,Farmer,0.74,31,3,13.4,Team_C,5,20.19,2.42,Completed
+R00831,HH0291,PSU194,Semi-Urban,South,Kerala,Rural,4,58395,42,Female,Secondary,Farmer,0.8,32,3,10.8,Team_D,8,20.0,2.47,Completed
+R00832,HH0292,PSU138,Semi-Urban,South,Kerala,Urban,6,35476,55,Female,Primary,Salaried,0.79,38,2,8.8,Team_C,5,17.75,1.1,Completed
+R00833,HH0292,PSU169,Semi-Urban,East,West Bengal,Rural,5,46392,32,Male,Postgraduate,Student,0.76,40,3,10.8,Team_D,3,20.87,1.18,Completed
+R00834,HH0292,PSU116,Semi-Urban,East,West Bengal,Rural,2,34857,39,Male,Higher Secondary,Student,0.74,32,3,9.5,Team_B,7,17.37,1.68,Completed
+R00835,HH0292,PSU154,Semi-Urban,West,Gujarat,Urban,7,34544,39,Female,Higher Secondary,Unemployed,0.85,38,2,6.8,Team_D,3,16.74,1.56,Completed
+R00836,HH0293,PSU176,Semi-Urban,North,Haryana,Rural,7,30196,34,Female,Higher Secondary,Self-employed,0.8,37,3,12.4,Team_A,6,20.44,1.4,Completed
+R00837,HH0293,PSU127,Semi-Urban,East,West Bengal,Rural,5,25476,34,Male,Postgraduate,Unemployed,0.8,36,2,7.5,Team_B,5,17.13,1.58,Completed
+R00838,HH0294,PSU188,Semi-Urban,East,Bihar,Urban,4,30435,36,Male,Higher Secondary,Student,0.69,33,4,13.4,Team_A,10,21.73,2.3,Completed
+R00839,HH0294,PSU120,Semi-Urban,North,Delhi,Rural,8,25443,43,Male,Secondary,Farmer,0.85,49,2,7.7,Team_A,10,19.7,1.55,Not Available
+R00840,HH0295,PSU189,Semi-Urban,North,Delhi,Urban,8,44804,18,Male,Postgraduate,Student,0.91,41,1,3.9,Team_C,4,14.38,2.35,Completed
+R00841,HH0295,PSU112,Semi-Urban,West,Gujarat,Urban,7,67460,38,Female,Secondary,Salaried,0.9,38,1,4.1,Team_B,2,13.11,1.62,Completed
+R00842,HH0295,PSU102,Semi-Urban,West,Rajasthan,Rural,6,32623,18,Female,Higher Secondary,Unemployed,0.86,37,1,5.1,Team_C,1,13.82,2.18,Completed
+R00843,HH0296,PSU102,Semi-Urban,South,Tamil Nadu,Urban,2,27846,18,Male,Postgraduate,Farmer,0.9,23,1,6.9,Team_A,6,14.39,2.01,Completed
+R00844,HH0297,PSU104,Semi-Urban,West,Rajasthan,Rural,7,69425,28,Male,Secondary,Farmer,0.86,36,1,4.1,Team_C,4,14.2,2.49,Completed
+R00845,HH0298,PSU113,Semi-Urban,North,Punjab,Rural,8,21937,39,Female,Higher Secondary,Unemployed,0.78,42,3,9.7,Team_D,2,19.78,1.34,Refused
+R00846,HH0299,PSU199,Semi-Urban,West,Rajasthan,Urban,5,49897,45,Male,Secondary,Unemployed,0.67,39,4,13.5,Team_C,2,22.44,1.62,Completed
+R00847,HH0299,PSU178,Semi-Urban,West,Gujarat,Urban,7,22634,30,Male,Graduate,Self-employed,0.61,39,5,16.1,Team_B,8,26.42,1.87,Completed
+R00848,HH0300,PSU154,Semi-Urban,East,Bihar,Rural,3,55178,45,Male,Primary,Unemployed,0.69,21,4,15.8,Team_A,5,21.22,0.99,Completed
+R00849,HH0300,PSU117,Semi-Urban,South,Tamil Nadu,Urban,7,24550,51,Female,Higher Secondary,Salaried,0.83,43,2,9.5,Team_C,4,19.56,1.68,Refused
+R00850,HH0300,PSU121,Semi-Urban,West,Gujarat,Urban,8,67326,39,Male,Higher Secondary,Farmer,0.78,44,2,8.2,Team_C,6,18.55,1.05,Completed
+R00851,HH0300,PSU168,Semi-Urban,North,Delhi,Rural,5,59041,41,Male,Graduate,Salaried,0.79,31,2,8.9,Team_D,6,16.03,1.03,Completed
+R00852,HH0300,PSU124,Semi-Urban,South,Kerala,Rural,2,23941,41,Female,Graduate,Student,0.85,19,2,7.0,Team_D,10,13.77,0.88,Completed
+R00853,HH0300,PSU126,Semi-Urban,South,Karnataka,Urban,2,41585,41,Male,Higher Secondary,Farmer,0.78,27,2,10.2,Team_B,9,18.12,1.03,Refused
+R00854,HH0300,PSU136,Semi-Urban,West,Rajasthan,Rural,2,38171,27,Male,Graduate,Farmer,0.72,29,4,16.0,Team_A,1,22.57,0.95,Completed
+R00855,HH0301,PSU103,Semi-Urban,South,Karnataka,Rural,2,58693,45,Male,Secondary,Self-employed,0.91,27,1,4.4,Team_B,3,11.43,1.59,Completed
+R00856,HH0301,PSU131,Semi-Urban,North,Punjab,Urban,5,38847,46,Female,Secondary,Unemployed,0.83,30,2,7.6,Team_B,6,15.16,1.2,Completed
+R00857,HH0301,PSU128,Semi-Urban,North,Punjab,Rural,7,63070,38,Female,Graduate,Self-employed,0.84,37,2,7.7,Team_A,5,16.4,1.65,Completed
+R00858,HH0301,PSU124,Semi-Urban,South,Karnataka,Rural,5,62262,50,Female,Higher Secondary,Farmer,0.7,36,4,14.6,Team_D,3,23.23,1.86,Completed
+R00859,HH0301,PSU166,Semi-Urban,North,Delhi,Urban,6,49324,43,Male,Higher Secondary,Unemployed,0.76,37,3,9.7,Team_D,9,19.06,1.52,Completed
+R00860,HH0302,PSU128,Semi-Urban,South,Tamil Nadu,Rural,7,61298,45,Female,Secondary,Unemployed,0.73,43,4,15.6,Team_C,2,25.04,1.63,Completed
+R00861,HH0302,PSU148,Semi-Urban,South,Karnataka,Urban,2,59237,38,Female,Secondary,Salaried,0.79,27,3,13.0,Team_D,10,19.52,1.12,Completed
+R00862,HH0303,PSU116,Semi-Urban,South,Tamil Nadu,Urban,7,64651,41,Female,Postgraduate,Salaried,0.67,46,4,12.4,Team_D,5,24.05,1.15,Completed
+R00863,HH0304,PSU121,Semi-Urban,West,Maharashtra,Rural,5,51044,55,Male,Postgraduate,Unemployed,0.86,33,2,10.1,Team_B,6,17.58,1.0,Completed
+R00864,HH0304,PSU175,Semi-Urban,East,West Bengal,Rural,8,54779,37,Male,Higher Secondary,Unemployed,0.67,55,5,16.9,Team_D,2,28.62,1.15,Completed
+R00865,HH0305,PSU114,Semi-Urban,South,Kerala,Rural,3,53335,44,Male,Postgraduate,Salaried,0.82,30,2,10.4,Team_A,6,18.48,1.04,Completed
+R00866,HH0305,PSU166,Semi-Urban,East,Odisha,Rural,2,65189,38,Female,Secondary,Student,0.88,23,1,6.8,Team_C,9,12.82,1.5,Completed
+R00867,HH0306,PSU126,Semi-Urban,East,Odisha,Rural,7,35346,37,Female,Graduate,Salaried,0.74,39,3,9.5,Team_B,1,18.88,1.61,Completed
+R00868,HH0306,PSU173,Semi-Urban,West,Rajasthan,Urban,2,55926,53,Male,Graduate,Self-employed,0.72,30,4,13.5,Team_C,10,22.47,2.06,Not Available
+R00869,HH0306,PSU147,Semi-Urban,West,Rajasthan,Urban,5,44350,65,Male,Graduate,Self-employed,0.9,33,1,5.2,Team_D,1,12.78,2.14,Not Available
+R00870,HH0306,PSU105,Semi-Urban,South,Tamil Nadu,Rural,6,30934,47,Male,Graduate,Farmer,0.74,41,3,10.9,Team_C,8,20.75,2.39,Completed
+R00871,HH0306,PSU176,Semi-Urban,East,Bihar,Rural,5,66419,45,Female,Secondary,Unemployed,0.76,31,3,11.2,Team_C,5,19.35,1.35,Completed
+R00872,HH0306,PSU172,Semi-Urban,North,Haryana,Urban,4,47708,48,Female,Graduate,Student,0.73,35,4,14.3,Team_A,9,23.85,1.28,Completed
+R00873,HH0306,PSU139,Semi-Urban,East,Odisha,Urban,6,45185,31,Female,Postgraduate,Self-employed,0.77,42,3,10.0,Team_C,8,20.71,1.7,Completed
+R00874,HH0306,PSU199,Semi-Urban,West,Maharashtra,Urban,6,43479,32,Female,Secondary,Farmer,0.79,40,3,13.1,Team_B,6,22.0,1.61,Completed
+R00875,HH0307,PSU113,Semi-Urban,West,Gujarat,Rural,3,60973,42,Female,Higher Secondary,Unemployed,0.85,28,1,4.9,Team_A,10,13.47,2.5,Completed
+R00876,HH0308,PSU113,Semi-Urban,West,Gujarat,Urban,7,44513,44,Male,Graduate,Student,0.73,44,4,15.9,Team_B,6,25.15,1.78,Completed
+R00877,HH0308,PSU179,Semi-Urban,West,Maharashtra,Urban,8,52136,43,Female,Higher Secondary,Unemployed,0.68,49,4,13.7,Team_D,5,24.03,2.01,Completed
+R00878,HH0308,PSU111,Semi-Urban,South,Kerala,Rural,6,27661,46,Female,Higher Secondary,Self-employed,0.62,37,5,15.9,Team_C,5,26.06,1.1,Completed
+R00879,HH0309,PSU196,Semi-Urban,East,Bihar,Urban,3,66977,52,Female,Primary,Unemployed,0.79,26,2,8.0,Team_C,3,15.01,1.69,Not Available
+R00880,HH0309,PSU140,Semi-Urban,West,Rajasthan,Urban,2,33183,31,Female,Primary,Salaried,0.86,21,1,7.0,Team_C,7,13.51,1.42,Completed
+R00881,HH0310,PSU161,Semi-Urban,South,Kerala,Urban,7,38280,35,Female,Postgraduate,Farmer,0.69,41,4,12.6,Team_C,7,22.99,2.19,Completed
+R00882,HH0310,PSU191,Semi-Urban,South,Kerala,Urban,6,36502,32,Female,Primary,Student,0.84,36,1,5.1,Team_D,7,13.44,2.15,Completed
+R00883,HH0311,PSU153,Semi-Urban,South,Karnataka,Urban,3,49664,42,Male,Graduate,Farmer,0.81,29,2,8.1,Team_A,4,15.29,1.45,Completed
+R00884,HH0311,PSU116,Semi-Urban,West,Rajasthan,Urban,6,35695,20,Male,Postgraduate,Student,0.77,42,3,13.1,Team_C,10,23.3,1.42,Completed
+R00885,HH0312,PSU155,Semi-Urban,West,Rajasthan,Urban,7,23439,24,Male,Graduate,Unemployed,0.87,35,1,7.3,Team_B,2,15.12,1.95,Completed
+R00886,HH0313,PSU163,Semi-Urban,South,Karnataka,Urban,4,42550,30,Male,Higher Secondary,Farmer,0.68,30,4,13.1,Team_D,7,20.75,1.6,Completed
+R00887,HH0314,PSU183,Semi-Urban,West,Gujarat,Urban,2,63128,21,Female,Higher Secondary,Unemployed,0.84,24,2,10.6,Team_C,8,17.63,2.44,Completed
+R00888,HH0314,PSU153,Semi-Urban,South,Tamil Nadu,Rural,7,20253,42,Male,Graduate,Farmer,0.86,39,1,4.8,Team_D,4,14.39,1.11,Completed
+R00889,HH0314,PSU193,Semi-Urban,South,Tamil Nadu,Urban,8,19376,39,Male,Higher Secondary,Self-employed,0.81,40,2,9.9,Team_D,10,19.88,1.42,Completed
+R00890,HH0314,PSU111,Semi-Urban,East,Odisha,Urban,6,34305,54,Male,Graduate,Unemployed,0.79,38,2,7.3,Team_D,10,16.73,2.16,Completed
+R00891,HH0314,PSU159,Semi-Urban,West,Rajasthan,Rural,3,34481,57,Male,Higher Secondary,Unemployed,0.76,29,3,13.3,Team_A,7,20.52,1.46,Completed
+R00892,HH0314,PSU152,Semi-Urban,West,Rajasthan,Urban,4,32675,28,Female,Higher Secondary,Farmer,0.88,30,1,3.9,Team_D,9,11.53,2.35,Completed
+R00893,HH0314,PSU157,Semi-Urban,North,Haryana,Urban,4,52390,18,Male,Postgraduate,Salaried,0.81,43,2,7.3,Team_C,4,16.83,1.86,Completed
+R00894,HH0314,PSU138,Semi-Urban,East,Odisha,Urban,3,68884,44,Female,Graduate,Farmer,0.76,33,3,11.0,Team_A,1,18.58,1.49,Completed
+R00895,HH0314,PSU100,Semi-Urban,North,Punjab,Urban,8,46234,42,Female,Postgraduate,Farmer,0.67,45,4,14.0,Team_C,1,24.4,1.35,Completed
+R00896,HH0314,PSU175,Semi-Urban,East,Odisha,Rural,7,49633,39,Female,Graduate,Self-employed,0.74,38,3,9.6,Team_D,9,19.04,2.28,Completed
+R00897,HH0314,PSU173,Semi-Urban,North,Punjab,Urban,5,54624,55,Male,Postgraduate,Unemployed,0.82,34,2,10.4,Team_A,4,18.05,1.78,Refused
+R00898,HH0314,PSU159,Semi-Urban,West,Maharashtra,Rural,2,68777,56,Female,Higher Secondary,Salaried,0.8,23,2,8.4,Team_A,6,14.84,1.08,Completed
+R00899,HH0315,PSU146,Semi-Urban,West,Maharashtra,Urban,5,30423,48,Female,Higher Secondary,Unemployed,0.8,38,2,10.4,Team_D,4,19.08,1.92,Completed
+R00900,HH0315,PSU116,Semi-Urban,South,Tamil Nadu,Urban,5,57635,33,Female,Higher Secondary,Self-employed,0.73,37,3,12.4,Team_B,6,21.56,2.2,Completed
+R00901,HH0316,PSU157,Semi-Urban,West,Maharashtra,Urban,4,47731,31,Female,Graduate,Salaried,0.84,30,2,8.1,Team_B,1,15.29,1.25,Completed
+R00902,HH0317,PSU164,Semi-Urban,North,Haryana,Urban,2,49439,57,Male,Higher Secondary,Salaried,0.7,27,4,14.9,Team_B,2,22.63,1.94,Not Available
+R00903,HH0317,PSU149,Semi-Urban,North,Delhi,Rural,8,61808,35,Male,Higher Secondary,Student,0.9,46,1,4.4,Team_C,5,15.91,2.2,Completed
+R00904,HH0318,PSU159,Semi-Urban,East,Bihar,Urban,4,18540,39,Female,Graduate,Student,0.83,34,2,6.9,Team_B,9,16.79,2.07,Completed
+R00905,HH0318,PSU151,Semi-Urban,West,Gujarat,Rural,3,67960,35,Female,Graduate,Salaried,0.88,30,1,5.4,Team_B,6,12.57,2.01,Completed
+R00906,HH0318,PSU123,Semi-Urban,South,Karnataka,Rural,5,19107,34,Female,Secondary,Unemployed,0.85,40,2,8.8,Team_B,2,18.84,2.07,Completed
+R00907,HH0318,PSU175,Semi-Urban,East,Odisha,Rural,3,42626,52,Male,Secondary,Unemployed,0.69,22,4,12.8,Team_C,9,20.03,0.8,Completed
+R00908,HH0318,PSU174,Semi-Urban,North,Punjab,Rural,4,62673,49,Female,Primary,Unemployed,0.87,31,1,4.0,Team_B,3,12.34,2.38,Completed
+R00909,HH0319,PSU102,Semi-Urban,South,Karnataka,Rural,8,34781,37,Female,Graduate,Salaried,0.85,43,2,9.2,Team_D,7,19.25,1.46,Completed
+R00910,HH0319,PSU188,Semi-Urban,South,Tamil Nadu,Urban,2,69177,57,Female,Graduate,Self-employed,0.74,22,3,12.3,Team_D,7,18.57,0.82,Completed
+R00911,HH0319,PSU153,Semi-Urban,West,Maharashtra,Urban,2,49315,46,Female,Higher Secondary,Salaried,0.86,33,1,7.5,Team_A,5,15.25,1.64,Refused
+R00912,HH0319,PSU154,Semi-Urban,North,Punjab,Rural,2,18682,48,Female,Higher Secondary,Farmer,0.79,23,3,12.4,Team_A,7,19.87,1.47,Completed
+R00913,HH0320,PSU133,Semi-Urban,West,Gujarat,Rural,6,65392,54,Male,Secondary,Farmer,0.78,35,3,12.9,Team_B,6,20.52,2.5,Completed
+R00914,HH0320,PSU192,Semi-Urban,South,Karnataka,Urban,8,32775,44,Female,Higher Secondary,Farmer,0.78,47,2,8.3,Team_B,8,18.31,0.91,Refused
+R00915,HH0321,PSU195,Semi-Urban,North,Delhi,Urban,4,37075,60,Female,Graduate,Farmer,0.76,36,3,10.0,Team_A,4,18.67,1.21,Completed
+R00916,HH0321,PSU104,Semi-Urban,North,Punjab,Rural,5,42614,33,Male,Graduate,Salaried,0.79,37,3,11.6,Team_C,5,21.5,1.61,Refused
+R00917,HH0321,PSU173,Semi-Urban,North,Haryana,Rural,8,63829,45,Female,Postgraduate,Self-employed,0.77,49,3,9.6,Team_D,8,20.6,1.38,Completed
+R00918,HH0321,PSU107,Semi-Urban,South,Tamil Nadu,Urban,7,42975,23,Male,Secondary,Farmer,0.66,37,4,16.0,Team_A,6,25.27,1.52,Completed
+R00919,HH0321,PSU126,Semi-Urban,East,West Bengal,Rural,5,19994,18,Male,Secondary,Salaried,0.8,41,3,10.8,Team_C,1,20.4,1.96,Completed
+R00920,HH0321,PSU181,Semi-Urban,North,Haryana,Rural,4,45984,52,Male,Higher Secondary,Student,0.77,29,3,10.0,Team_B,1,17.53,0.91,Completed
+R00921,HH0321,PSU183,Semi-Urban,South,Kerala,Urban,8,28731,37,Male,Secondary,Unemployed,0.62,47,5,17.6,Team_A,1,29.02,1.18,Completed
+R00922,HH0322,PSU185,Semi-Urban,East,Bihar,Urban,3,40455,34,Female,Higher Secondary,Farmer,0.76,30,3,11.0,Team_C,4,19.39,0.9,Completed
+R00923,HH0322,PSU133,Semi-Urban,South,Kerala,Rural,5,51771,48,Female,Primary,Salaried,0.88,32,1,4.4,Team_B,10,13.6,1.44,Refused
+R00924,HH0322,PSU148,Semi-Urban,East,West Bengal,Rural,2,61566,41,Female,Higher Secondary,Self-employed,0.85,32,2,6.7,Team_D,5,15.76,2.24,Completed
+R00925,HH0322,PSU104,Semi-Urban,North,Haryana,Urban,4,31095,36,Female,Postgraduate,Student,0.74,32,3,11.5,Team_C,1,19.83,2.36,Completed
+R00926,HH0322,PSU133,Semi-Urban,South,Tamil Nadu,Urban,5,32267,54,Male,Primary,Salaried,0.66,32,4,16.1,Team_B,10,23.2,1.86,Completed
+R00927,HH0322,PSU195,Semi-Urban,East,West Bengal,Rural,8,55417,52,Female,Graduate,Farmer,0.79,53,2,10.5,Team_C,2,20.58,2.46,Completed
+R00928,HH0323,PSU126,Semi-Urban,West,Gujarat,Rural,4,32939,43,Male,Primary,Self-employed,0.9,32,1,6.5,Team_B,6,13.75,1.87,Completed
+R00929,HH0323,PSU196,Semi-Urban,North,Haryana,Rural,5,67227,50,Female,Postgraduate,Unemployed,0.85,33,1,7.6,Team_C,6,15.98,2.31,Completed
+R00930,HH0324,PSU163,Semi-Urban,South,Karnataka,Urban,6,31568,36,Female,Postgraduate,Student,0.85,41,2,10.5,Team_D,6,20.28,2.29,Completed
+R00931,HH0324,PSU121,Semi-Urban,West,Maharashtra,Urban,3,69976,18,Female,Primary,Unemployed,0.74,26,3,9.9,Team_C,8,18.37,1.18,Completed
+R00932,HH0324,PSU191,Semi-Urban,East,West Bengal,Urban,3,42034,50,Male,Graduate,Student,0.79,30,3,11.3,Team_D,4,18.67,2.2,Completed
+R00933,HH0325,PSU161,Semi-Urban,North,Punjab,Urban,2,34836,38,Male,Higher Secondary,Salaried,0.78,32,3,11.4,Team_A,1,19.76,2.37,Completed
+R00934,HH0326,PSU185,Semi-Urban,North,Delhi,Urban,5,47282,58,Female,Secondary,Self-employed,0.85,36,1,4.5,Team_D,2,12.77,1.11,Completed
+R00935,HH0327,PSU162,Semi-Urban,South,Kerala,Rural,6,61251,40,Male,Postgraduate,Salaried,0.79,39,2,8.4,Team_D,4,18.45,2.04,Not Available
+R00936,HH0327,PSU190,Semi-Urban,West,Gujarat,Rural,4,19312,53,Male,Postgraduate,Self-employed,0.86,34,1,5.0,Team_B,2,14.41,2.29,Completed
+R00937,HH0327,PSU163,Semi-Urban,North,Haryana,Rural,5,66616,44,Male,Postgraduate,Self-employed,0.87,33,1,7.5,Team_B,6,14.83,1.93,Completed
+R00938,HH0327,PSU101,Semi-Urban,South,Karnataka,Urban,6,35725,53,Male,Secondary,Farmer,0.66,45,4,14.6,Team_D,8,25.47,1.25,Completed
+R00939,HH0327,PSU195,Semi-Urban,West,Rajasthan,Urban,5,44848,26,Male,Primary,Self-employed,0.81,37,2,10.1,Team_A,2,19.12,2.01,Completed
+R00940,HH0327,PSU177,Semi-Urban,North,Delhi,Rural,6,36223,56,Female,Higher Secondary,Salaried,0.79,44,3,12.4,Team_A,2,22.24,1.34,Completed
+R00941,HH0328,PSU119,Semi-Urban,North,Punjab,Urban,3,57882,46,Female,Postgraduate,Self-employed,0.71,30,4,14.4,Team_B,8,22.87,1.31,Completed
+R00942,HH0328,PSU116,Semi-Urban,North,Punjab,Urban,6,29691,39,Male,Secondary,Unemployed,0.72,45,3,12.7,Team_A,7,23.32,2.0,Completed
+R00943,HH0328,PSU127,Semi-Urban,North,Punjab,Rural,5,39131,35,Male,Graduate,Unemployed,0.61,39,5,16.4,Team_D,3,25.05,1.73,Completed
+R00944,HH0328,PSU101,Semi-Urban,East,West Bengal,Rural,6,52181,27,Male,Primary,Unemployed,0.83,44,2,7.5,Team_A,5,18.29,1.0,Not Available
+R00945,HH0328,PSU122,Semi-Urban,East,Odisha,Urban,8,41323,22,Male,Secondary,Self-employed,0.79,41,3,10.9,Team_B,7,21.44,1.3,Completed
+R00946,HH0329,PSU123,Semi-Urban,East,Bihar,Rural,8,23960,37,Male,Graduate,Student,0.79,42,2,8.1,Team_A,4,18.81,1.82,Completed
+R00947,HH0329,PSU149,Semi-Urban,West,Rajasthan,Urban,3,41673,37,Female,Secondary,Self-employed,0.7,22,4,13.8,Team_B,7,21.68,0.92,Completed
+R00948,HH0329,PSU156,Semi-Urban,West,Gujarat,Urban,5,32872,62,Male,Secondary,Student,0.62,38,5,17.8,Team_B,7,26.3,1.66,Completed
+R00949,HH0329,PSU166,Semi-Urban,North,Haryana,Rural,7,68686,33,Male,Secondary,Farmer,0.68,41,4,14.5,Team_B,5,24.79,2.18,Completed
+R00950,HH0329,PSU129,Semi-Urban,East,Odisha,Urban,4,26842,40,Female,Secondary,Self-employed,0.8,30,2,6.6,Team_C,5,15.95,0.8,Completed
+R00951,HH0329,PSU124,Semi-Urban,East,West Bengal,Rural,5,42021,30,Female,Postgraduate,Unemployed,0.73,37,4,13.3,Team_C,8,23.19,1.32,Completed
+R00952,HH0330,PSU161,Semi-Urban,North,Haryana,Rural,5,47433,50,Female,Primary,Unemployed,0.67,37,4,14.3,Team_C,5,23.96,1.63,Completed
+R00953,HH0330,PSU138,Semi-Urban,South,Tamil Nadu,Rural,7,31402,55,Female,Secondary,Student,0.72,41,4,13.0,Team_A,2,23.62,0.89,Completed
+R00954,HH0330,PSU168,Semi-Urban,West,Maharashtra,Urban,8,59474,35,Female,Higher Secondary,Student,0.7,40,4,14.9,Team_D,8,23.47,1.02,Completed
+R00955,HH0331,PSU105,Semi-Urban,North,Haryana,Rural,3,32535,45,Female,Secondary,Salaried,0.85,22,1,5.5,Team_B,9,12.16,2.38,Completed
+R00956,HH0332,PSU135,Semi-Urban,South,Karnataka,Rural,3,36423,59,Male,Graduate,Student,0.63,34,5,18.7,Team_D,7,26.8,1.49,Refused
+R00957,HH0333,PSU184,Semi-Urban,East,Bihar,Rural,4,24709,46,Female,Postgraduate,Salaried,0.79,25,2,10.1,Team_D,5,16.8,1.7,Completed
+R00958,HH0333,PSU110,Semi-Urban,West,Gujarat,Rural,7,39376,65,Female,Secondary,Unemployed,0.68,44,4,13.2,Team_D,8,23.92,1.83,Completed
+R00959,HH0333,PSU134,Semi-Urban,South,Tamil Nadu,Rural,7,59265,18,Male,Secondary,Self-employed,0.84,40,2,8.4,Team_A,6,18.38,2.32,Completed
+R00960,HH0333,PSU173,Semi-Urban,East,Bihar,Urban,8,36563,42,Male,Higher Secondary,Unemployed,0.74,39,3,12.4,Team_A,5,20.87,2.11,Completed
+R00961,HH0333,PSU114,Semi-Urban,South,Tamil Nadu,Urban,7,31494,30,Female,Postgraduate,Student,0.73,46,4,14.9,Team_A,10,24.54,2.01,Completed
+R00962,HH0333,PSU114,Semi-Urban,South,Kerala,Urban,3,33889,36,Male,Primary,Unemployed,0.73,26,3,10.2,Team_B,8,18.09,2.23,Completed
+R00963,HH0333,PSU191,Semi-Urban,South,Karnataka,Urban,5,32174,41,Male,Secondary,Unemployed,0.87,38,1,5.7,Team_A,2,15.05,2.02,Refused
+R00964,HH0333,PSU144,Semi-Urban,East,Odisha,Urban,7,25432,18,Female,Graduate,Unemployed,0.8,39,2,7.4,Team_A,9,17.57,1.18,Completed
+R00965,HH0333,PSU172,Semi-Urban,West,Gujarat,Rural,6,18038,45,Male,Graduate,Salaried,0.85,34,2,9.8,Team_A,2,17.38,1.64,Completed
+R00966,HH0334,PSU122,Semi-Urban,North,Haryana,Rural,5,29536,57,Male,Secondary,Self-employed,0.83,36,2,7.4,Team_D,8,17.36,1.94,Completed
+R00967,HH0334,PSU134,Semi-Urban,South,Kerala,Rural,3,20257,45,Female,Graduate,Farmer,0.83,23,2,9.3,Team_D,10,16.81,1.56,Completed
+R00968,HH0335,PSU148,Semi-Urban,South,Karnataka,Rural,7,54866,46,Male,Graduate,Self-employed,0.7,41,4,14.4,Team_A,5,25.04,2.07,Not Available
+R00969,HH0335,PSU196,Semi-Urban,North,Punjab,Rural,8,25461,50,Male,Primary,Self-employed,0.82,42,2,10.3,Team_D,7,19.76,1.95,Completed
+R00970,HH0336,PSU170,Semi-Urban,South,Karnataka,Rural,4,37816,30,Female,Secondary,Farmer,0.82,35,2,9.0,Team_D,1,17.6,1.32,Completed
+R00971,HH0336,PSU109,Semi-Urban,East,Odisha,Urban,7,50058,37,Male,Postgraduate,Unemployed,0.78,45,3,10.5,Team_D,5,21.21,2.19,Completed
+R00972,HH0336,PSU175,Semi-Urban,North,Punjab,Urban,2,32410,66,Female,Higher Secondary,Student,0.77,33,3,11.2,Team_C,5,20.64,0.92,Completed
+R00973,HH0336,PSU183,Semi-Urban,West,Maharashtra,Urban,2,69013,35,Female,Postgraduate,Student,0.9,31,1,4.4,Team_C,6,13.07,2.25,Completed
+R00974,HH0337,PSU107,Semi-Urban,North,Delhi,Urban,4,38862,45,Female,Primary,Farmer,0.78,32,2,9.9,Team_D,3,17.59,1.58,Completed
+R00975,HH0337,PSU163,Semi-Urban,South,Kerala,Rural,6,42214,34,Female,Graduate,Farmer,0.76,39,3,9.4,Team_C,4,19.52,1.96,Refused
+R00976,HH0338,PSU152,Semi-Urban,South,Tamil Nadu,Rural,6,38129,36,Female,Graduate,Unemployed,0.79,37,2,7.4,Team_C,3,16.41,1.04,Completed
+R00977,HH0339,PSU101,Semi-Urban,East,Bihar,Urban,8,58212,63,Female,Graduate,Student,0.66,41,4,14.7,Team_A,8,25.18,1.58,Completed
+R00978,HH0340,PSU154,Semi-Urban,North,Punjab,Rural,2,60445,62,Male,Primary,Self-employed,0.77,33,3,12.3,Team_A,3,20.76,2.26,Completed
+R00979,HH0341,PSU135,Semi-Urban,South,Tamil Nadu,Urban,4,63660,24,Male,Secondary,Unemployed,0.76,33,3,11.2,Team_D,6,19.8,1.48,Completed
+R00980,HH0341,PSU145,Semi-Urban,North,Delhi,Rural,2,50011,18,Female,Secondary,Salaried,0.79,26,2,7.3,Team_B,2,13.95,1.54,Completed
+R00981,HH0341,PSU168,Semi-Urban,South,Tamil Nadu,Rural,4,29330,56,Female,Graduate,Self-employed,0.87,31,1,5.6,Team_A,2,13.93,1.57,Completed
+R00982,HH0341,PSU121,Semi-Urban,North,Haryana,Rural,5,21363,40,Male,Secondary,Unemployed,0.81,39,2,6.9,Team_D,8,16.26,1.06,Completed
+R00983,HH0341,PSU103,Semi-Urban,West,Gujarat,Rural,8,69272,37,Female,Higher Secondary,Self-employed,0.72,46,3,10.9,Team_A,6,21.9,1.3,Completed
+R00984,HH0342,PSU106,Semi-Urban,South,Kerala,Urban,3,50072,46,Female,Graduate,Self-employed,0.73,34,4,13.6,Team_A,8,22.25,0.85,Completed
+R00985,HH0342,PSU191,Semi-Urban,West,Gujarat,Urban,5,31062,23,Female,Graduate,Student,0.74,34,3,11.5,Team_B,5,20.26,1.45,Completed
+R00986,HH0342,PSU101,Semi-Urban,South,Karnataka,Rural,2,54537,30,Female,Higher Secondary,Unemployed,0.74,26,4,15.8,Team_D,3,22.89,0.92,Completed
+R00987,HH0342,PSU168,Semi-Urban,South,Kerala,Urban,6,29358,51,Male,Graduate,Student,0.88,35,1,4.2,Team_D,1,13.25,1.29,Completed
+R00988,HH0342,PSU166,Semi-Urban,North,Punjab,Rural,4,40579,27,Male,Postgraduate,Student,0.74,33,4,14.5,Team_C,5,22.87,1.15,Completed
+R00989,HH0342,PSU124,Semi-Urban,East,Odisha,Urban,6,51530,51,Male,Higher Secondary,Farmer,0.81,42,2,9.3,Team_C,5,18.98,0.94,Completed
+R00990,HH0343,PSU139,Semi-Urban,West,Rajasthan,Urban,4,22935,55,Female,Primary,Salaried,0.81,32,2,7.8,Team_C,4,16.76,1.42,Completed
+R00991,HH0343,PSU104,Semi-Urban,West,Rajasthan,Rural,7,28470,41,Male,Graduate,Salaried,0.82,43,2,6.9,Team_C,4,17.6,2.06,Completed
+R00992,HH0344,PSU192,Semi-Urban,East,Bihar,Rural,5,32647,52,Female,Higher Secondary,Farmer,0.77,37,3,9.8,Team_C,4,18.78,2.29,Completed
+R00993,HH0344,PSU165,Semi-Urban,North,Punjab,Urban,2,28831,55,Male,Higher Secondary,Unemployed,0.77,25,3,10.8,Team_A,5,18.01,2.45,Completed
+R00994,HH0345,PSU152,Semi-Urban,South,Karnataka,Urban,4,34203,42,Female,Postgraduate,Farmer,0.78,29,2,7.2,Team_D,5,16.12,2.19,Completed
+R00995,HH0346,PSU153,Semi-Urban,West,Rajasthan,Urban,3,63295,19,Female,Graduate,Unemployed,0.85,30,1,7.0,Team_D,1,13.83,1.76,Refused
+R00996,HH0347,PSU154,Semi-Urban,East,Odisha,Rural,6,65019,40,Female,Higher Secondary,Student,0.68,38,4,14.8,Team_C,9,23.85,1.02,Completed
+R00997,HH0347,PSU110,Semi-Urban,East,Bihar,Rural,3,42198,70,Female,Postgraduate,Farmer,0.72,29,4,13.7,Team_B,2,22.5,1.02,Completed
+R00998,HH0347,PSU141,Semi-Urban,West,Maharashtra,Urban,5,47387,34,Male,Primary,Unemployed,0.82,34,2,10.0,Team_D,4,19.28,1.1,Completed
+R00999,HH0347,PSU153,Semi-Urban,North,Haryana,Urban,6,68955,43,Male,Higher Secondary,Unemployed,0.78,44,3,11.1,Team_A,10,22.05,2.15,Completed
+R01000,HH0347,PSU102,Semi-Urban,East,West Bengal,Urban,4,37804,59,Male,Graduate,Student,0.68,35,4,13.0,Team_D,2,21.75,1.74,Completed
