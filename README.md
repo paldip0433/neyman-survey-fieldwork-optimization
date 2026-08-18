@@ -128,7 +128,8 @@ The allocation constraint becomes
 
 $$
 \sum_{k=1}^{K}x_{kh}
-=
+$$
+$$
 n_h^* + d_h^+ - d_h^-
 \qquad \forall h
 $$
