@@ -65,7 +65,6 @@ The Neyman allocation used in the project is
 
 $$
 n_h^*
-=
 $$
 n
 $$
