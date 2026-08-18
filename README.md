@@ -54,23 +54,17 @@ The project presentation describes the same framework as a network in which team
 
 ### 1. Neyman allocation
 
-For stratum $h$, let:
+For stratum `h`, let:
 
-- $N_h$ = population size,
-- $S_h$ = within-stratum standard deviation,
-- $n$ = total sample size.
+- `N_h` = population size,
+- `S_h` = within-stratum standard deviation,
+- `n` = total sample size.
 
 The Neyman allocation used in the project is
 
-
-$$
-n_h^*
-$$
-n
-$$
-\frac{N_hS_h}
-{\sum_{j=1}^{L}N_jS_j}.
-$$
+```text
+n_h* = n × (N_h S_h) / Σ(j=1 to L) (N_j S_j)
+```
 
 The presentation states that this allocation minimizes the variance of the stratified estimator subject to a fixed total sample size.
 
@@ -79,65 +73,48 @@ The presentation states that this allocation minimizes the variance of the strat
 Let
 
 
-$$
 x_{kh}
-$$
 
-be the number of interviews assigned to team $k$ in stratum $h$, and let $c_{kh}$ be the corresponding unit fieldwork cost.
+
+be the number of interviews assigned to team `k` in stratum `h`, and let `c_kh` be the corresponding unit fieldwork cost.
 
 The exact Neyman model minimizes
 
-
-$$
-\min
-\sum_k\sum_h c_{kh}x_{kh}
-$$
+```text
+min  Σ_k Σ_h c_kh x_kh
+```
 
 subject to
 
+```text
+Σ_k x_kh = n_h*    for every stratum h
+```
 
-$$
-\sum_k x_{kh}=n_h^*
-\qquad \forall h,
-$$
+```text
+Σ_h x_kh ≤ C_k    for every team k
+```
 
-
-$$
-\sum_h x_{kh}\le C_k
-\qquad \forall k,
-$$
-
-
-$$
-x_{kh}\ge0.
-$$
+```text
+x_kh ≥ 0
+```
 
 The project presentation identifies this as a transportation/minimum-cost-flow formulation.
 
 ### 3. Flexible Neyman allocation
 
-The notebook additionally introduces positive and negative deviations $d_h^+$ and $d_h^-$:
+The notebook additionally introduces positive and negative deviations `d_h+` and `d_h-`:
 
-
-$$
-\sum_k x_{kh}
-=
-n_h^*+d_h^+-d_h^-.
-$$
+```text
+Σ_k x_kh = n_h* + d_h+ - d_h-
+```
 
 The objective becomes
 
+```text
+min  [ Σ_k Σ_h c_kh x_kh + λ Σ_h (d_h+ + d_h-) ]
+```
 
-$$
-\min
-\left[
-\sum_k\sum_h c_{kh}x_{kh}
-+
-\lambda\sum_h(d_h^++d_h^-)
-\right].
-$$
-
-Here, $\lambda$ controls how strongly departures from Neyman allocation are penalized.
+Here, `λ` controls how strongly departures from Neyman allocation are penalized.
 
 This formulation creates a direct operational trade-off between fieldwork cost and statistical precision.
 
@@ -267,59 +244,39 @@ The flexible model allows the allocation to move away from exact Neyman allocati
 
 The key benchmark is:
 
-
-$$
-\operatorname{Var}(\bar Y_{st})
-\approx 752660.94
-$$
+```text
+Var(Ȳ_st) ≈ 752660.94
+```
 
 under the exact Neyman allocation.
 
 At the lowest-cost allocation tested:
 
-
-$$
-(44,70,186),
-$$
+`(44, 70, 186)`
 
 the fieldwork cost is
 
-
-$$
-6031.24
-$$
+`6031.24`
 
 and the variance is
 
-
-$$
-783085.85,
-$$
+`783085.85`
 
 which is approximately **4.04% higher** than the Neyman benchmark.
 
 An intermediate allocation,
 
-
-$$
-(50,65,185),
-$$
+`(50, 65, 185)`
 
 has cost
 
-
-$$
-6038.35
-$$
+`6038.35`
 
 with only about a **1.46% increase in variance**.
 
 The exact Neyman allocation becomes optimal in the tested penalty grid at
 
-
-$$
-\lambda=0.90.
-$$
+`λ = 0.90`
 
 Thus the optimization exposes a practical decision frontier:
 
@@ -498,12 +455,7 @@ determines how field teams should be assigned to achieve those targets under ope
 
 The combined model therefore balances:
 
-
-$$
-\boxed{\text{Statistical Accuracy}}
-\quad\leftrightarrow\quad
-\boxed{\text{Fieldwork Cost}}
-$$
+**Statistical Accuracy**  ↔  **Fieldwork Cost**
 
 rather than treating sampling design and field operations as separate problems.
 
@@ -555,4 +507,3 @@ IIT Bombay
 Project title used in the accompanying presentation:
 
 **Network Flow Models for Optimal Survey Sampling and Fieldwork Allocation**.
-
