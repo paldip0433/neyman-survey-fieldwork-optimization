@@ -62,7 +62,8 @@ The Neyman allocation used in the project is
 $$
 n_h^*
 = $$
-n
+
+$$
 \frac{N_h S_h}
 {\sum_{j=1}^{L} N_j S_j}
 $$
